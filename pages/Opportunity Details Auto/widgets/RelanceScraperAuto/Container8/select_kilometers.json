@@ -1,0 +1,82 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.yearly_kilometers_car_insurance || \"\"))(select_kilometers.options, select_kilometers.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "wyhms604z1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Combien de Km vous prévoyez de rouler cette année.",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 8,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 28,
+  "originalTopRow": 21,
+  "parentColumnSpace": 10.53125,
+  "parentId": "5t6s22ppsj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Moins de 5 000 km\",\n    \"code\": \"moins_de_cinq_mille_km_par_an\"\n  },\n  {\n    \"name\": \"Entre 5 000 et 10 000 km\",\n    \"code\": \"entre_cinq_mille_km_et_dix_mille_km_par_an\"\n  },\n  {\n    \"name\": \"Plus de 10 000 km\",\n    \"code\": \"plus_de_dix_mille_km_par_an\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 21,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "hhn421yiao",
+  "widgetName": "select_kilometers"
+}

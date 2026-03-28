@@ -1,0 +1,132 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_be4431a1-bad7-406b-881a-4214e5b71d60",
+  "id": "Opportunity Details Loan_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultLoanRatioType",
+        "value": "\"Fixe\""
+      },
+      {
+        "name": "defaultLoanUserCountry",
+        "value": "\"FR\""
+      },
+      {
+        "name": "defaultLoanPeriodicity",
+        "value": "\"mensuel\""
+      },
+      {
+        "name": "defaultLoanIsProfessional",
+        "value": "false"
+      },
+      {
+        "name": "defaultLoanFranchiseITT",
+        "value": "6"
+      },
+      {
+        "name": "defaultLoanUserIsExpatriate",
+        "value": "false"
+      },
+      {
+        "name": "defaultLoanTravelsToForeignCountry",
+        "value": "false"
+      },
+      {
+        "name": "defaultLoanTravelsToRiskyCountry",
+        "value": "false"
+      },
+      {
+        "name": "defaultLoanWorkRequiresFineTools",
+        "value": "false"
+      },
+      {
+        "name": "defaultLoanPartTimeTherapeutic",
+        "value": "true"
+      },
+      {
+        "name": "defaultLoanHospitalizationOption",
+        "value": "\"YES_WITHOUT_HOSPITALIZATION\""
+      },
+      {
+        "name": "civility",
+        "value": "{\n  M: \"Monsieur\",\n  Mme: \"Madame\"\n}"
+      },
+      {
+        "name": "maritalStatus",
+        "value": "{\n  single: \"Célibataire\",\n  married: \"Marié(e)\",\n  pacs: \"Pacsé(e)\",\n  divorced: \"Divorcé(e)\",\n  couple: \"Concubin(e)\",\n  widow: \"Veuf/ve\"\n}"
+      },
+      {
+        "name": "occupation",
+        "value": "{\n  employee: \"Salarié(e)\",\n  executive: \"Salarié(e) Cadre\",\n  farmer: \"Salarié(e) / exploitant(e) agricole\",\n  entrepreneur: \"Chef d'entreprise\",\n  selfEmployed: \"Travailleur / Travailleuse non salarié(e)\",\n  unemployed: \"Sans profession\",\n  functionary: \"Fonctionnaire\",\n  student: \"Étudiant(e)\",\n  retired: \"Retraité(e)\",\n  other: \"Autre\"\n}"
+      },
+      {
+        "name": "familyTies",
+        "value": "{\n  conjoint: \"Conjoint / Conjointe\",\n  child: \"Enfant\",\n  parent: \"Parent\",\n  spouse: \"Époux / Épouse\",\n  other: \"Autre\",\n  myself: \"Moi-même\"\n}"
+      },
+      {
+        "name": "loanProjectType",
+        "value": "{\n  credit_travaux: 'Crédit travaux',\n  credit_immobilier: 'Résidence principale',\n  credit_immobilier_locatif: 'Bien mis en location'\n}"
+      },
+      {
+        "name": "loanResumptionType",
+        "value": "{\n  NEW_LOAN: \"Nouveau prêt\",\n  RESUMPTION: \"Reprise immédiate\"\n}"
+      },
+      {
+        "name": "loanType",
+        "value": "{\n  RELAIS: 'RELAIS',\n  AMORTISSABLE: 'AMORTISSABLE',\n  PRET_A_PALIER: 'PRET_A_PALIER'\n}"
+      },
+      {
+        "name": "deferralType",
+        "value": "{\n  TOTAL: 'Total',\n  PARTIEL: 'Partiel'\n}"
+      },
+      {
+        "name": "specificOccupation",
+        "value": "{\n  AGENT_DE_MAITRISE_CONTREMAITRE: 'Agent de maitrise / contremaître',\n  PROFESSIONS_AGRICOLES: 'Professions agricoles',\n  ARTISAN: 'Artisan',\n  SANS_PROFESSION_ETUDIANT_INTERMITTENT_SAISONNIER: 'Sans profession / Etudiant/ Intermittent / Saisonnier',\n  SALARIE_CADRE_ASSIMILE_CADRE_INGENIEUR_HORS_PERSONNEL_NAVIGANT: 'Salarié Cadre/ Assimilé cadre / Ingénieur (hors personnel navigant)',\n  DIRIGEANT_DE_SOCIETE_GERANT_CHEF_ENTREPRISE_MOINS_10_ARTISAN_COMMERCANT: \"Dirigeant de société/ Gérant/ Chef d'entreprise (de moins de 10 salariés) artisan/commerçant\",\n  DIRIGEANT_DE_SOCIETE_GERANT_CHEF_ENTREPRISE_MOINS_10_HORS_ARTISAN_COMMERCANT: \"Dirigeant de société/ Gérant/ Chef d'entreprise (de moins de 10 salariés) hors artisan/commerçant\",\n  DIRIGEANT_DE_SOCIETE_GERANT_CHEF_ENTREPRISE_10_ET_PLUS: \"Dirigeant de société/ Gérant/ Chef d'entreprise (de 10 salariés et plus)\",\n  COMMERCANT: 'Commerçant',\n  EMPLOYE_BUREAU: 'Employé de bureau',\n  SALARIE_NON_CADRE_HORS_EMPLOYE_BUREAU_PERSONNEL_NAVIGANT: \"Salarié non cadre (hors employé de bureau & personnel navigant)\",\n  FONCTIONNAIRE_DE_CATEGORIE_A_HORS_ENSEIGNEMENT: \"Fonctionnaire de catégorie A (hors enseignement)\",\n  FONCTIONNAIRE_DE_CATEGORIE_B_HORS_ENSEIGNEMENT: \"Fonctionnaire de catégorie B (hors enseignement)\",\n  FONCTIONNAIRE_DE_CATEGORIE_C_HORS_ENSEIGNEMENT: \"Fonctionnaire de catégorie C (hors enseignement)\",\n  PROFESSEUR_AGREGE: \"Professeur agrégé\",\n  INSTITUTEUR_PROFESSEUR_DES_ECOLES_OU_PROFESSION_ASSIMILEE: \"Instituteur, Professeur des écoles ou profession assimilée\",\n  PROFESSEUR_CERTIFIE_OU_PROFESSION_ASSIMILEE: \"Professeur certifié ou profession assimilée\",\n  PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL: \"Profession intermédiaire de la santé et du travail social\",\n  PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_MEDECIN_OU_INTERNE_GENERALISTE_SPECIALISTE: \"Profession libérale médicale ou paramédicale / Médecin (ou Interne) généraliste/ spécialiste\",\n  PROFESSION_LIBERALE_HORS_MEDICAL_PARAMEDICAL: \"Profession libérale (hors médical/ paramédical)\",\n  OUVRIERS_PROFESSIONS_DU_TRANSPORT: \"Ouvriers / Professions du Transport\",\n  HOTESSE_STEWARD_AUTRE_PERSONNEL_NAVIGANT: \"Hôtesse, steward, autre personnel navigant\",\n  CADRE_NAVIGANT_TECHNIQUE_COMMERCIAL: \"Cadre navigant technique/commercial\",\n  RETRAITE_PRE_RETRAITE_CADRE_FONCT_CLASSE_A_CHEF_ENTREPRISE_PROF_LIB: \"Retraité, Pré-retraité (Cadre/ Fonct. Classe A/ Chef d'Entreprise/Prof. lib)\",\n  RETRAITE_PRE_RETRAITE_NON_CADRE: \"Retraité, Pré-retraité (non cadre)\",\n  TECHNICIEN: \"Technicien\"\n}"
+      },
+      {
+        "name": "specificOccupationDetails",
+        "value": "{\n  [Constants.specificOccupation.FONCTIONNAIRE_DE_CATEGORIE_A_HORS_ENSEIGNEMENT]: {\n    FONCTIONNAIRE_DE_CATEGORIE_A_MEDICAL_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    FONCTIONNAIRE_DE_CATEGORIE_A_MEDICAL_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    FONCTIONNAIRE_DE_CATEGORIE_A_MEDICAL_OSTEOPATHE: \"Ostéopathes\",\n    FONCTIONNAIRE_DE_CATEGORIE_A_MEDICAL_PARAMEDICAL: \"Sages-femmes, kiné\",\n    FONCTIONNAIRE_DE_CATEGORIE_A_MEDICAL_AUTRES: \"Autres professions médicales / paramédicales\",\n    FONCTIONNAIRE_DE_CATEGORIE_A_NON_MEDICAL: \"Aucune de ces professions\"\n  },\n  [Constants.specificOccupation.FONCTIONNAIRE_DE_CATEGORIE_B_HORS_ENSEIGNEMENT]: {\n    FONCTIONNAIRE_DE_CATEGORIE_B_MEDICAL_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    FONCTIONNAIRE_DE_CATEGORIE_B_MEDICAL_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    FONCTIONNAIRE_DE_CATEGORIE_B_MEDICAL_OSTEOPATHE: \"Ostéopathes\",\n    FONCTIONNAIRE_DE_CATEGORIE_B_MEDICAL_PARAMEDICAL: \"Sages-femmes, kiné\",\n    FONCTIONNAIRE_DE_CATEGORIE_B_MEDICAL_AUTRES: \"Autres professions médicales / paramédicales\",\n    FONCTIONNAIRE_DE_CATEGORIE_B_NON_MEDICAL: \"Aucune de ces professions\"\n  },\n  [Constants.specificOccupation.FONCTIONNAIRE_DE_CATEGORIE_C_HORS_ENSEIGNEMENT]: {\n    FONCTIONNAIRE_DE_CATEGORIE_C_MEDICAL_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    FONCTIONNAIRE_DE_CATEGORIE_C_MEDICAL_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    FONCTIONNAIRE_DE_CATEGORIE_C_MEDICAL_OSTEOPATHE: \"Ostéopathes\",\n    FONCTIONNAIRE_DE_CATEGORIE_C_MEDICAL_PARAMEDICAL: \"Sages-femmes, kiné\",\n    FONCTIONNAIRE_DE_CATEGORIE_C_MEDICAL_AUTRES: \"Autres professions médicales / paramédicales\",\n    FONCTIONNAIRE_DE_CATEGORIE_C_NON_MEDICAL: \"Aucune de ces professions\"\n  },\n  [Constants.specificOccupation.SALARIE_NON_CADRE_HORS_EMPLOYE_BUREAU_PERSONNEL_NAVIGANT]: {\n    SALARIE_NON_CADRE_MEDICAL_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    SALARIE_NON_CADRE_MEDICAL_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    SALARIE_NON_CADRE_MEDICAL_OSTEOPATHE: \"Ostéopathes\",\n    SALARIE_NON_CADRE_MEDICAL_PARAMEDICAL: \"Sages-femmes, kiné\",\n    SALARIE_NON_CADRE_MEDICAL_AUTRES: \"Autres professions médicales / paramédicales\",\n    SALARIE_NON_CADRE_NON_MEDICAL: \"Aucune de ces professions\"\n  },\n  [Constants.specificOccupation.PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL]: {\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_OSTEOPATHE: \"Ostéopathes\",\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_PARAMEDICAL: \"Sages-femmes, kiné\",\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_AUTRES: \"Autres professions médicales / paramédicales\",\n    PROFESSION_INTERMEDIAIRE_DE_LA_SANTE_ET_DU_TRAVAIL_SOCIAL_NON: \"Aucune de ces professions\"\n  },\n  [Constants.specificOccupation.PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_MEDECIN_OU_INTERNE_GENERALISTE_SPECIALISTE]: {\n    PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_CHIRURGIEN: \"Chirurgiens, chirurgiens-dentistes\",\n    PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_MEDECIN_PHARMACIEN: \"Médecins, médecins spécialistes, interne, vétérinaires, pharmacien\",\n    PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_OSTEOPATHE: \"Ostéopathes\",\n    PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_PARAMEDICAL: \"Sages-femmes, kiné\",\n    PROFESSION_LIBERALE_MEDICALE_OU_PARAMEDICALE_AUTRES: \"Autres professions médicales / paramédicales\"\n  }\n}"
+      },
+      {
+        "name": "maritalStatusOptions",
+        "value": "Object.entries(Constants.maritalStatus).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "occupationOptions",
+        "value": "Object.entries(Constants.occupation).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "familyTiesOptions",
+        "value": "Object.entries(Constants.familyTies).filter(([key]) => key !== \"myself\").map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "civilityOptions",
+        "value": "Object.entries(Constants.civility).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "loanTypeOptions",
+        "value": "Object.entries(Constants.loanType).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "deferralTypeOptions",
+        "value": "Object.entries(Constants.deferralType).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "loanProjectTypeOptions",
+        "value": "Object.entries(Constants.loanProjectType).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "loanResumptionTypeOptions",
+        "value": "Object.entries(Constants.loanResumptionType).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "specificOccupationOptions",
+        "value": "Object.entries(Constants.specificOccupation).map(([value, name]) => ({\n  name,\n  value\n}))"
+      }
+    ]
+  }
+}

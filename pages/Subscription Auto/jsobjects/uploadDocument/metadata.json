@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67fd434227f13a6633b21fa8_57768069-5d53-4fee-80b1-74f61dd378d9",
+  "id": "Subscription Auto_uploadDocument",
+  "unpublishedCollection": {
+    "name": "uploadDocument",
+    "pageId": "Subscription Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

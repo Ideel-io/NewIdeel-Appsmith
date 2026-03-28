@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_acb00ed8-4393-4f40-b17c-948a72cbca2e",
+  "id": "Opportunity Details Auto_State",
+  "unpublishedCollection": {
+    "name": "State",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

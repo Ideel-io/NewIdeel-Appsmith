@@ -1,0 +1,20 @@
+query findUserByEmail($userEmail: String!) {
+	findUserByEmail(userEmail: $userEmail) {
+		id
+		email
+		firstName
+		lastName
+		clientStatus
+		createdAt
+		accountStatus
+		dateOfLastContact
+		phoneNumber
+		procedureCounts {
+			  totalProcedures
+			  opportunityCount
+			  procedureCount
+			  contractCount
+				optimizationCount
+		  }
+	}
+}

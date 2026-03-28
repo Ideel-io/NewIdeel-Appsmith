@@ -1,0 +1,70 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 210,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{\n!button_valider.isDisabled ||\nJSObject1.validation\n}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kou945yt6t",
+  "leftColumn": 4,
+  "minWidth": 120,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 23,
+  "onClick": "{{\n  goToStep.run().then(() => {\n  Decline_contract.run();\n\tJSObject1.validation=true;\n\tnavigateTo('Opportunities', {}, 'SAME_WINDOW');\n\tshowAlert('Fait !', 'success');\n}).catch(() => {\n\tshowAlert('Error', 'error');\n});\n}}",
+  "originalBottomRow": 210,
+  "originalTopRow": 204,
+  "parentColumnSpace": 5.31468403339386,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 26,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Le contrat n'est pas conforme",
+  "topRow": 204,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "eklcsa7ftd",
+  "widgetName": "Button_decline"
+}

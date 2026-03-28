@@ -1,0 +1,42 @@
+query getLastHealthRunData($procedureId: String! ){
+	getLastHealthRunData (procedureId : $procedureId ) {
+		userPersonalInfo {
+			procedureId
+			recurrentSubscriptionId
+			userId
+			dateBirth
+			lastName
+			email
+			firstName
+			phoneNumber
+			occupation
+			maritalStatus
+			country
+			route
+			streetNumber
+			postalCode
+			locality
+			residenceType
+			housingType
+			furnished
+		}
+		userHealthInfo {
+			contract_type_selection
+			coverage_medical_needs
+			coverage_hospital_needs
+			coverage_optic_needs
+			coverage_dental_needs
+			coverage_hearing_needs
+			coverage_alternative_medicine_needs
+			who_is_covered_by_health_insurance
+			how_many_children_covered
+			profile_selection_credit_health
+			spouse_details
+			first_child_details
+			second_child_details
+      third_child_details
+			fourth_child_details
+      housing_selection_other
+		}
+	}
+}

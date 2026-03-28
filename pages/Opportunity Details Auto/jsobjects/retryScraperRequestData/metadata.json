@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_3cee8647-c020-4b06-a042-ea65ead5f1a8",
+  "id": "Opportunity Details Auto_retryScraperRequestData",
+  "unpublishedCollection": {
+    "name": "retryScraperRequestData",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

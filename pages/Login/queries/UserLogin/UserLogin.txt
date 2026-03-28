@@ -1,0 +1,30 @@
+
+  mutation login($loginInput: LoginInput!, $deviceInput: DeviceInput!) {
+    login(data: $loginInput, device: $deviceInput) {
+      sessionToken
+      error
+      message
+      userId
+      newUser
+      isFirstTimeMobileLogged
+      authenticationResult {
+        accessToken
+        expiresIn
+        tokenType
+        refreshToken
+        idToken
+        newDeviceMetadata {
+          deviceKey
+          deviceGroupKey
+        }
+      }
+      authenticationChallenge {
+        challengeName
+        session
+        challengeParameters {
+          name
+          value
+        }
+      }
+    }
+  }

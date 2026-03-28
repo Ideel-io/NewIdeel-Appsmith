@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 87,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.insurance_history_primary || \"\"))(select_insurance_history_prima.options, select_insurance_history_prima.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "plzcpwsy30",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Sur les 3 dernières années, combien de temps avez-vous été assuré comme conducteur principal ?",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 87,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 80,
+  "needsErrorInfo": false,
+  "optionLabel": "value",
+  "optionValue": "label",
+  "originalBottomRow": 87,
+  "originalTopRow": 80,
+  "parentColumnSpace": 11.506249999999998,
+  "parentId": "5t6s22ppsj",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n\t\"label\": \"aucun\", \n\t\"value\": \"Aucun\" \n\t},\n  { \n\t\"label\": \"moins_d_un_an\", \n\t\"value\": \"Moins d'un an\" \n\t},\n  { \n\t\"label\": \"un_a_deux_ans\", \n\t\"value\": \"Entre 1 et 2 ans\" },\n  {\n\t\"label\": \"plus_de_deux_ans\", \n\t\"value\": \"Plus de 2 ans\" \n\t}\n]",
+  "topRow": 80,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "3r9q1sa1iw",
+  "widgetName": "select_insurance_history_prima"
+}

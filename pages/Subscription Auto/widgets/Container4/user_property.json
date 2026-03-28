@@ -1,0 +1,67 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "defaultText": "{{\n getLastAutoRunData.data.data ?  getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo.license_plate_car_insurance\n        : \"\"\n}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "regex"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": false,
+  "key": "iaq56n2imh",
+  "label": "Plaque d'immatriculation à résilier",
+  "labelAlignment": "right",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "24",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 28,
+  "originalTopRow": 24,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "ecdfk67xg7",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "regex": "{{\"^[A-Za-z]{2}-?[0-9]{3}-?[A-Za-z]{2}$\"}}",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 62,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 20,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "f9la2dd7hy",
+  "widgetName": "user_property"
+}

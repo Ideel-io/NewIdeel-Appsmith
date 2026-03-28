@@ -1,0 +1,5 @@
+mutation donateCoins($userId: String!, $amount: Float!, $remarks: String!) {
+	donateCoins(userId: $userId, amount: $amount, remarks: $remarks) {
+		id
+	}
+}

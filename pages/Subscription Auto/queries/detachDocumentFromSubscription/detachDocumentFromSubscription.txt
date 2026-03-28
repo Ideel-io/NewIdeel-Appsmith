@@ -1,0 +1,3 @@
+mutation detachDocumentFromSubscription($documentKey: String!, $recurrentSubscriptionId: String!, $userId: String!) {
+  detachDocumentFromSubscription(documentKey: $documentKey, recurrentSubscriptionId : $recurrentSubscriptionId,userId : $userId)
+}

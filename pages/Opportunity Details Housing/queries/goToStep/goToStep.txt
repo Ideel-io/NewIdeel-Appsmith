@@ -1,0 +1,5 @@
+mutation goToStep($notifyUser : Boolean!, $stepId : Float!,$procedureId: ID! ) {
+	goToStep (stepId : $stepId, notifyUser : $notifyUser, procedureId : $procedureId ) {
+		id
+	}
+}

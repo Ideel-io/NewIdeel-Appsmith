@@ -1,0 +1,56 @@
+query getAllRecurrentSubscriptionsByStaff( $userId: String!) {
+getAllRecurrentSubscriptionsByStaff (userId:$userId)	{
+	id
+createdAt
+updatedAt
+userId
+subCategory {
+	name
+	label
+}
+state
+optimizationState
+active
+muted
+mutedUntil
+ideelManaged
+addedBy
+addedByUserId
+partnerLabel
+potentialSaving
+ratingLabel
+ratingScore
+partner {
+	id
+	name
+	label
+	categoryId
+	mainColor
+	imageSource
+}
+missingInfoPercentage
+actions {
+	partnerAddress{
+		name
+		postalCode
+		city
+		addressLine1
+		addressLine2
+	}
+}
+insuranceClaimUrl
+insuranceDocRequestUrl
+insuranceContractEditUrl
+insuranceContractRenegotiateUrl
+telecomContractRenegotiateUrl
+subscriptionIssueManageUrl
+partnerContact {
+	emails
+	phones
+}
+price
+withCommitment
+periodicity
+nextPaymentDate
+}
+}

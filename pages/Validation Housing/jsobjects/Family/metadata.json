@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_0930c897-002a-4fcc-946c-2995ab68eee6",
+  "id": "Validation Housing_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Validation Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

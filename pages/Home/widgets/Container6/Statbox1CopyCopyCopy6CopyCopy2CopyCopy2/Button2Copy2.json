@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "#39434d",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7ttaxjpmtn",
+  "leftColumn": 19,
+  "minWidth": 120,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{Actions.goToOpportunityTable('Opportunités à traiter', 'assurance_auto', '0');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
+  "parentColumnSpace": 14.8515625,
+  "parentId": "n4zlwbnlaw",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "text": "a) Opp. identifiée",
+  "topRow": 6,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "eez8wigp4e",
+  "widgetName": "Button2Copy2"
+}

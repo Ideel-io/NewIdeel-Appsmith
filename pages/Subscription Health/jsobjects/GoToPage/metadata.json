@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_bfd32967-c260-4c00-8ee6-7a37c5fc9044",
+  "id": "Subscription Health_GoToPage",
+  "unpublishedCollection": {
+    "name": "GoToPage",
+    "pageId": "Subscription Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

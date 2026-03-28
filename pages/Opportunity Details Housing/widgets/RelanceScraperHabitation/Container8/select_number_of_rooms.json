@@ -1,0 +1,90 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.number_of_rooms || \"\" ))(select_number_of_rooms.options, select_number_of_rooms.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "true",
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Combien de pièces possède votre logement ?",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "On définit une pièce comme une pièce à vivre",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 12,
+  "originalTopRow": 5,
+  "parentColumnSpace": 6.9375,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "placeholderText": "None",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 28,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{ Mapping_questions.numberOfRoomsOptions }}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cnyy0wcpai",
+  "widgetName": "select_number_of_rooms"
+}

@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonColor": "#39434d",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7ttaxjpmtn",
+  "leftColumn": 17,
+  "minWidth": 120,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{Actions.goToOpportunityTable('Opportunités à traiter', 'gaz,electricite, electricite_et_gaz', '3');}}",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
+  "parentColumnSpace": 14.8515625,
+  "parentId": "24jylgaas4",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "text": "c) Devis géneré",
+  "topRow": 14,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tmj2j23ts2",
+  "widgetName": "Button2CopyCopyCopy3"
+}

@@ -1,0 +1,16 @@
+query getProcedureDetails ($procedureId: ID!){
+	getProcedureDetails (procedureId : $procedureId ) {
+		questionList {
+			questionLabel
+			pickedAnswer
+		}
+		ibanPayment {
+			id
+			iban
+			ibanLabel
+			isDefault
+			bic
+			message
+		}
+	}
+}

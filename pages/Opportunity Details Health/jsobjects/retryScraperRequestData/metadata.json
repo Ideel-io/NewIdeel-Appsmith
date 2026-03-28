@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_1a2b3e25-291b-4c6c-a1a0-2bf1af509ddb",
+  "id": "Opportunity Details Health_retryScraperRequestData",
+  "unpublishedCollection": {
+    "name": "retryScraperRequestData",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

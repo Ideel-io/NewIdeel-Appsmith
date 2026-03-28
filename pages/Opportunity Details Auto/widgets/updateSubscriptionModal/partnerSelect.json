@@ -1,0 +1,71 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \ngetProcedureById.data.data.getProcedureById.recurrentSubscription.partner.id))(partnerSelect.options, partnerSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": "{{ getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name !== 'Inconnu' ||\n getProcedureById.isLoading || updatePriceAndPeriodicity.isLoading\n}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "4gre5kezfd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Assurreur ",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "id",
+  "parentColumnSpace": 6.9375,
+  "parentId": "qjj40rjn57",
+  "parentRowSpace": 10,
+  "placeholderText": "choisir l'option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "{{getPartnerBySubCategory.data.data.getAllPartnersOrBySubCategory}}",
+  "topRow": 13,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "hvuul5d74f",
+  "widgetName": "partnerSelect"
+}

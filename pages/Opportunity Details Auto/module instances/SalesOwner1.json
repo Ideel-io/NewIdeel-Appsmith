@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_9f1e0d46-da9b-45ad-9b49-3af8ad5a312c",
+  "id": "Opportunity Details Auto_SalesOwner1",
+  "moduleUUID": "31db6a10-f0ec-47b7-af66-90ef855a945a",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "salesOwner"
+      }
+    ],
+    "inputs": {
+      "salesOwner": "{{getProcedureById.data.data.getProcedureById.salesOwnerEmail}}"
+    },
+    "moduleInputs": {
+      "jwpitllfor": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jwpitllfor",
+        "label": "salesOwner",
+        "propertyName": "inputs.salesOwner"
+      }
+    },
+    "name": "SalesOwner1",
+    "pageId": "Opportunity Details Auto",
+    "widgetId": "satccaj91k"
+  }
+}

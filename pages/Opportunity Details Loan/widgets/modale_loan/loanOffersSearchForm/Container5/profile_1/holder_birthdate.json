@@ -1,0 +1,80 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultText": "{{ Actions.findFamilyMember(SelectProfile.selectedOptionValue).birthdate ? dayjs(Actions.findFamilyMember(SelectProfile.selectedOptionValue).birthdate).format(\"DD/MM/YYYY\") : \"\" }}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{JSObject1.expandContainer}}",
+  "key": "iaq56n2imh",
+  "label": "Date de naissance",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "29",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{JSObject1.valid()}}",
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "q0v26pf7pu",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "regex": "^(0[1-9]|[12][0-9]|3[01])\\/(0[1-9]|1[0-2])\\/(\\d{4})$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 20,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "tooltip": "",
+  "topRow": 17,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "le6qpibi4x",
+  "widgetName": "holder_birthdate"
+}

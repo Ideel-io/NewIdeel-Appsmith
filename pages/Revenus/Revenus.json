@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_965a5bc1-e3ef-4e5f-9ce0-8a1d42d2aba5",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 720.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 730.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 71.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 94.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Revenus",
+    "slug": "revenus"
+  }
+}

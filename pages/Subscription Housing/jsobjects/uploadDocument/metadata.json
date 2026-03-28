@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67fd434227f13a6633b21fa8_8787c636-9ae0-4727-8343-d8967099e811",
+  "id": "Subscription Housing_uploadDocument",
+  "unpublishedCollection": {
+    "name": "uploadDocument",
+    "pageId": "Subscription Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,9 @@
+mutation sendAppsmithLetterProcedureStep(
+	$procedureId: ID!,
+	$input: SendLetterInput!,
+) {
+	sendTerminationLetterForOldContract(
+		procedureId: $procedureId,
+		input: $input,
+	)
+}

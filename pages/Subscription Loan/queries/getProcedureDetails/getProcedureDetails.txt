@@ -1,0 +1,17 @@
+query getProcedureDetails ($procedureId: ID!){
+	getProcedureDetails (procedureId : $procedureId ) {
+		housingChoice {
+			address {
+				fullAddress
+			}
+		}
+		ibanPayment {
+			id
+			iban
+			ibanLabel
+			isDefault
+			bic
+			message
+		}
+	}
+}

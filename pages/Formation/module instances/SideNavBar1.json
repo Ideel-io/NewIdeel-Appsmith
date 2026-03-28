@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_7cc6a6ff-1db0-45fa-8073-e050dbf9da77",
+  "id": "Formation_SideNavBar1",
+  "moduleUUID": "0aac44c6-34a7-45f1-9894-e4a7b2ecc24f",
+  "packageUUID": "c10feffd-bf4c-4ec0-92f4-660607e16ace",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "mainPage": ""
+    },
+    "moduleInputs": {
+      "emrosycjyy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "emrosycjyy",
+        "label": "mainPage",
+        "propertyName": "inputs.mainPage"
+      }
+    },
+    "name": "SideNavBar1",
+    "pageId": "Formation",
+    "widgetId": "5zfkesdcwu"
+  }
+}

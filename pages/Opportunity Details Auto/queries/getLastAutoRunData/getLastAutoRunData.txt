@@ -1,0 +1,66 @@
+query getLastAutoRunData($procedureId: String! ){
+	getLastAutoRunData (procedureId : $procedureId ) {
+		userPersonalInfo {
+			procedureId
+			recurrentSubscriptionId
+			userId
+			dateBirth
+			lastName
+			email
+			firstName
+			phoneNumber
+			occupation
+			maritalStatus
+			country
+			route
+			streetNumber
+			postalCode
+			locality
+			residenceType
+			housingType
+			furnished
+		}
+		userAutoInfo {
+  bonus_malus_auto_insurance
+  date_purchase_car_insurance
+  driving_license_date_auto_insurance
+  funding_method_car_insurance
+
+  incidents_car_insurance
+  isnt_new_car
+  license_plate_car_insurance
+
+  previous_cancelation_vehicle_insurance
+  previous_cancelation_reasons_vehicle_insurance
+
+  parking_type_car_insurance
+  usage_car_insurance
+  yearly_kilometers_car_insurance
+
+  workplace_car_insurance
+  insurance_history_primary
+  insurance_history_secondary
+
+  responsibility_level_first_claim
+  responsibility_level_second_claim
+  responsibility_level_third_claim
+
+  type_first_claim
+  type_second_claim
+  type_third_claim
+
+  date_first_release_car
+  number_claims
+
+  improvement_needs_car_motorbike
+
+  familyMembers {
+    firstname
+    lastname
+    birthdate
+    familyTiesWithUser
+    occupation
+  }
+}
+	}
+}

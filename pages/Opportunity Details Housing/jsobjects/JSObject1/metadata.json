@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_88cfcffa-0912-4f39-bb56-2b8107c0293f",
+  "id": "Opportunity Details Housing_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "expandContainer",
+        "value": "true"
+      }
+    ]
+  }
+}

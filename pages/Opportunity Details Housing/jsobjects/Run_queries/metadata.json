@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_98f41a1d-d7a8-4ee5-bf92-cc514e602122",
+  "id": "Opportunity Details Housing_Run_queries",
+  "unpublishedCollection": {
+    "name": "Run_queries",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

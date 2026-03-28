@@ -1,0 +1,90 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Actions.findFamilyMember(SelectProfile.selectedOptionValue).maritalStatus || getLastHousingRunData.data.data.getLastHousingRunData.userPersonalInfo.maritalStatus ))(select_holder_marital_status.options, select_holder_marital_status.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{JSObject1.expandContainer}}",
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Situation conjugale",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": 5,
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
+  "parentColumnSpace": 6.9375,
+  "parentId": "kdyqtpg754",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 38,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n  {\n    \"name\": \"Célibataire\",\n    \"code\": \"single\"\n  },\n  {\n    \"name\": \"Marié(e)\",\n    \"code\": \"married\"\n  },\n  {\n    \"name\": \"Pacsé(e)\",\n    \"code\": \"pacs\"\n  },\n  {\n    \"name\": \"Divorcé(e)\",\n    \"code\": \"divorced\"\n  },\n  {\n    \"name\": \"Concubin(e)\",\n    \"code\": \"couple\"\n  },\n\t{\n    \"name\": \"Veuf/ve\",\n    \"code\": \"widow\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 12,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ictdltog4d",
+  "widgetName": "select_holder_marital_status"
+}

@@ -1,0 +1,41 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_0f834b04-a4d6-443f-9ae2-7adc59633456",
+  "id": "Subscription Auto_ContactClientModule1",
+  "moduleUUID": "9b7afb2b-6bcb-4c3e-8fc6-8c5aa4e39516",
+  "packageUUID": "6be69ef9-1909-45ad-b8c8-3990e984030e",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "phoneNumber"
+      },
+      {
+        "key": "email"
+      }
+    ],
+    "inputs": {
+      "email": "{{ \ngetProcedureById.data.data.getProcedureById.user.email \n}}",
+      "phoneNumber": "{{ \ngetProcedureById.data.data.getProcedureById.user.phoneNumber \n}}"
+    },
+    "moduleInputs": {
+      "etqaabubdg": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "etqaabubdg",
+        "label": "email",
+        "propertyName": "inputs.email"
+      },
+      "sgpadqqvun": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "sgpadqqvun",
+        "label": "phoneNumber",
+        "propertyName": "inputs.phoneNumber"
+      }
+    },
+    "name": "ContactClientModule1",
+    "pageId": "Subscription Auto",
+    "widgetId": "b21h8jd2y9"
+  }
+}

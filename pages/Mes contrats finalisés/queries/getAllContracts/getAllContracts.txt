@@ -1,0 +1,36 @@
+query getAllContracts($first: Float, $before: String, $after: String, $last: Float){
+	getAllContracts(first: $first, before: $before, after: $after, last: $last) {
+		edges {
+      node {
+				id
+        contractNumber
+        effectiveDate
+        newRate
+        currentState
+				previousContractToCancel {
+					propertyInsured
+				}
+        user {
+          id
+          firstName
+          lastName
+					email
+        }
+        recurrentSubscription {
+         subCategory {
+						name
+					}
+        }
+        partner {
+          name
+        }
+      }
+    }
+    pageInfo {
+			hasNextPage
+			hasPreviousPage
+			startCursor
+			endCursor
+		}
+	}
+}

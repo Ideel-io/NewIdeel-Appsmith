@@ -1,0 +1,13 @@
+mutation searchPotentialOffersAgain(
+	$targetPartnerLabels: [String!]!,
+	$currentPartnerLabel: String!,
+	$subcategoryLabel: String!,
+	$requestData: String!,
+) {
+	searchPotentialOffersAgain(
+		targetPartnerLabels: $targetPartnerLabels,
+		currentPartnerLabel: $currentPartnerLabel,
+		subcategoryLabel: $subcategoryLabel,
+		requestData: $requestData,
+	)
+}

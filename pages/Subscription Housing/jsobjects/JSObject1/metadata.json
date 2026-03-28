@@ -1,0 +1,36 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_ce8d7e6b-2512-4a33-8f73-6abf4b5d82a0",
+  "id": "Subscription Housing_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Subscription Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "complet",
+        "value": "\"Incompleted\""
+      },
+      {
+        "name": "validation",
+        "value": "false"
+      },
+      {
+        "name": "ContainerEnregistrer",
+        "value": "false"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  \"WEEKLY\": 4,\n  \"EVERY_2_WEEKS\": 2,\n  \"MONTHLY\": 1,\n  \"EVERY_2_MONTHS\": 1 / 2,\n  \"EVERY_3_MONTHS\": 1 / 3,\n  \"EVERY_6_MONTHS\": 1 / 6,\n  \"EVERY_7_MONTHS\": 1 / 7,\n  \"EVERY_9_MONTHS\": 1 / 9,\n  \"YEARLY\": 1 / 12,\n  \"EVERY_2_YEARS\": 1 / 24\n}"
+      },
+      {
+        "name": "RequiredDocumentsStatus",
+        "value": "{\n  Completed: 'Completed',\n  Incompleted: 'Incompleted',\n  Uncertainty: 'Uncertainty'\n}"
+      },
+      {
+        "name": "typeDeContrat",
+        "value": "{\n  \"Assurance deux roues\": 'Assurance 2 roues',\n  \"Assurance habitation\": 'Assurance Habitation',\n  \"Assurance emprunteur\": 'Assurance Emprunteur',\n  \"Assurance auto\": 'Assurance Auto',\n  \"Assurance santé & prévoyance\": 'Mutuelle Sante'\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_34b5a8b7-4c1c-4202-a751-6f128ab51e73",
+  "id": "Validation Housing_uploadDocument",
+  "unpublishedCollection": {
+    "name": "uploadDocument",
+    "pageId": "Validation Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

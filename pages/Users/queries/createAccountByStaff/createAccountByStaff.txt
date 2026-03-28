@@ -1,0 +1,3 @@
+mutation createAccountByStaff ($userInput: UserInput!) {
+	createAccountByStaff(userInput: $userInput)
+}

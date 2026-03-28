@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_a7e02d75-af4f-414a-a9b4-d247382b5b29",
+  "id": "Validation Auto_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Validation Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

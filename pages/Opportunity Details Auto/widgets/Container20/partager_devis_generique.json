@@ -1,0 +1,66 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 72,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#69bc21",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{ !Quote.offersAlreadyShared() ||  Quote.areQueriesLoading }}",
+  "isLoading": false,
+  "isVisible": "{{!utils.canSendQuoteToSubscription}}",
+  "key": "bg2je7v9pd",
+  "leftColumn": 43,
+  "onClick": "{{ await Quote.goToQuoteCreator() }}",
+  "originalBottomRow": 85,
+  "originalTopRow": 80,
+  "parentColumnSpace": 11.46380615234375,
+  "parentId": "uslwxdknkv",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Valider une offre de la liste",
+  "tooltip": "",
+  "topRow": 67,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4wa6rv53j4",
+  "widgetName": "partager_devis_generique"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_65f80fa0a6769c39716bd1aa",
+  "id": "Opportunity Details Housing_createNewHouseScraper",
+  "unpublishedCollection": {
+    "name": "createNewHouseScraper",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

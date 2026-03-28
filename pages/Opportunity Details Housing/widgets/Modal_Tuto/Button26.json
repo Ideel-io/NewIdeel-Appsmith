@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonColor": "#93c5fd",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1kqbkdbih4",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://youtu.be/rxJZ6Cy5-aQ', {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 11,
+  "parentColumnSpace": 9.5,
+  "parentId": "7y48gteibk",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 22,
+  "text": "Ass. Hab. AXA",
+  "topRow": 11,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "0966ygj6j6",
+  "widgetName": "Button26"
+}

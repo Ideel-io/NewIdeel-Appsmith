@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.housing_cave || \"\" }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "u1ukfac3cn",
+  "label": "Y a-t-il une dépendance non communicante avec le logement ?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "options": "[\n  {\n    \"label\": \"Oui\",\n    \"value\": \"oui\"\n  },\n  {\n    \"label\": \"Non\",\n    \"value\": \"non\"\n  }\n]",
+  "originalBottomRow": 24,
+  "originalTopRow": 16,
+  "parentColumnSpace": 16.1184814453125,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 31,
+  "topRow": 16,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "0ahjig4trb",
+  "widgetName": "CaveSelect"
+}

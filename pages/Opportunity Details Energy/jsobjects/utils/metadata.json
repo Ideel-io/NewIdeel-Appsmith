@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_9d393a52-d594-4546-a62e-b804802e5044",
+  "id": "Opportunity Details Energy_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Opportunity Details Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "selectedTarification",
+        "value": "\"NA\""
+      },
+      {
+        "name": "searchForCitiesLoading",
+        "value": "false"
+      },
+      {
+        "name": "showCitySelection",
+        "value": "false"
+      },
+      {
+        "name": "ProcedureEndState",
+        "value": "{\n  SUCCESS: 'SUCCESS',\n  FAILURE: 'FAILURE',\n  CANCELLATION: 'CANCELLATION'\n}"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  \"WEEKLY\": 4,\n  \"MONTHLY\": 1,\n  \"BI_MONTHLY\": 0.5,\n  \"QUARTERLY\": 0.3,\n  \"YEARLY\": 0.083\n}"
+      },
+      {
+        "name": "occupationTypeMap",
+        "value": "{\n  'employee': 'Salarié(e)',\n  'executive': 'Salarié(e) cadre',\n  'farmer': 'Salarié(e) exploitant agrricole',\n  'entrepreneur': 'Chef d entreprise',\n  'selfEmployed': 'Travailleur/Travailleuse non salariée',\n  'unemployed': 'sans profession',\n  'functionary': 'fonctionnaire',\n  'student': 'Étudiant(e)',\n  'retired': 'retraité(e)',\n  'other': 'autres'\n}"
+      },
+      {
+        "name": "maritalStatusMap",
+        "value": "{\n  'single': 'célibataire',\n  'married': 'marié(e)',\n  'divorced': 'divorcé(e)',\n  'couple': 'concubin(e)',\n  'widow': 'veuf(ve)',\n  'pacs': 'pacsé(e)'\n}"
+      }
+    ]
+  }
+}

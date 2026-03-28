@@ -1,0 +1,84 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  FamilyMember.findFamilyMember(FirstChildSelect.selectedOptionValue).occupation  ))(select_holder_occupation3.options, select_holder_occupation3.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Statut professionnel",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": "7",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
+  "parentColumnSpace": 6.9375,
+  "parentId": "f6k4q94h6w",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n  {\n    \"name\": \"Salarié(e)\",\n    \"code\": \"employee\"\n  },\n  {\n    \"name\": \"Salarié(e) Cadre\",\n    \"code\": \"executive\"\n  },\n  {\n    \"name\": \"Salarié(e) / exploitant(e) agricole\",\n    \"code\": \"farmer\"\n  },\n  {\n    \"name\": \"Chef d'entreprise\",\n    \"code\": \"entrepreneur\"\n  },\n  {\n    \"name\": \"Travailleur / Travailleuse non salarié(e)\",\n    \"code\": \"selfEmployed\"\n  },\n\t{\n    \"name\": \"Sans profession\",\n    \"code\": \"unemployed\"\n  },\n\t{\n    \"name\": \"Fonctionnaire\",\n    \"code\": \"functionary\"\n  },\n\t{\n    \"name\": \"Étudiant(e)\",\n    \"code\": \"student\"\n  },\n\t{\n    \"name\": \"Retraité(e)\",\n    \"code\": \"retired\"\n  },\n\t{\n    \"name\": \"Autre\",\n    \"code\": \"other\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 12,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "wmxdqa9mfg",
+  "widgetName": "select_holder_occupation3"
+}

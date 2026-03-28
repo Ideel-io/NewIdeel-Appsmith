@@ -1,0 +1,8 @@
+query getProcedureDetails ($procedureId: ID!){
+	getProcedureDetails (procedureId : $procedureId ) {
+		questionList {
+			questionLabel
+			pickedAnswer
+		}
+	}
+}

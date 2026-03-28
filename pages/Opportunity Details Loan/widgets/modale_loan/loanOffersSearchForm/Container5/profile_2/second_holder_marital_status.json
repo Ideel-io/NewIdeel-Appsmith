@@ -1,0 +1,84 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Actions.findFamilyMember(SecondSelectProfile.selectedOptionValue).maritalStatus || \"\" ))(second_holder_marital_status.options, second_holder_marital_status.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Situation conjugale",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": "29",
+  "leftColumn": 43,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 34,
+  "originalTopRow": 30,
+  "parentColumnSpace": 6.9375,
+  "parentId": "ytmb8iebvk",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{ Constants.maritalStatusOptions }}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 17,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ssh0r09bw8",
+  "widgetName": "second_holder_marital_status"
+}

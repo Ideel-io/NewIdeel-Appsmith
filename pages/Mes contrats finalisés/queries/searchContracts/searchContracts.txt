@@ -1,0 +1,10 @@
+query SearchContracts($input: SearchInput!) {
+  searchContracts(input: $input) {
+    total
+    items {
+      id
+      score
+      source # This will contain the Contract data
+    }
+  }
+}

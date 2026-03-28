@@ -1,0 +1,3 @@
+mutation deleteHousingByStaff($userId: String!, $housingId: String!) {
+	deleteHousingByStaff(userId: $userId, id: $housingId)
+}

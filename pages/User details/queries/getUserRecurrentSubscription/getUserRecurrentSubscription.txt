@@ -1,0 +1,20 @@
+query getAllRecurrentSubscriptionsByStaff( $userId: String!) {
+getAllRecurrentSubscriptionsByStaff (userId:$userId)	{
+		id
+		createdAt
+		userId
+		subCategory {
+			name
+			label
+		}
+		displayOptimizationState
+		partnerLabel
+		partner {
+			mainColor
+			imageSource
+		}
+		beingCreatedPercentage
+		price
+		periodicity
+	}
+}

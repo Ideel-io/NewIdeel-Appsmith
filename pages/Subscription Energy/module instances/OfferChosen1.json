@@ -1,0 +1,52 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_c4dd8b13-cd62-4b2e-b026-9f33f5861d25",
+  "id": "Subscription Energy_OfferChosen1",
+  "moduleUUID": "108700a7-1a47-4f35-8221-482703a652f6",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "procedureId"
+      },
+      {
+        "key": "periodicity"
+      },
+      {
+        "key": "price"
+      }
+    ],
+    "inputs": {
+      "periodicity": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.periodicity}}",
+      "price": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.price}}",
+      "procedureId": "{{appsmith.URL.queryParams.procedureId}}"
+    },
+    "moduleInputs": {
+      "dgozrblddb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "dgozrblddb",
+        "label": "price",
+        "propertyName": "inputs.price"
+      },
+      "iqjsfpcvub": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "iqjsfpcvub",
+        "label": "procedureId",
+        "propertyName": "inputs.procedureId"
+      },
+      "zwympazxve": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "zwympazxve",
+        "label": "periodicity",
+        "propertyName": "inputs.periodicity"
+      }
+    },
+    "name": "OfferChosen1",
+    "pageId": "Subscription Energy",
+    "widgetId": "3zlizps39g"
+  }
+}

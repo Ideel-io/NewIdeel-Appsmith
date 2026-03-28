@@ -1,0 +1,7 @@
+query getLastAutoRunData($procedureId: String! ){
+	getLastAutoRunData (procedureId : $procedureId ) {
+		userAutoInfo{
+			license_plate_car_insurance
+		}
+	}
+}

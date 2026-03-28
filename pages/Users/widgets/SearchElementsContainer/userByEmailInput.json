@@ -1,0 +1,84 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onFocus"
+    }
+  ],
+  "errorMessage": "",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": "{{ Search.searchIsLoading }}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2tulgxk0oi",
+  "label": "Trouver par email ou téléphone",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextColor": "#39434d",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "8",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onFocus": "{{resetWidget(\"SalesOwnerEmailSelect\", true);}}",
+  "onSubmit": "{{userByEmailInput.isValid && !!userByEmailInput.inputText && Search.searchUsers({ resetTable: true })}}",
+  "onTextChanged": "",
+  "parentColumnSpace": 14.037109375,
+  "parentId": "7t908q0fhv",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "rightColumn": 15,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "shouldAllowAutofill": false,
+  "topRow": 0,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "",
+  "version": 2,
+  "widgetId": "pfwzvi6g6v",
+  "widgetName": "userByEmailInput"
+}

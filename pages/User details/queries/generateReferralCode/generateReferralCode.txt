@@ -1,0 +1,6 @@
+mutation generateReferralCodeByStaff($userId: String!) {
+	generateReferralCodeByStaff(userId: $userId) {
+		id
+		referralCode
+	}
+}

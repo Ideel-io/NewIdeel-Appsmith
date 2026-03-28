@@ -1,0 +1,61 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 8,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#eab308",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ !utils.isInternet(getProcedureById.data.data.getProcedureById.category) }}",
+  "isLoading": false,
+  "isVisible": "{{ utils.isInternet(getProcedureById.data.data.getProcedureById.category) }}",
+  "key": "90sc7x3yfd",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 46,
+  "needsErrorInfo": false,
+  "onClick": "{{ utils.goToInternetComparator() }}",
+  "parentColumnSpace": 19.13818359375,
+  "parentId": "qtgr1re73u",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Comparateur Internet 🌐",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "2rdfw4npn5",
+  "widgetName": "goCompareInternet"
+}

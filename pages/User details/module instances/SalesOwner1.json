@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_abb9b007-b2a9-409f-abbf-73bf219c5a44",
+  "id": "User details_SalesOwner1",
+  "moduleUUID": "31db6a10-f0ec-47b7-af66-90ef855a945a",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "salesOwner"
+      }
+    ],
+    "inputs": {
+      "salesOwner": "{{findUserByEmail.data.data.findUserByEmail.salesOwnerName}}"
+    },
+    "moduleInputs": {
+      "jwpitllfor": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jwpitllfor",
+        "label": "salesOwner",
+        "propertyName": "inputs.salesOwner"
+      }
+    },
+    "name": "SalesOwner1",
+    "pageId": "User details",
+    "widgetId": "x0f4uygs08"
+  }
+}

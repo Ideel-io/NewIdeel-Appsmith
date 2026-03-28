@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_794cf5b1-8eb9-4c98-974f-43eb2cade4dc",
+  "id": "Validation Auto_uploadDocument",
+  "unpublishedCollection": {
+    "name": "uploadDocument",
+    "pageId": "Validation Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

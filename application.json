@@ -1,0 +1,175 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "icon": "workflows",
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Signup",
+      "isDefault": false
+    },
+    {
+      "id": "Phone",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
+      "isDefault": false
+    },
+    {
+      "id": "User details",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunités à traiter",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Auto",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Housing",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Health",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Energy",
+      "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Loan",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription Auto",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription Housing",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription Health",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription Loan",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription Energy",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Management",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Housing",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Auto",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Loan",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Health",
+      "isDefault": false
+    },
+    {
+      "id": "Validation Energy",
+      "isDefault": false
+    },
+    {
+      "id": "Generate an attestation",
+      "isDefault": false
+    },
+    {
+      "id": "Vie du contrat",
+      "isDefault": false
+    },
+    {
+      "id": "Contract Details",
+      "isDefault": false
+    },
+    {
+      "id": "Mes contrats finalisés",
+      "isDefault": false
+    },
+    {
+      "id": "Formation",
+      "isDefault": false
+    },
+    {
+      "id": "Revenus",
+      "isDefault": false
+    },
+    {
+      "id": "Modify Password",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": false,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

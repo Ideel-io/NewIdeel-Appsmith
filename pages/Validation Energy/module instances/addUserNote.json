@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_2ffaa203-bb83-42a8-accd-f18e92b13b4d",
+  "id": "Validation Energy_addUserNote",
+  "moduleUUID": "b9c24db9-8a25-41ef-b1a2-3b5cb5d05a58",
+  "packageUUID": "3559b860-61d1-4a1f-89d2-a621b4736cd9",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "content"
+      },
+      {
+        "key": "userId"
+      }
+    ],
+    "inputs": {
+      "content": "{{ noteContent.text }}",
+      "userId": "{{ JSObject1.userId }}"
+    },
+    "moduleInputs": {
+      "jlqmpkdogg": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jlqmpkdogg",
+        "label": "userId",
+        "propertyName": "inputs.userId"
+      },
+      "zykkcgzssf": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "zykkcgzssf",
+        "label": "content",
+        "propertyName": "inputs.content"
+      }
+    },
+    "name": "addUserNote",
+    "pageId": "Validation Energy"
+  }
+}

@@ -1,0 +1,7 @@
+query getAllBusinessPartners {
+	getAllBusinessPartners {
+		id
+		ownerName
+		status
+	}
+}

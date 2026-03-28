@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_f2d6c925-a6b6-4011-b7fc-546d59f491e5",
+  "id": "Subscription Health_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Subscription Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sendingLetter",
+        "value": "false"
+      }
+    ]
+  }
+}

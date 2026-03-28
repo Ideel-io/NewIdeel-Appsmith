@@ -1,0 +1,47 @@
+query getProcedureBySalesOwner($salesOwnerEmail: String!, $currentStepIds: [Float!]!, $categories: [String!], $startTime: Float, $endTime: Float, $before: String, $after: String, $first: Float, $last: Float){
+	getProcedureBySalesOwner(salesOwnerEmail: $salesOwnerEmail, currentStepIds: $currentStepIds, categories: $categories, startTime: $startTime, endTime: $endTime, before: $before, after: $after, first : $first , last: $last) {
+		pageInfo {
+			hasNextPage 
+			hasPreviousPage
+			startCursor
+			endCursor
+		}
+		edges {
+			node {
+				user {
+					email
+					id
+					firstName
+					lastName
+					phoneNumber
+				}
+				recurrentSubscription {
+					subCategory {
+						name
+					}
+					price
+					periodicity
+					partner {
+						label
+						name
+						imageSource
+						mainColor
+					}
+				}
+				id
+				createdAt
+				updatedAt
+				recurrentSubscriptionId
+				type
+				currentState 
+				endState 
+				category
+				askForStaffAction
+				askForStaffAt
+				currentStepId
+				salesOwnerEmail
+			}
+			cursor
+		}
+	}
+}

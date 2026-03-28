@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "ULID"
+  ],
+  "defs": "{\"!name\":\"LIB/ULID\",\"ULID\":{\"replaceCharAt\":{\"!type\":\"fn()\",\"prototype\":{}},\"incrementBase32\":{\"!type\":\"fn()\",\"prototype\":{}},\"randomChar\":{\"!type\":\"fn()\",\"prototype\":{}},\"encodeTime\":{\"!type\":\"fn()\",\"prototype\":{}},\"encodeRandom\":{\"!type\":\"fn()\",\"prototype\":{}},\"decodeTime\":{\"!type\":\"fn()\",\"prototype\":{}},\"detectPrng\":{\"!type\":\"fn()\",\"prototype\":{}},\"factory\":{\"!type\":\"fn()\",\"prototype\":{}},\"monotonicFactory\":{\"!type\":\"fn()\",\"prototype\":{}},\"ulid\":{\"!type\":\"fn()\",\"prototype\":{}},\"__esModule\":{\"!type\":\"bool\"}}}",
+  "name": "ULID",
+  "uidString": "ULID_https://cdn.jsdelivr.net/npm/ulid@2.3.0/dist/index.umd.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/ulid@2.3.0/dist/index.umd.min.js",
+  "version": "2.3.0"
+}

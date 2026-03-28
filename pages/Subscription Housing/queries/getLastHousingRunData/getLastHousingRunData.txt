@@ -1,0 +1,10 @@
+query getLastHousingRunData($procedureId: String! ){
+	getLastHousingRunData (procedureId : $procedureId ) {
+		userPersonalInfo {
+			country
+			route
+			streetNumber
+			postalCode
+		}
+	}
+}

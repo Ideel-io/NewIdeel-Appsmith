@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_664cd56e-bb01-44be-aa61-63be97fde078",
+  "id": "Opportunity Details Loan_PotentialOffers",
+  "unpublishedCollection": {
+    "name": "PotentialOffers",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "estimationPartners",
+        "value": "[...ugipPartnerCheckBox.isChecked ? [\"ugip\"] : [], ...utwinPartnerCheckBox.isChecked ? [\"utwin\"] : []]"
+      }
+    ]
+  }
+}

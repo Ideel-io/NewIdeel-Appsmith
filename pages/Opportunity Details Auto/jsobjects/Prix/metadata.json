@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_a977cef6-4357-4dff-90d3-fdb589d6f961",
+  "id": "Opportunity Details Auto_Prix",
+  "unpublishedCollection": {
+    "name": "Prix",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

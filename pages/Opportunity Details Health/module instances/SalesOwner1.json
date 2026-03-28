@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_76b0ea5b-55b7-4d7f-b0a7-15dbf4435a4c",
+  "id": "Opportunity Details Health_SalesOwner1",
+  "moduleUUID": "31db6a10-f0ec-47b7-af66-90ef855a945a",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "salesOwner"
+      }
+    ],
+    "inputs": {
+      "salesOwner": "{{getProcedureById.data.data.getProcedureById.salesOwnerEmail}}"
+    },
+    "moduleInputs": {
+      "jwpitllfor": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jwpitllfor",
+        "label": "salesOwner",
+        "propertyName": "inputs.salesOwner"
+      }
+    },
+    "name": "SalesOwner1",
+    "pageId": "Opportunity Details Health",
+    "widgetId": "7f158lencr"
+  }
+}

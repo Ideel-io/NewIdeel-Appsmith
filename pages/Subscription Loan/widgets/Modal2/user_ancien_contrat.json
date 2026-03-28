@@ -1,0 +1,80 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "defaultText": "{{\nGetUser.data[\"0\"] ? JSObject1.contrat.replace(/\"/g, ''): \"\"\n}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "regex"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onBlur"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "true",
+  "key": "iaq56n2imh",
+  "label": "# de contrat à résilier",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "24",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onBlur": "{{!user_ancien_contrat.isValid ? showAlert('Vérifiez peut-être à nouveau le numéro de contrat, le format semble différent de ceux habituellement renseigné.', 'warning', 5000) : null}}",
+  "originalBottomRow": 33,
+  "originalTopRow": 29,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "v2ln1ck920",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "regex": "{{ContractNumberValidation.data[\"0\"]?.[\"Format 1\"]}}",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 62,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "tooltip": "",
+  "topRow": 21,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "779lx6dbd3",
+  "widgetName": "user_ancien_contrat"
+}

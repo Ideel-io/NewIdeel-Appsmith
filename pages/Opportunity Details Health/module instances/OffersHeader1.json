@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_5217ee3d-70b6-49aa-8e3b-907c93521228",
+  "id": "Opportunity Details Health_OffersHeader1",
+  "moduleUUID": "2f0c3507-5004-4410-831a-75f3c3902f7e",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "procedureId"
+      }
+    ],
+    "inputs": {
+      "procedureId": "{{appsmith.URL.queryParams.procedureId}}"
+    },
+    "moduleInputs": {
+      "mygqhvizrr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "mygqhvizrr",
+        "label": "procedureId",
+        "propertyName": "inputs.procedureId"
+      }
+    },
+    "name": "OffersHeader1",
+    "pageId": "Opportunity Details Health",
+    "widgetId": "v5geptc1vf"
+  }
+}

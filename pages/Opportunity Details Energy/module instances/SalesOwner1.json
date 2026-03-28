@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_ff0e7fea-d2c4-4c34-a706-42c85af7723c",
+  "id": "Opportunity Details Energy_SalesOwner1",
+  "moduleUUID": "31db6a10-f0ec-47b7-af66-90ef855a945a",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "salesOwner"
+      }
+    ],
+    "inputs": {
+      "salesOwner": "{{getProcedureById.data.data.getProcedureById.salesOwnerEmail}}"
+    },
+    "moduleInputs": {
+      "jwpitllfor": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jwpitllfor",
+        "label": "salesOwner",
+        "propertyName": "inputs.salesOwner"
+      }
+    },
+    "name": "SalesOwner1",
+    "pageId": "Opportunity Details Energy",
+    "widgetId": "7fdc13xaga"
+  }
+}

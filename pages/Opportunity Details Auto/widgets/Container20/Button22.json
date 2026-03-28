@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#eef6ff",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "k0e686sbwr",
+  "leftColumn": 38,
+  "minWidth": 120,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://www.notion.so/ideel/Trouver-des-meilleures-offres-pour-un-utilisateur-2cb36f60643780d2bd7bcb75ed1b48f9', {}, 'NEW_WINDOW');}}",
+  "parentColumnSpace": 18.058425903320312,
+  "parentId": "uslwxdknkv",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 48,
+  "text": "❓ Aide",
+  "tooltip": "Toutes les aides pour réaliser un devis d'assurance auto via Ideel.",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "s203fuvzf9",
+  "widgetName": "Button22"
+}

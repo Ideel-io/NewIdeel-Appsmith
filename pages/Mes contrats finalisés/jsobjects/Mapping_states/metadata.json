@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_a09ce27b-ad44-4893-8e7f-8d733bf5d755",
+  "id": "Mes contrats finalisés_Mapping_states",
+  "unpublishedCollection": {
+    "name": "Mapping_states",
+    "pageId": "Mes contrats finalisés",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "state_map_opti",
+        "value": "{\n  \"0\": \"A) Opportunité Identifiée\",\n  \"1\": \"B) Infos Collectées\",\n  \"2\": \"C) Devis générées\",\n  \"3\": \"D) Devis validé\",\n  \"4\": \"E) Souscription Finalisée\",\n  \"5\": \"F) Contrat Validé\"\n}"
+      },
+      {
+        "name": "state_map_rési",
+        "value": "{\n  \"0\": \"A) Questionnaire De Résiliation Rempli\",\n  \"1\": \"B) Lettre À Payer\",\n  \"2\": \"C) Envoi À Confirmer\",\n  \"3\": \"D) Envoi Confirmé\",\n  \"4\": \"E) Lettre Envoyée\",\n  \"5\": \"F) Lettre Distribuée\"\n}"
+      },
+      {
+        "name": "state_map_rési_digi",
+        "value": "{\n  \"0\": \"A) Démarche Commencée\",\n  \"1\": \"B) Questionnaire De Résiliation Rempli\",\n  \"2\": \"C) Succès De La Résiliation Digitale\"\n}"
+      }
+    ]
+  }
+}

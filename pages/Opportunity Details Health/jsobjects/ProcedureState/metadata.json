@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_65f81108a6769c39716bd1f7",
+  "id": "Opportunity Details Health_ProcedureState",
+  "unpublishedCollection": {
+    "name": "ProcedureState",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "currentStep",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId"
+      },
+      {
+        "name": "state",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId"
+      },
+      {
+        "name": "isProcedureClosed",
+        "value": "getProcedureById.data.data?.getProcedureById.endState === \"CANCELLATION\" || getProcedureById.data.data.getProcedureById.endState === \"FAILURE\""
+      },
+      {
+        "name": "state_map_opti",
+        "value": "{\n  \"0\": \"A) Demande Identifiée\",\n  \"1\": \"B) Besoins & Infos Collectées\",\n  \"2\": \"En Stand-By\",\n  \"3\": \"C) Devis Partagé\",\n  \"4\": \"D) Souscription Finalisée\",\n  \"5\": \"E) Contrat Validé\"\n}"
+      },
+      {
+        "name": "currentOptimizationMappedState",
+        "value": "ProcedureState.state_map_opti[ProcedureState.currentStep]"
+      },
+      {
+        "name": "isMoveToDevisPartageDisabled",
+        "value": "ProcedureState.currentStep >= 3 || ProcedureState.isProcedureClosed"
+      },
+      {
+        "name": "isMoveToSouscriptionDisabled",
+        "value": "ProcedureState.currentStep <= 1 || ProcedureState.currentStep >= 4 || ProcedureState.isProcedureClosed"
+      }
+    ]
+  }
+}

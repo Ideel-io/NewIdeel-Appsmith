@@ -1,0 +1,11 @@
+query getProcedureStep ($procedureId: ID!, $stepId: ID! ){
+	getProcedureStep (procedureId : $procedureId, stepId : $stepId ) {
+		id
+		createdAt
+		updatedAt
+		stepType 
+
+	}
+}
+
+

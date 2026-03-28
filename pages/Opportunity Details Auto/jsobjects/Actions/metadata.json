@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_8a9bd791-8f70-40b5-8083-9d77ad0be882",
+  "id": "Opportunity Details Auto_Actions",
+  "unpublishedCollection": {
+    "name": "Actions",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

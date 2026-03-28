@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_11141e54-94a1-4b08-af41-b97d4ad7dfc6",
+  "id": "Subscription Auto_SideNavBar1",
+  "moduleUUID": "0aac44c6-34a7-45f1-9894-e4a7b2ecc24f",
+  "packageUUID": "c10feffd-bf4c-4ec0-92f4-660607e16ace",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "mainPage": ""
+    },
+    "moduleInputs": {
+      "emrosycjyy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "emrosycjyy",
+        "label": "mainPage",
+        "propertyName": "inputs.mainPage"
+      }
+    },
+    "name": "SideNavBar1",
+    "pageId": "Subscription Auto",
+    "widgetId": "sgbn6f9yj7"
+  }
+}

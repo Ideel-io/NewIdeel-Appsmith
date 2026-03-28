@@ -1,0 +1,33 @@
+export default {
+	maritalStatus: {
+		single: "Célibataire",
+		married: "Marié(e)",
+		pacs: "Pacsé(e)",
+		divorced: "Divorcé(e)",
+		couple: "Concubin(e)",
+		widow: "Veuf/ve",
+	},
+	occupation: {
+		employee: "Salarié(e)",
+		executive: "Salarié(e) Cadre",
+		farmer: "Salarié(e) / exploitant(e) agricole",
+		entrepreneur: "Chef d'entreprise",
+		selfEmployed: "Travailleur / Travailleuse non salarié(e)",
+		unemployed: "Sans profession",
+		functionary: "Fonctionnaire",
+		student: "Étudiant(e)",
+		retired: "Retraité(e)",
+		other: "Autre",
+	},
+	familyTies: {
+  	conjoint: "Conjoint / Conjointe",
+  	child: "Enfant",
+  	parent: "Parent",
+  	spouse: "Époux / Épouse",
+  	other: "Autre",
+  	myself: "Moi-même",
+	},
+	maritalStatusOptions: Object.entries(this.maritalStatus).map(([value, name]) => ({name, value})),
+	occupationOptions: Object.entries(this.occupation).map(([value, name]) => ({name, value})),
+	familyTiesOptions: Object.entries(this.familyTies).filter(([key]) => key !== "myself").map(([value, name]) => ({name, value})),
+}

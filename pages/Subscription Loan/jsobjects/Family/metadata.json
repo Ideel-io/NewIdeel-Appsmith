@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_f8955da3-9255-4a9c-99dd-ae870590757f",
+  "id": "Subscription Loan_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Subscription Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

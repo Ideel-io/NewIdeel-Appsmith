@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 208,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iwpodyjam5",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 145,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 141,
+  "needsErrorInfo": false,
+  "originalBottomRow": 208,
+  "originalTopRow": 141,
+  "overflow": "NONE",
+  "parentColumnSpace": 29.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "shouldTruncate": false,
+  "text": "Système de mise à jour automatique des identifiants\nNous avons mis en place une automatisation pour gérer les identifiants des courtiers sans avoir à modifier le code manuellement. Voici comment le flux fonctionne :\n\n1. L'interface (Appsmith & Google Sheets)\nSaisie : Les modifications se font directement via l'interface Appsmith (qui affiche notre tableau Google Sheets).\n\nSource de vérité : Le Google Sheet centralise tous les Partner, Username et Password. Il est publié en ligne au format CSV pour être accessible par nos outils de build.\n\n2. Le \"Worker\" (GitHub Actions)\nFréquence : Un robot (GitHub Action) se lance automatiquement toutes les heures ou peut être déclenché manuellement depuis l'onglet \"Actions\" sur GitHub.\n\nScript Python : Le robot exécute un script qui :\n\nTélécharge les dernières données du Google Sheet.\n\nNettoie et formate les données pour TypeScript.\n\nInjecte ces données directement dans le fichier src/types/PotentialOffers.ts. (Le backend)\n\n3. Mise à jour du code (Auto-Commit)\nVérification : Le système compare le nouveau fichier avec l'ancien. S'il n'y a aucun changement dans le tableau, il ne fait rien.\n\nValidation : Si un mot de passe a changé, le bot crée automatiquement un commit nommé chore: update passwords from Google Sheet et pousse la modification sur la branche.\n\nLes avantages :\nAutonomie : Pas besoin d'être développeur pour changer un mot de passe ou ajouter un courtier.\n\nSécurité : Moins de manipulations manuelles dans les fichiers de types, donc moins de risques de \"casser\" le build à cause d'une virgule oubliée.\n\nHistorique : On peut tracer précisément quand un accès a été modifié dans l'historique Git.",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 141,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "m2kj2n095p",
+  "widgetName": "Text4"
+}

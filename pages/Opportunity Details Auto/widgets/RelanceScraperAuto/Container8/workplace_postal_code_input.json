@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "defaultText": "{{getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.workplace_car_insurance || \"\"}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5jt0tu3cjb",
+  "label": "Quel est le code postal de votre lieu de travail principal ?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "originalBottomRow": 35,
+  "originalTopRow": 28,
+  "parentColumnSpace": 11.506249999999998,
+  "parentId": "5t6s22ppsj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "showStepArrows": false,
+  "topRow": 28,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "7si0kzjgtj",
+  "widgetName": "workplace_postal_code_input"
+}

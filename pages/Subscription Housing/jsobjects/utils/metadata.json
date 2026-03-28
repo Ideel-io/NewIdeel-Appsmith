@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_fb9fbba3-d6d5-4b70-b744-8c7d1bbd5b03",
+  "id": "Subscription Housing_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Subscription Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "bankAccountLoaded",
+        "value": "false"
+      }
+    ]
+  }
+}

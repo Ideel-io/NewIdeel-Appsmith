@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_babcb493-10a2-40b5-b57b-9912a48f5ce9",
+  "id": "Validation Loan_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Validation Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

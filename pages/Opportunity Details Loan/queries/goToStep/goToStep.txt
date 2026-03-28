@@ -1,0 +1,122 @@
+mutation goToStep($notifyUser : Boolean!, $stepId : Float!,$procedureId: ID! ){
+	 goToStep (notifyUser : $notifyUser, stepId : $stepId,procedureId : $procedureId ) {
+				id
+		
+		createdAt
+		updatedAt
+		recurrentSubscriptionId
+		type
+		currentState 
+		endState 
+		category
+		askForStaffAction
+		askForStaffAt
+		currentStep {
+			id
+			createdAt
+			updatedAt
+			stepType 
+			isUserActionNeeded
+			action
+			state 
+			version
+			webviewUrl
+			webviewScreenData {
+				screenTitle
+				goBackModalTitle
+				goBackModalDescription
+				introTitle
+				introDescription
+				guidelineTitle
+				guidelineDescription
+				buttonTitle
+				buttonDescription
+				}
+			navigateTo 
+			startedAt
+			completedAt
+		}
+		procedureSteps {
+		id
+		createdAt
+		updatedAt
+		stepType
+		isUserActionNeeded
+		action
+		state 
+		version
+		webviewUrl
+		webviewScreenData {
+			screenTitle
+			goBackModalTitle
+			goBackModalDescription
+			introTitle
+			introDescription
+			guidelineTitle
+			guidelineDescription
+			buttonTitle
+			buttonDescription
+			}
+		navigateTo 
+		startedAt
+		completedAt	
+		}
+		currentStepId
+		recurrentSubscription {
+			id
+			createdAt
+			updatedAt
+			userId
+			subCategory {
+				name
+				label
+			}
+			partner {
+				id
+				name
+				label
+				categoryId
+				mainColor
+				imageSource
+				}
+			state 
+			optimizationState
+			active
+			muted
+			mutedUntil
+			ideelManaged
+			addedBy 
+			addedByUserId
+			partnerLabel
+			actions {
+				canBeOptimized
+				canBeTerminatedByLetter
+				canBeTerminatedDigitally
+				canRaiseInsuranceClaim
+				canRequestInsuranceDoc
+				canEditInsuranceContract
+				canRenegotiateTelecomContract
+				canRenegotiateInsuranceContract
+				canManageSubscriptionIssues
+			}
+			partnerContact {
+				phones
+				emails
+				}
+			potentialSaving
+			ratingLabel 
+			ratingScore
+			insuranceClaimUrl
+			insuranceDocRequestUrl
+			insuranceContractEditUrl
+			insuranceContractRenegotiateUrl
+			telecomContractRenegotiateUrl
+			subscriptionIssueManageUrl
+			price
+			withCommitment
+			periodicity
+			nextPaymentDate
+		}
+			}
+
+		}

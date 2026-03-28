@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_d8615526-7fb3-463d-8755-107b1e710e44",
+  "id": "Subscription Health_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Subscription Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "bankAccountLoaded",
+        "value": "false"
+      }
+    ]
+  }
+}

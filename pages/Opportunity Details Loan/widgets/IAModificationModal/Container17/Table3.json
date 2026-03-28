@@ -1,0 +1,142 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 25,
+  "boxShadow": "none",
+  "cachedTableData": {},
+  "canFreezeColumn": true,
+  "cellBackground": "#ffffff",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "xn__cl_cja"
+  ],
+  "columnUpdatedAt": 1773139080063,
+  "columnWidthMap": {},
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.xn__cl_cja.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": false,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": false,
+  "isVisibleSearch": false,
+  "key": "9cg6nsejn8",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "originalBottomRow": 33,
+  "originalTopRow": 5,
+  "parentColumnSpace": 9.50048828125,
+  "parentId": "qns11epfye",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "xn__cl_cja": {
+      "alias": "clé",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "#ffffff",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table3.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"clé\"])) :  currentRow[\"clé\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "xn__cl_cja",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "clé",
+      "notation": "standard",
+      "originalId": "clé",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchKey": "",
+  "tableData": "{{\n[\n\t{\n\t\t\"clé\": \"Décès/PTIA 1\",\n\t\t\"valeur\": runAutoCompletion.new_datas.insured1_death_PTIA,\n\t\t\"précision\": runAutoCompletion.new_datas.insured1_death_PTIA_accuracy\n\t},\n\t{\n\t\t\"clé\": \"ITT/IPT 1\",\n\t\t\"valeur\": runAutoCompletion.new_datas.insured1_ITT_IPT,\n\t\t\"précision\": runAutoCompletion.new_datas.insured1_ITT_IPT_accuracy\n\t},\n\t{\n\t\t\"clé\": \"IPP 1\",\n\t\t\"valeur\": runAutoCompletion.new_datas.insured1_IPP,\n\t\t\"précision\": runAutoCompletion.new_datas.insured1_IPP_accuracy\n\t},\n\t{\n\t\t\"clé\": \"IPPro 1\",\n\t\t\"valeur\": runAutoCompletion.new_datas.insured1_IPPro,\n\t\t\"précision\": runAutoCompletion.new_datas.insured1_IPPro_accuracy\n\t}\n]\n}}",
+  "textSize": "0.875rem",
+  "topRow": 4,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "a65voamabh",
+  "widgetName": "Table3"
+}

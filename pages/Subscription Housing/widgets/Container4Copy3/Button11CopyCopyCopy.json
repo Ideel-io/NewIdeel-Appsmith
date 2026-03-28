@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "buttonColor": "#2e6fc1",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "liwptg63es",
+  "leftColumn": 7,
+  "minWidth": 120,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 59,
+  "mobileTopRow": 26,
+  "needsErrorInfo": false,
+  "onClick": "{{\nutils.openBankAccountModal()\n}}",
+  "originalBottomRow": 38,
+  "originalTopRow": 34,
+  "parentColumnSpace": 18.227615356445312,
+  "parentId": "c5809h5s5o",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 29,
+  "text": "💳 Voir le RIB",
+  "tooltip": "",
+  "topRow": 22,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "171uvz0c62",
+  "widgetName": "Button11CopyCopyCopy"
+}

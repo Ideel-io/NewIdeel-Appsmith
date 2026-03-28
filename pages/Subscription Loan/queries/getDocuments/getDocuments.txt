@@ -1,0 +1,14 @@
+query GetDocuments (
+	$userId: String!, 
+	$recurrentSubscriptionId: String!
+) {
+	amortizationTable: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $recurrentSubscriptionId,
+    label: "AMORTIZATION_TABLE"
+	) {
+    fileName,
+    downloadUrl,
+    uploadDate
+  }
+}

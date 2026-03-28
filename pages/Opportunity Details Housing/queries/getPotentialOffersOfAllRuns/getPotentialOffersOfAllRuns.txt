@@ -1,0 +1,16 @@
+query getPotentialOffersOfAllRuns ($procedureId : String !){
+	getPotentialOffersOfAllRuns (procedureId : $procedureId ){
+		id
+		userId
+		procedureId
+		runId
+		recurrentSubscriptionId
+		partner
+		name
+		price
+		link
+		createdAt
+		updatedAt
+		state
+	}
+}

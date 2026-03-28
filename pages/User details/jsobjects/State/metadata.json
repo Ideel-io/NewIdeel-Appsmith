@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_7e11f6ff-de0e-45c9-a450-2f40e394d6ff",
+  "id": "User details_State",
+  "unpublishedCollection": {
+    "name": "State",
+    "pageId": "User details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

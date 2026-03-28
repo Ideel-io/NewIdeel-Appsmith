@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_11061b37-7c84-4644-b394-d0a95e4a21bc",
+  "id": "Contract Details_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Contract Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "contrat",
+        "value": "GetUser.data[\"0\"][\"# de contrat à résilier\"]"
+      }
+    ]
+  }
+}

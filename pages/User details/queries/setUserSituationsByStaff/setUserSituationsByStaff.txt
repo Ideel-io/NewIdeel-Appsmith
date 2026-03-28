@@ -1,0 +1,5 @@
+mutation setUserSituationsByStaff($userId: String!, $situations: [Situation!]!) {
+	setUserSituationsByStaff(userId: $userId, situations: $situations ) {
+		shouldAskForAppointment
+	}
+}

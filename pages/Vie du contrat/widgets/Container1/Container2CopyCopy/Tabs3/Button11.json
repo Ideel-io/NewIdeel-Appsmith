@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "buttonColor": "#f9a8d4",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "90whuz200a",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://www.loom.com/share/e6d9c7f0438241a59bbdcaa7e181489a?sid=6ae998bb-d9f1-4aeb-8360-aa3feb2534ab', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 15.234896659851074,
+  "parentId": "x0ugqqqhyp",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Voir la vidéo tuto",
+  "topRow": 29,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ixkc8fbjc4",
+  "widgetName": "Button11"
+}

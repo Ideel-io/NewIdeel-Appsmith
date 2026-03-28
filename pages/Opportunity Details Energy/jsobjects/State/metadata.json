@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_efaf6009-2998-4d76-a94b-8448c80b7ef1",
+  "id": "Opportunity Details Energy_State",
+  "unpublishedCollection": {
+    "name": "State",
+    "pageId": "Opportunity Details Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      },
+      {
+        "name": "currentSelectedFamilyMember",
+        "value": "{}"
+      }
+    ]
+  }
+}

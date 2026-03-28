@@ -1,0 +1,34 @@
+query getContract($contractId: String, $recurrentSubscriptionId: String){
+	getContract(contractId: $contractId, recurrentSubscriptionId: $recurrentSubscriptionId) {
+				id
+        contractNumber
+        effectiveDate
+        newRate
+        currentState
+				previousContractToCancel {
+					propertyInsured
+				}
+        user {
+          id
+          firstName
+          lastName
+					email
+					phoneNumber
+        }
+        recurrentSubscription {
+         subCategory {
+						name
+					}
+        }
+        partner {
+          name
+        }
+		    contractHolder {
+					firstname
+					lastname
+					civilTitle
+					familyTiesWithUser
+					
+				}
+	}
+}

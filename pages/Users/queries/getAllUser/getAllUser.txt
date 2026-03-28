@@ -1,0 +1,35 @@
+query GetAllUser($first: Float, $before: String, $after: String, $last: Float) {
+	getAllUser(first: $first, before: $before, after: $after, last: $last)  {
+		pageInfo {
+			hasNextPage
+			hasPreviousPage
+			startCursor
+			endCursor
+		}
+		edges {
+			node {
+				utmSource
+				utmMedium
+				createdAt
+				id
+				email
+				firstName
+				lastName
+				phoneNumber
+				dateBirth
+				deleted
+				clientStatus
+				accountStatus
+				salesOwnerName
+				dateOfLastContact
+				procedureCounts {
+				  totalProcedures
+			    opportunityCount
+			    procedureCount
+			    contractCount
+					optimizationCount
+		    }
+			}
+		}
+	}
+}

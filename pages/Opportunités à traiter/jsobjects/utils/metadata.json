@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "67ad0c9604b1af47acc37b59_27f62646-3016-4d03-a6b0-28880ad83122",
+  "id": "Opportunités à traiter_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Opportunités à traiter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "DefaultStepsIds",
+        "value": "[0, 1, 2, 3]"
+      },
+      {
+        "name": "EmptySalesOwner",
+        "value": "'empty'"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  \"WEEKLY\": 4,\n  \"EVERY_2_WEEKS\": 2,\n  \"MONTHLY\": 1,\n  \"EVERY_2_MONTHS\": 1 / 2,\n  \"EVERY_3_MONTHS\": 1 / 3,\n  \"EVERY_6_MONTHS\": 1 / 6,\n  \"EVERY_7_MONTHS\": 1 / 7,\n  \"EVERY_9_MONTHS\": 1 / 9,\n  \"YEARLY\": 1 / 12,\n  \"EVERY_2_YEARS\": 1 / 24\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_d8ac0fe1-bfc2-4f8a-85b7-41a955f819cc",
+  "id": "Opportunity Details Health_Quote",
+  "unpublishedCollection": {
+    "name": "Quote",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sharedStates",
+        "value": "[\"CHOSEN\", \"SHARED\"]"
+      },
+      {
+        "name": "areQueriesLoading",
+        "value": "getProcedureById.isLoading || getPotentialOffersOfLastRun.isLoading"
+      },
+      {
+        "name": "offerChoiceStep",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId == 2"
+      }
+    ]
+  }
+}

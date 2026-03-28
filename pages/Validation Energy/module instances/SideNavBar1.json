@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_314b1b9b-f3db-444b-9400-2c2db6fefd59",
+  "id": "Validation Energy_SideNavBar1",
+  "moduleUUID": "0aac44c6-34a7-45f1-9894-e4a7b2ecc24f",
+  "packageUUID": "c10feffd-bf4c-4ec0-92f4-660607e16ace",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "mainPage": ""
+    },
+    "moduleInputs": {
+      "emrosycjyy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "emrosycjyy",
+        "label": "mainPage",
+        "propertyName": "inputs.mainPage"
+      }
+    },
+    "name": "SideNavBar1",
+    "pageId": "Validation Energy",
+    "widgetId": "b5uxj7mdqg"
+  }
+}

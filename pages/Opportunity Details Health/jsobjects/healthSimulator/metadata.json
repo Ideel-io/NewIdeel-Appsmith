@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_e0428462-cc46-4d87-9685-83861518baa5",
+  "id": "Opportunity Details Health_healthSimulator",
+  "unpublishedCollection": {
+    "name": "healthSimulator",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "occupationType",
+        "value": "{\n  'employee': 'Salarié(e)',\n  'executive': 'Salarié(e) cadre',\n  'farmer': 'Salarié(e) exploitant agricole',\n  'entrepreneur': \"Chef d'entreprise\",\n  'selfEmployed': 'Travailleur/Travailleuse non salarié(e)',\n  'unemployed': 'Sans profession',\n  'functionary': 'Fonctionnaire',\n  'student': 'Étudiant(e)',\n  'retired': 'Retraité(e)',\n  'other': 'Autre'\n}"
+      },
+      {
+        "name": "occupationToRegimen",
+        "value": "{\n  functionary: \"Régime Général\",\n  employee: \"Régime Général\",\n  student: \"Régime Général\",\n  farmer: \"Regime Agricole\",\n  retired: \"Retraité\",\n  selfEmployed: \"TNS\",\n  entrepreneur: \"TNS\",\n  unemployed: \"Régime Général\",\n  executive: \"Régime Général\",\n  other: \"Régime Général\"\n}"
+      },
+      {
+        "name": "familyTies",
+        "value": "{\n  child: 'child',\n  conjoint: 'conjoint',\n  parent: 'parent',\n  spouse: 'spouse',\n  other: 'other',\n  myself: 'myself'\n}"
+      },
+      {
+        "name": "insuranceCoverage",
+        "value": "{\n  moi: 'Moi',\n  moi_et_mon_conjoint: 'Moi et mon conjoint',\n  moi_et_mes_enfants: 'Moi et mes enfants',\n  moi_mon_conjoint_mes_enfants: 'Moi, mon conjoint et mes enfants'\n}"
+      },
+      {
+        "name": "userData",
+        "value": "{\n  age: userAgeInput.text,\n  postalCode: userPostalCodeInput.text,\n  occupation: userOccupationSelect.selectedOptionValue,\n  insuranceCoverage: userInsuranceCoverage.selectedOptionValue,\n  partnerAge: userPartnerAgeInput.text,\n  childrenAges: [userFirstChildAge.text, userSecondChildAge.text, userThirdChildAge.text, userFourthChildAge.text, userFifthChildAge.text, userSixthChildAge.text, userSeventhChildAge.text].filter(age => age)\n}"
+      },
+      {
+        "name": "isPartnerAgeInputRequired",
+        "value": "[healthSimulator.insuranceCoverage.moi_et_mon_conjoint, healthSimulator.insuranceCoverage.moi_mon_conjoint_mes_enfants].includes(userInsuranceCoverage.selectedOptionLabel)"
+      },
+      {
+        "name": "isChildrenAgeInputRequired",
+        "value": "[healthSimulator.insuranceCoverage.moi_et_mes_enfants, healthSimulator.insuranceCoverage.moi_mon_conjoint_mes_enfants].includes(userInsuranceCoverage.selectedOptionLabel)"
+      },
+      {
+        "name": "occupationOptions",
+        "value": "Object.entries(healthSimulator.occupationType).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "insuranceCoverageOptions",
+        "value": "Object.entries(healthSimulator.insuranceCoverage).map(([value, name]) => ({\n  name,\n  value\n}))"
+      }
+    ]
+  }
+}

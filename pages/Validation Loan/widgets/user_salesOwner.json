@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0.375rem",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultText": "{{ \n  GetUser.data[0] && GetUser.data[0][\"SalesOwner\"] !== \"\" \n    ? GetUser.data[0][\"SalesOwner\"] \n    : getProcedureById.data.data.getProcedureById.salesOwnerEmail\n}}\n",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "iaq56n2imh",
+  "label": "SalesOwner",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "5",
+  "leftColumn": 57,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 33,
+  "originalTopRow": 28,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Non renseigné",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 64,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 7,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "jftvrbpe7z",
+  "widgetName": "user_salesOwner"
+}

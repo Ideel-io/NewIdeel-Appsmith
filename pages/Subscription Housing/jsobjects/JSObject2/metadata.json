@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_8dde3174-7069-449b-8b09-8a6c1ac1f65a",
+  "id": "Subscription Housing_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Subscription Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sendingLetter",
+        "value": "false"
+      }
+    ]
+  }
+}

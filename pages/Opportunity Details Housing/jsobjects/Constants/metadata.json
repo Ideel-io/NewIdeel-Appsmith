@@ -1,0 +1,36 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_97c8cfe5-b201-4c79-a2d6-79a3a7bf1017",
+  "id": "Opportunity Details Housing_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "maritalStatus",
+        "value": "{\n  single: \"Célibataire\",\n  married: \"Marié(e)\",\n  pacs: \"Pacsé(e)\",\n  divorced: \"Divorcé(e)\",\n  couple: \"Concubin(e)\",\n  widow: \"Veuf/ve\"\n}"
+      },
+      {
+        "name": "occupation",
+        "value": "{\n  employee: \"Salarié(e)\",\n  executive: \"Salarié(e) Cadre\",\n  farmer: \"Salarié(e) / exploitant(e) agricole\",\n  entrepreneur: \"Chef d'entreprise\",\n  selfEmployed: \"Travailleur / Travailleuse non salarié(e)\",\n  unemployed: \"Sans profession\",\n  functionary: \"Fonctionnaire\",\n  student: \"Étudiant(e)\",\n  retired: \"Retraité(e)\",\n  other: \"Autre\"\n}"
+      },
+      {
+        "name": "familyTies",
+        "value": "{\n  conjoint: \"Conjoint / Conjointe\",\n  child: \"Enfant\",\n  parent: \"Parent\",\n  spouse: \"Époux / Épouse\",\n  other: \"Autre\",\n  myself: \"Moi-même\"\n}"
+      },
+      {
+        "name": "maritalStatusOptions",
+        "value": "Object.entries(Constants.maritalStatus).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "occupationOptions",
+        "value": "Object.entries(Constants.occupation).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "familyTiesOptions",
+        "value": "Object.entries(Constants.familyTies).filter(([key]) => key !== \"myself\").map(([value, name]) => ({\n  name,\n  value\n}))"
+      }
+    ]
+  }
+}

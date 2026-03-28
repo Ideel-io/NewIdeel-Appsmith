@@ -1,0 +1,13 @@
+query getAllProceduresStats($startDate: String) {
+	getAllProceduresStats(startDate: $startDate) {
+		categorySections {
+			name
+			displayName
+			stats {
+				stepId
+				displayName
+				amount
+			}
+		}
+	}
+}

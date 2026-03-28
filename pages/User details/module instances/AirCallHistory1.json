@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_0d0923bd-580b-462a-825f-968d85816f85",
+  "id": "User details_AirCallHistory1",
+  "moduleUUID": "5e6b8c9f-a94b-4f82-ac55-4f2f217591db",
+  "packageUUID": "6be69ef9-1909-45ad-b8c8-3990e984030e",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "phoneNumber"
+      }
+    ],
+    "inputs": {
+      "phoneNumber": "{{findUserByEmail.data.data.findUserByEmail.phoneNumber }}"
+    },
+    "moduleInputs": {
+      "zdyvcgdzyo": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "zdyvcgdzyo",
+        "label": "phoneNumber",
+        "propertyName": "inputs.phoneNumber"
+      }
+    },
+    "name": "AirCallHistory1",
+    "pageId": "User details",
+    "widgetId": "tnidy2tvpu"
+  }
+}

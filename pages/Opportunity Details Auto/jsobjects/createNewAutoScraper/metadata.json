@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_65f80730a6769c39716bd0cf",
+  "id": "Opportunity Details Auto_createNewAutoScraper",
+  "unpublishedCollection": {
+    "name": "createNewAutoScraper",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

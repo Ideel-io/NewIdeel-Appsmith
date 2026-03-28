@@ -1,0 +1,54 @@
+query getProcedureDetails ($procedureId: ID!){
+	getProcedureDetails (procedureId : $procedureId ) {
+		userId
+		recurrentSubscriptionId
+		questionList {
+			dataType
+			questionId
+			questionLabel
+			subscriptionId
+			pickedAnswer
+		}
+		housingChoice {
+			id
+			createdAt
+			updatedAt
+			residenceType
+			housingType
+			furnished
+			numberOfRooms
+			floorLevel
+			outbuildings
+			equipments
+			address {
+				name
+				placeId
+				gMapsUrl
+				fullAddress
+				streetNumber
+				route
+				locality
+				administrativeAreaLevel1
+				administrativeAreaLevel2
+				country
+				postalCode
+			}
+			userId
+		}
+		familyMemberList {
+			firstname
+			lastname
+			birthdate
+			familyTiesWithUser
+			occupation
+		}
+		ibanPayment {
+			id
+			iban
+			ibanLabel
+			isDefault
+			bic
+			message
+		}
+	}
+}

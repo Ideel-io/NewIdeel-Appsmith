@@ -1,0 +1,91 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "errorMessage": "Doit contenir 5 chiffres",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": "{{ utils.searchForCitiesLoading }}",
+  "isLoading": false,
+  "isRequired": "{{utils.hasGaz(getProcedureById.data.data.getProcedureById.category)}}",
+  "isVisible": "{{utils.hasGaz(getProcedureById.data.data.getProcedureById.category)}}",
+  "key": "c9ciq8ons1",
+  "label": "{{ utils.searchForCitiesLoading ? \"Chargement...\" : \"Code Postal\" }}",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 9,
+  "maxChars": "5",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "onTextChanged": "{{ Postal_code_input.isValid && utils.searchForCities() }}",
+  "originalBottomRow": 19,
+  "originalTopRow": 12,
+  "parentColumnSpace": 17.92858123779297,
+  "parentId": "mt0r3qp7i9",
+  "parentRowSpace": 10,
+  "regex": "^\\d{5}$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 17,
+  "showStepArrows": false,
+  "topRow": 12,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "",
+  "version": 2,
+  "widgetId": "xs3g2fpxs2",
+  "widgetName": "Postal_code_input"
+}

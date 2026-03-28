@@ -1,0 +1,5 @@
+mutation setUserGoalsByStaff($userId: String!, $goals: [Goal!]!) {
+	setUserGoalsByStaff(userId: $userId, goals: $goals ) {
+		goal
+	}
+}

@@ -1,0 +1,3 @@
+mutation deleteDocument( $documentKey: String!) {
+	deleteDocument(documentKey: $documentKey)
+}

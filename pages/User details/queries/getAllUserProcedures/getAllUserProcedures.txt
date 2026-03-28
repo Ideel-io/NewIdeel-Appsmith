@@ -1,0 +1,26 @@
+query getAllUserProcedures ($userId: String!){
+	getAllUserProcedures (userId : $userId) {
+	  id
+		createdAt
+		updatedAt
+		recurrentSubscriptionId
+		type
+		endState 
+		failureReason
+		cancelReason
+		category
+		currentState
+		currentStepId
+		recurrentSubscription {
+			subCategory {
+				name
+			}
+			partner {
+				mainColor
+				imageSource
+			}
+			price
+			periodicity
+		}
+	}
+}

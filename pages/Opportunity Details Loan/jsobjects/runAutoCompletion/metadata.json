@@ -1,0 +1,36 @@
+{
+  "gitSyncId": "6814c74a109b742e1edb77ef_e9147f6b-07d8-45d9-9244-6978ed4f3c51",
+  "id": "Opportunity Details Loan_runAutoCompletion",
+  "unpublishedCollection": {
+    "name": "runAutoCompletion",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "document_keys",
+        "value": "[]"
+      },
+      {
+        "name": "hasResult",
+        "value": "false"
+      },
+      {
+        "name": "prompt",
+        "value": "JSON.stringify({\n  \"first_due_date\": {\n    \"value\": \"YYYY-MM-DD|null\",\n    \"accuracy\": \"x%\"\n  },\n  \"initial_amount_borrowed\": {\n    \"value\": \"number|null\",\n    \"accuracy\": \"x%\"\n  },\n  \"interest_rate\": {\n    \"value\": \"number|null\",\n    \"accuracy\": \"x%\"\n  },\n  \"initial_duration\": {\n    \"value\": \"integer|null\",\n    \"accuracy\": \"x%\"\n  },\n  \"deferred_repayment\": {\n    \"value\": \"number|false | \\\"Pas de paiement différé\\\"\",\n    \"accuracy\": \"x%\"\n  },\n  \"explanation\": \"Vous êtes chargé de faire un résumé du contrat d'assurance emprunteur pour un courtier. \\\nÉvaluez brièvement la clarté et la complétude : signalez si le document est compréhensible et si des informations clés manquent ou sont ambiguës. \\\nFournissez un résumé structuré, focalisé sur : Établissement prêteur ;  assuré(s) ; montant du prêt ; capital restant dû ; dates (signature, fin de prêt) ; taux du pret, montant de l'assurance \\\nExcluez tout détail non utile au courtier : Caution, délais de réflexion, modalités de domiciliation/prélèvement, mentions RGPD ou procédures bancaires non liées au risque.\",\n  \"options\": {\n    \"insured1_death_PTIA\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured1_ITT_IPT\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured1_IPP\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured1_IPPro\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured2_death_PTIA\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured2_ITT_IPT\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured2_IPP\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    },\n    \"insured2_IPPro\": {\n      \"value\": \"number|null\",\n      \"accuracy\": \"x%\"\n    }\n  }\n})"
+      },
+      {
+        "name": "prompt_suggestion",
+        "value": "\"Tu es Assistant‑Extraction‑Prêt, expert des contrats de prêt immobilier français et de l'assurance emprunteur. On te fournit le texte brut d'un document (PDF OCRisé). \\\nSi une information est absente ou impossible à déduire, mets la clé value à null (ou à 'false' pour l'absence de différé) et accuracy_pct à 0. N'invente jamais. Les pourcentages d'exactitude (accuracy_pct) sont des entiers 0‑100 appréciés subjectivement par le modèle. \\\nDictionnaire des champs : \\\n(Pour clarifier le sens de chaque clé et le format attendu ; ces notes NE doivent PAS être reproduites dans la sortie JSON) \\\nClé / Signification /Format attendu \\\nfirst_due_date / Date de la première échéance du prêt ISO 8601 compliant / YYYY-MM-DD ou null \\\ninitial_amount_borrowed / Montant initial emprunté / nombre entier sans séparateur ; ex 250000 \\\ninterest_rate /Taux nominal du prêt / nombre décimal, séparateur « . » ; ex 1.65 \\\ninitial_duration / Durée totale du prêt en mois / entier ; ex 240 \\\ndeferred_repayment / Durée de différé d'amortissement en mois, sinon Pas de paiement différé mettre false / entier ou 'false'\\\nexplanation / Résumé human‑friendly (infos clés, vigilance, pertinence) / ≤ 800 caractères \\\ninsured1_name / insured2_name \\\nNom complet de l'assuré / chaîne ou null \\\ninsured*_death_PTIA /Quotité assurée Décès / PTIA /nombre entier % (sans %) \\\ninsured*_ITT_IPT / Quotité ITT/IPT (Incapacité Temp./Perm. Totale) / entier % \\\ninsured*_IPP / Quotité IPP (Invalidité Permanente Partielle) /entier % \\\ninsured*_IPPro / Quotité IPPro (Invalidité Professionnelle) /entier % ou null \\\naccuracy_pct / Degré de confiance estimé par le modèle / entier 0‑100\""
+      },
+      {
+        "name": "modifications",
+        "value": "[]"
+      },
+      {
+        "name": "new_datas",
+        "value": "{}"
+      }
+    ]
+  }
+}

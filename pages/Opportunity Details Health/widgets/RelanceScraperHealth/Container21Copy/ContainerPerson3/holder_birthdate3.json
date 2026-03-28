@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultText": "{{ FamilyMember.findFamilyMember(FirstChildSelect.selectedOptionValue).birthdate && dayjs(FamilyMember.findFamilyMember(FirstChildSelect.selectedOptionValue).birthdate).format(\"DD/MM/YYYY\")  }}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "iaq56n2imh",
+  "label": "🎂",
+  "labelAlignment": "right",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "4",
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "f6k4q94h6w",
+  "parentRowSpace": 10,
+  "placeholderText": "03/09/1990",
+  "regex": "^(0[1-9]|[12][0-9]|3[01])\\/(0[1-9]|1[0-2])\\/(\\d{4})$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 48,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "tooltip": "",
+  "topRow": 8,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "h7xiklp34u",
+  "widgetName": "holder_birthdate3"
+}

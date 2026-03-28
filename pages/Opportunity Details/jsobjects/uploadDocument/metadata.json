@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "685084381fcbb25154cc2bf1_6ce2673a-75c3-4d53-a90d-04367d08ba4c",
+  "id": "Opportunity Details_uploadDocument",
+  "unpublishedCollection": {
+    "name": "uploadDocument",
+    "pageId": "Opportunity Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

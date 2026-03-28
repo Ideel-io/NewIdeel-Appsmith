@@ -1,0 +1,98 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 62,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo.housing_type_sinister))(select_type_first_sinister_H.options, select_type_first_sinister_H.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": "{{select_sinister.selectedOptionValue != \"zero\" }}",
+  "isVisible": "{{select_sinister.selectedOptionValue != \"zero\" }}",
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Quel était le type du 1er sinistre ?",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 62,
+  "originalTopRow": 55,
+  "parentColumnSpace": 6.9375,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "placeholderText": "None",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 20,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{Mapping_questions.disasterTypeOptions}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 55,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "me77rtv7r7",
+  "widgetName": "select_type_first_sinister_H"
+}

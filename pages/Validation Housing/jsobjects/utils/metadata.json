@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_24b1fd14-7cf4-420e-861f-30d94f18442c",
+  "id": "Validation Housing_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Validation Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "commissioningTypeMapping",
+        "value": "{\n  \"Précompte\": \"PREPAYMENT\",\n  \"One shot\": \"ONE_SHOT\",\n  \"Linéaire\": \"LINEAR\"\n}"
+      }
+    ]
+  }
+}

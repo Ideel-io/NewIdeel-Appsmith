@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{setUserGoalsByStaff.isLoading }}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f5ye0lui5q",
+  "leftColumn": 5,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n(async () => {\n  try {\n    await setUserGoalsByStaff.run();\n    showAlert('Enregistré avec succès !', 'success');\n    closeModal(UserGoalsModal.name);\n    await findUserByEmail.run();\n  } catch (error) {\n    console.error(\"Error updating user goals:\", error);\n    showAlert(`Erreur lors de l'enregistrement ! ${error.message} `, 'error');\n  }\n})() \n}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentId": "jdcdrh0pxo",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "text": "Enregistrer",
+  "topRow": 24,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "uf1h9a3995",
+  "widgetName": "Button13"
+}

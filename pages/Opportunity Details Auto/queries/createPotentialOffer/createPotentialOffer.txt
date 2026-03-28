@@ -1,0 +1,5 @@
+mutation createPotentialOffer($potentialOfferInput: PotentialOfferInput!, $category: String!) {
+	createPotentialOffer(potentialOfferInput: $potentialOfferInput, category: $category) {
+		id
+	}
+}

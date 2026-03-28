@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_5c7bdcc1-dd64-4003-a306-ace58f8725e8",
+  "id": "Opportunity Details Auto_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "expandContainer",
+        "value": "true"
+      }
+    ]
+  }
+}

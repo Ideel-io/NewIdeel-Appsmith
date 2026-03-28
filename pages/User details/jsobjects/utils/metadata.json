@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "639b408e7eca0572cd5edff1_63bc138e7eca0572cd5ee2df",
+  "id": "User details_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "User details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "showSubscriptions",
+        "value": "false"
+      },
+      {
+        "name": "referralTransactionsLoaded",
+        "value": "false"
+      },
+      {
+        "name": "bankAccountLoaded",
+        "value": "false"
+      },
+      {
+        "name": "SUBSCRIPTION_SUBCATEGORY",
+        "value": "[{\n  \"subcategoryId\": 42,\n  \"subcategoryName\": \"Assurance de Prêt\"\n}, {\n  \"subcategoryId\": 38,\n  \"subcategoryName\": \"Assurance Santé\"\n}, {\n  \"subcategoryId\": 39,\n  \"subcategoryName\": \"Assurance Auto\"\n}, {\n  \"subcategoryId\": 40,\n  \"subcategoryName\": \"Assurance Deux Roues\"\n}, {\n  \"subcategoryId\": 37,\n  \"subcategoryName\": \"Assurance Habitation\"\n}, {\n  \"subcategoryId\": 2,\n  \"subcategoryName\": \"Forfait mobile\"\n}, {\n  \"subcategoryId\": 1,\n  \"subcategoryName\": \"Forfait internet\"\n}, {\n  \"subcategoryId\": 48,\n  \"subcategoryName\": \"Forfait mobile et internet\"\n}, {\n  \"subcategoryId\": 32,\n  \"subcategoryName\": \"Contrat Gaz\"\n}, {\n  \"subcategoryId\": 31,\n  \"subcategoryName\": \"Contrat Electricité\"\n}, {\n  \"subcategoryId\": 33,\n  \"subcategoryName\": \"Electricité et gaz\"\n}, {\n  \"subcategoryId\": 91,\n  \"subcategoryName\": \"Assurance RC Professionelle\"\n}, {\n  \"subcategoryId\": 92,\n  \"subcategoryName\": \"Assurance Mutuelle d'Entreprise\"\n}, {\n  \"subcategoryId\": 93,\n  \"subcategoryName\": \"Assurance Prévoyance Collective\"\n}, {\n  \"subcategoryId\": 94,\n  \"subcategoryName\": \"Assurance Décennale / DO\"\n}, {\n  \"subcategoryId\": 95,\n  \"subcategoryName\": \"Assurance Cybersécurité\"\n}, {\n  \"subcategoryId\": 96,\n  \"subcategoryName\": \"Assurance Véhicules & Flotte Auto\"\n}, {\n  \"subcategoryId\": 97,\n  \"subcategoryName\": \"Assurance Multirisque Locaux\"\n}, {\n  \"subcategoryId\": 98,\n  \"subcategoryName\": \"Assurance Autres Risques\"\n}]"
+      },
+      {
+        "name": "ProcedureEndState",
+        "value": "{\n  SUCCESS: 'SUCCESS',\n  FAILURE: 'FAILURE',\n  CANCELLATION: 'CANCELLATION'\n}"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  \"WEEKLY\": 4,\n  \"EVERY_2_WEEKS\": 2,\n  \"MONTHLY\": 1,\n  \"EVERY_2_MONTHS\": 1 / 2,\n  \"EVERY_3_MONTHS\": 1 / 3,\n  \"EVERY_6_MONTHS\": 1 / 6,\n  \"EVERY_7_MONTHS\": 1 / 7,\n  \"EVERY_9_MONTHS\": 1 / 9,\n  \"YEARLY\": 1 / 12,\n  \"EVERY_2_YEARS\": 1 / 24\n}"
+      },
+      {
+        "name": "MaritalStatus",
+        "value": "{\n  single: \"Célibataire\",\n  married: \"Marié(e)\",\n  pacs: \"Pacsé(e)\",\n  divorced: \"Divorcé(e)\",\n  couple: \"Concubin(e)\",\n  widow: \"Veuf/ve\"\n}"
+      },
+      {
+        "name": "ProfessionalStatus",
+        "value": "{\n  employee: \"Salarié(e)\",\n  executive: \"Salarié(e) Cadre\",\n  farmer: \"Salarié(e) / exploitant(e) agricole\",\n  entrepreneur: \"Chef d'entreprise\",\n  selfEmployed: \"Travailleur / Travailleuse non salarié(e)\",\n  unemployed: \"Sans profession\",\n  functionary: \"Fonctionnaire\",\n  student: \"Étudiant(e)\",\n  retired: \"Retraité(e)\",\n  other: \"Autre\"\n}"
+      },
+      {
+        "name": "familyTies",
+        "value": "{\n  conjoint: \"Conjoint / Conjointe\",\n  child: \"Enfant\",\n  parent: \"Parent\",\n  spouse: \"Époux / Épouse\",\n  other: \"Autre\",\n  myself: \"Moi-même\"\n}"
+      }
+    ]
+  }
+}

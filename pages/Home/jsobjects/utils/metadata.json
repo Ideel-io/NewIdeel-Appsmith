@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_0b442f42-d37c-4f36-8861-587b2e3df298",
+  "id": "Home_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "isUserStaff",
+        "value": "appsmith.store.ctx.role === \"staff\""
+      },
+      {
+        "name": "stats",
+        "value": "{}"
+      },
+      {
+        "name": "statsLoading",
+        "value": "false"
+      },
+      {
+        "name": "fromDate",
+        "value": "new Date()"
+      },
+      {
+        "name": "toDate",
+        "value": "new Date()"
+      }
+    ]
+  }
+}

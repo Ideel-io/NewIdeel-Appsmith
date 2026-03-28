@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "67bca680f237560b83b782de_69f66006-c4bc-4c17-ad16-7fe852379306",
+  "id": "Opportunity Details Loan_updateSubscription",
+  "unpublishedCollection": {
+    "name": "updateSubscription",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "PeriodicityEnglishToFrench",
+        "value": "{\n  [utils.TypePeriodicitySubscription.WEEKLY]: utils.FrenchPeriodicity.par_semaine,\n  [utils.TypePeriodicitySubscription.EVERY_2_WEEKS]: utils.FrenchPeriodicity.deux_fois_par_mois,\n  [utils.TypePeriodicitySubscription.MONTHLY]: utils.FrenchPeriodicity.par_mois,\n  [utils.TypePeriodicitySubscription.EVERY_2_MONTHS]: utils.FrenchPeriodicity.par_deux_mois,\n  [utils.TypePeriodicitySubscription.EVERY_3_MONTHS]: utils.FrenchPeriodicity.par_trois_mois,\n  [utils.TypePeriodicitySubscription.EVERY_6_MONTHS]: utils.FrenchPeriodicity.par_six_mois,\n  [utils.TypePeriodicitySubscription.EVERY_7_MONTHS]: utils.FrenchPeriodicity.par_sept_mois,\n  [utils.TypePeriodicitySubscription.EVERY_9_MONTHS]: utils.FrenchPeriodicity.par_neuf_mois,\n  [utils.TypePeriodicitySubscription.YEARLY]: utils.FrenchPeriodicity.par_an,\n  [utils.TypePeriodicitySubscription.EVERY_2_YEARS]: utils.FrenchPeriodicity.par_deux_ans\n}"
+      },
+      {
+        "name": "FrenchPeriodicityNames",
+        "value": "{\n  [utils.FrenchPeriodicity.par_semaine]: 'Par semaine',\n  [utils.FrenchPeriodicity.deux_fois_par_mois]: \"Deux fois par mois\",\n  [utils.FrenchPeriodicity.par_mois]: \"Par mois\",\n  [utils.FrenchPeriodicity.par_deux_mois]: \"Tous les deux mois\",\n  [utils.FrenchPeriodicity.par_trois_mois]: \"Tous les trois mois\",\n  [utils.FrenchPeriodicity.par_six_mois]: \"Deux fois par an\",\n  [utils.FrenchPeriodicity.par_sept_mois]: 'Tous les sept mois',\n  [utils.FrenchPeriodicity.par_neuf_mois]: 'Tous les neuf mois',\n  [utils.FrenchPeriodicity.par_an]: \"Par an\",\n  [utils.FrenchPeriodicity.par_deux_ans]: \"Tous les deux ans\"\n}"
+      },
+      {
+        "name": "getPeriodicityOptions",
+        "value": "Object.entries(updateSubscription.FrenchPeriodicityNames).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "canUpdateSubscriptionInfo",
+        "value": "subscriptionPriceInput.isValid && subscriptionPeriodicitySelect.isValid"
+      }
+    ]
+  }
+}

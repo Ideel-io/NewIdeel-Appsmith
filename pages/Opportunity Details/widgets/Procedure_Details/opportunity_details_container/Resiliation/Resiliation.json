@@ -1,0 +1,84 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#3f3f46",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 117,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 720,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "nx03mpz4pk",
+      "leftColumn": 0,
+      "minHeight": 710,
+      "parentColumnSpace": 1,
+      "parentId": "4nztmmvprl",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 294,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "icxb7w8hrx",
+      "widgetName": "Canvas7CopyCopy2CopyCopy"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.type == 'TERMINATION'? true : false}}",
+  "key": "lbsu0qixaq",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "originalBottomRow": 117,
+  "originalTopRow": 45,
+  "parentColumnSpace": 12.25,
+  "parentId": "atdffbj7br",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 45,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "4nztmmvprl",
+  "widgetName": "Resiliation"
+}

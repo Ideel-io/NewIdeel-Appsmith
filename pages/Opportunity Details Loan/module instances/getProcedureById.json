@@ -1,0 +1,95 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_be8b2b25-75d1-4455-b848-0037726761ea",
+  "id": "Opportunity Details Loan_getProcedureById",
+  "moduleUUID": "ab5e1738-0a80-4986-acc8-52279497b5df",
+  "packageUUID": "3559b860-61d1-4a1f-89d2-a621b4736cd9",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "withCurrentStep"
+      },
+      {
+        "key": "withSubDetails"
+      },
+      {
+        "key": "withUserProfile"
+      },
+      {
+        "key": "withProcedureSteps"
+      },
+      {
+        "key": "withCommissions"
+      },
+      {
+        "key": "procedureId"
+      },
+      {
+        "key": "withNotes"
+      }
+    ],
+    "inputs": {
+      "procedureId": "{{ appsmith.URL.queryParams.procedureId }}",
+      "withCommissions": "{{ false }}",
+      "withCurrentStep": "{{ true }}",
+      "withNotes": "{{ true }}",
+      "withProcedureSteps": "{{ false }}",
+      "withSubDetails": "{{ false }}",
+      "withUserProfile": "{{ true }}"
+    },
+    "moduleInputs": {
+      "ampadbqjqk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "ampadbqjqk",
+        "label": "withCommissions",
+        "propertyName": "inputs.withCommissions"
+      },
+      "cjbvptolff": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "cjbvptolff",
+        "label": "withProcedureSteps",
+        "propertyName": "inputs.withProcedureSteps"
+      },
+      "gdhzjhwpue": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "gdhzjhwpue",
+        "label": "withCurrentStep",
+        "propertyName": "inputs.withCurrentStep"
+      },
+      "gghlyhzukv": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "gghlyhzukv",
+        "label": "withNotes",
+        "propertyName": "inputs.withNotes"
+      },
+      "grtrckpwrh": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "grtrckpwrh",
+        "label": "procedureId",
+        "propertyName": "inputs.procedureId"
+      },
+      "gwfjcsvdkc": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "gwfjcsvdkc",
+        "label": "withSubDetails",
+        "propertyName": "inputs.withSubDetails"
+      },
+      "tvxfsaajfr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "{{ false }}",
+        "id": "tvxfsaajfr",
+        "label": "withUserProfile",
+        "propertyName": "inputs.withUserProfile"
+      }
+    },
+    "name": "getProcedureById",
+    "pageId": "Opportunity Details Loan"
+  }
+}

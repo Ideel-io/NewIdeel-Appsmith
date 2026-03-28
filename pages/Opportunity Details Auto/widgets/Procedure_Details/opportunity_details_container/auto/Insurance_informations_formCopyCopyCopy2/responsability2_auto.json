@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultText": "{{getProcedureDetails.data.data.getProcedureDetails.questionList?.filter(e => e.questionLabel === \"responsibility_level_second_claim\")[0].pickedAnswer.replaceAll(\"_\",' ') || \"\"}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{\n  (getProcedureDetails.data.data.getProcedureDetails.questionList\n    ?.find(e => e.questionLabel === \"type_third_claim\") || {}).pickedAnswer !== undefined ? true : false\n}}",
+  "key": "jv4gctsro3",
+  "label": "Responsabilité",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "11",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
+  "parentColumnSpace": 10.987499999999999,
+  "parentId": "fyre788pdb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 56,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 29,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "i9slcoz44k",
+  "widgetName": "responsability2_auto"
+}

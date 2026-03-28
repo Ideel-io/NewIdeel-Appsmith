@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67ad0c9604b1af47acc37b59_a4a4d999-317d-46ca-a6ab-5813411aef96",
+  "id": "Users_Search",
+  "unpublishedCollection": {
+    "name": "Search",
+    "pageId": "Users",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "UserTableData",
+        "value": "(() => {\n  try {\n    if (getUserByEmail.data.data.findUserByEmail) return [{\n      node: getUserByEmail.data.data.findUserByEmail\n    }];\n  } catch (error) {}\n  try {\n    if (getUserByPhoneNumber.data.data.getUserByPhoneNumber) return [{\n      node: getUserByPhoneNumber.data.data.getUserByPhoneNumber\n    }];\n  } catch (error) {}\n  try {\n    return getAllUsersBySalesOwner.data.data.getAllUsersBySalesOwner.edges;\n  } catch (error) {}\n  try {\n    return getAllUser.data.data.getAllUser.edges;\n  } catch (error) {}\n  return [];\n})()"
+      },
+      {
+        "name": "searchIsLoading",
+        "value": "getAllUser.isLoading || getUserByEmail.isLoading || getUserByPhoneNumber.isLoading || getAllUsersBySalesOwner.isLoading"
+      }
+    ]
+  }
+}

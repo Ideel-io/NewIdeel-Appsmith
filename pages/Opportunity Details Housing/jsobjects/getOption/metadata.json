@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68089a6727f13a6633b22c41_b195b176-31f2-4de7-92e2-e46311400279",
+  "id": "Opportunity Details Housing_getOption",
+  "unpublishedCollection": {
+    "name": "getOption",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

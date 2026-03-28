@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_d5a61ce0-ce51-42f3-977b-34f10bd36bcd",
+  "id": "Validation Health_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Validation Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

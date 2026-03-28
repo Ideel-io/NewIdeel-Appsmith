@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "defaultCheckedState": "{{JSObject1.requiredDocs.tableau_offre}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onCheckChange"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7b004ee098ca948e952234e7baec6d11.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{JSObject1.validation}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "vqqbvqegrp",
+  "label": "Est-ce que le document de prêt est correct ?",
+  "labelPosition": "Left",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 6,
+  "onCheckChange": "{{JSObject1.requiredDocs.tableau_offre ? JSObject1.requiredDocs.tableau_offre = false : null}}",
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
+  "parentColumnSpace": 5.31468403339386,
+  "parentId": "1quv75vfkk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 11,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "msz75503ti",
+  "widgetName": "Tableau_Checkbox1"
+}

@@ -1,0 +1,152 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_65f80fa0a6769c39716bd1a8",
+  "id": "Opportunity Details Housing_Mapping_questions",
+  "unpublishedCollection": {
+    "name": "Mapping_questions",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "binaryChoices",
+        "value": "{\n  \"oui\": \"Oui\",\n  \"non\": \"Non\"\n}"
+      },
+      {
+        "name": "equipments",
+        "value": "Mapping_questions.binaryChoices"
+      },
+      {
+        "name": "dependencies",
+        "value": "Mapping_questions.binaryChoices"
+      },
+      {
+        "name": "terminationInLastFiveYears",
+        "value": "Mapping_questions.binaryChoices"
+      },
+      {
+        "name": "residenceType",
+        "value": "{\n  \"main\": \"Résidence principale\",\n  \"secondary\": \"Résidence secondaire\",\n  \"rentedOut\": \"Bien mis en location\"\n}"
+      },
+      {
+        "name": "ownershipType",
+        "value": "{\n  \"owner\": \"Propriétaire\",\n  \"furnished\": \"En location meublé\",\n  \"notFurnished\": \"En location non meublé\"\n}"
+      },
+      {
+        "name": "numberOfRooms",
+        "value": "{\n  \"un\": \"1\",\n  \"deux\": \"2\",\n  \"trois\": \"3\",\n  \"quatre\": \"4\",\n  \"cinq\": \"5\",\n  \"six_ou_plus\": \"6 ou plus\"\n}"
+      },
+      {
+        "name": "numberOfLargeRooms",
+        "value": "{\n  \"zero\": \"0\",\n  \"un\": \"1\",\n  \"deux\": \"2\",\n  \"trois\": \"3\",\n  \"quatre\": \"4\",\n  \"cinq\": \"5\",\n  \"six_ou_plus\": \"6 ou plus\"\n}"
+      },
+      {
+        "name": "numberOfAdults",
+        "value": "{\n  \"un\": \"1\",\n  \"deux\": \"2\",\n  \"trois\": \"3\",\n  \"quatre\": \"4\",\n  \"cinq_ou_plus\": \"5 ou plus\"\n}"
+      },
+      {
+        "name": "numberOfchildren",
+        "value": "{\n  \"zero\": \"0\",\n  \"un\": \"1\",\n  \"deux\": \"2\",\n  \"trois\": \"3\",\n  \"quatre\": \"4\",\n  \"cinq_ou_plus\": \"5 ou plus\"\n}"
+      },
+      {
+        "name": "numberOfDisasters",
+        "value": "{\n  \"zero\": \"0\",\n  \"un\": \"1\",\n  \"deux\": \"2\",\n  \"trois\": \"3\",\n  \"quatre\": \"4\",\n  \"quatre_ou_plus\": \"4 ou plus\"\n}"
+      },
+      {
+        "name": "disasterType",
+        "value": "{\n  \"bris_de_glace\": \"Bris de glace\",\n  \"vol\": \"Vol\",\n  \"incendie\": \"Incendie\",\n  \"degats_des_eaux\": \"Dégats des eaux\",\n  \"vandalisme\": \"Vandalisme\",\n  \"evenements_naturels\": \"Évenements naturels\",\n  \"dommages_corporels\": \"Dommages corporels\"\n}"
+      },
+      {
+        "name": "terminationReason",
+        "value": "{\n  \"defaut_de_paiement_de_votre_part\": \"Défaut de paiement de vote part\",\n  \"trop_de_sinistres\": \"Trop de sinistres\",\n  \"fausse_declaration\": \"Fausse déclaration\",\n  \"autre\": \"Autre\"\n}"
+      },
+      {
+        "name": "improvementExpected",
+        "value": "{\n  \"je_veux_payer_moins_cher\": \"Je veux payer moins cher\",\n  \"je_veux_de_meilleures_garanties\": \"Je veux de meilleures garanties\",\n  \"un_peu_des_deux\": \"Un peu des deux\"\n}"
+      },
+      {
+        "name": "state_map",
+        "value": "{\n  \"groundAppartement\": \"Un appartement au rez-de-chaussée\",\n  \"intermediateAppartement\": \"Un appartement à un étage intermédiaire\",\n  \"lastAppartement\": \"Un appartement au dernier étage\",\n  \"houseOneStage\": \"Une maison à un étage\",\n  \"houseTwoStage\": \"Une maison à deux étages\",\n  \"houseThreeStage\": \"Une maison à trois étages\",\n  \"houseFourStage\": \"Une maison à quatre étages ou plus\"\n}"
+      },
+      {
+        "name": "value_furnitures",
+        "value": "{\n  \"moins_de_10000€\": \"Moins de 10 000€\",\n  \"entre_10_et_20000€\": \"Entre 10 000€ et 20 000€\",\n  \"entre_20000_et_30000€\": \"Entre 20 000€ et 30 000€\",\n  \"plus_de_30000€\": \"Plus de 30 000€\"\n}"
+      },
+      {
+        "name": "value_luxury_goods",
+        "value": "{\n  \"0€\": \"0€\",\n  \"entre_0_et_5000€\": \"Entre 0€ et 5 000€\",\n  \"entre_5000_et_10000€\": \"Entre 5 000€ et 10 000€\",\n  \"plus_de_10000€\": \"Plus de 10 000€\"\n}"
+      },
+      {
+        "name": "equipmentsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.equipments)"
+      },
+      {
+        "name": "housingTypeOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.state_map)"
+      },
+      {
+        "name": "disasterTypeOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.disasterType)"
+      },
+      {
+        "name": "dependenciesOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.dependencies)"
+      },
+      {
+        "name": "ownershipTypeOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.ownershipType)"
+      },
+      {
+        "name": "numberOfRoomsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.numberOfRooms)"
+      },
+      {
+        "name": "residenceTypeOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.residenceType)"
+      },
+      {
+        "name": "numberOfAdultsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.numberOfAdults)"
+      },
+      {
+        "name": "maritalStatusOptions",
+        "value": "Mapping_questions.getMapOptions(utils.maritalStatusMap)"
+      },
+      {
+        "name": "occupationTypeOptions",
+        "value": "Mapping_questions.getMapOptions(utils.occupationTypeMap)"
+      },
+      {
+        "name": "numberOfchildrenOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.numberOfchildren)"
+      },
+      {
+        "name": "numberOfDisastersOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.numberOfDisasters)"
+      },
+      {
+        "name": "terminationReasonOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.terminationReason)"
+      },
+      {
+        "name": "numberOfLargeRoomsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.numberOfLargeRooms)"
+      },
+      {
+        "name": "improvementExpectedOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.improvementExpected)"
+      },
+      {
+        "name": "terminationInLastFiveYearsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.terminationInLastFiveYears)"
+      },
+      {
+        "name": "valueFurnituresOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.value_furnitures)"
+      },
+      {
+        "name": "valueLuxuryGoodsOptions",
+        "value": "Mapping_questions.getMapOptions(Mapping_questions.value_luxury_goods)"
+      }
+    ]
+  }
+}

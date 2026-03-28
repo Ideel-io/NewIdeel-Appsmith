@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.value_furnitures || \"\" ))(value_furnituresSelect.options, value_furnituresSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionValue"
+    },
+    {
+      "key": "optionLabel"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "derhpjhfvf",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Quelle est la valeur totale de vos biens mobiliers ?",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 40,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 38,
+  "originalTopRow": 31,
+  "parentColumnSpace": 16.1184814453125,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "{{Mapping_questions.valueFurnituresOptions}}",
+  "topRow": 31,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "76zsebl38y",
+  "widgetName": "value_furnituresSelect"
+}

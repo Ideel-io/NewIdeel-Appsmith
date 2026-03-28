@@ -1,0 +1,75 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  JSObject2.getSelectedPartner()[\"Type de comm\"]))(commissionType.options, commissionType.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": true,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "gc6cx7tcca",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Type de commisionnement:",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{JSObject2.setComissionValue();}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 35,
+  "originalTopRow": 28,
+  "parentColumnSpace": 4.7900390625,
+  "parentId": "apopsqv843",
+  "parentRowSpace": 10,
+  "placeholderText": "Définir",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 28,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"One Shot\",\n    \"code\": \"ONE_SHOT\"\n  },\n  {\n    \"name\": \"Précompte\",\n    \"code\": \"PREPAYMENT\"\n  },\n  {\n    \"name\": \"Linéaire\",\n    \"code\": \"LINEAR\"\n  }\n]",
+  "topRow": 19,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "991ptlrllw",
+  "widgetName": "commissionType"
+}

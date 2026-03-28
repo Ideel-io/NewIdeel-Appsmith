@@ -1,0 +1,52 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_399032df-7f51-4088-8b7d-ec97d8a9808a",
+  "id": "Opportunity Details Health_Housing",
+  "unpublishedCollection": {
+    "name": "Housing",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "housingLoaded",
+        "value": "false"
+      },
+      {
+        "name": "placeSelectorShown",
+        "value": "false"
+      },
+      {
+        "name": "currentSelectedHousing",
+        "value": "{}"
+      },
+      {
+        "name": "residenceTypes",
+        "value": "{\n  main: \"Résidence principale\",\n  secondary: \"Résidence secondaire\",\n  rentedOut: \"Bien mis en location\"\n}"
+      },
+      {
+        "name": "housingTypes",
+        "value": "{\n  groundAppartement: \"Un appartement au rez-de-chaussée\",\n  intermediateAppartement: \"Un appartement à un étage intermédiaire\",\n  lastAppartement: \"Un appartement au dernier étage\",\n  houseOneStage: \"Une maison à un étage\",\n  houseTwoStage: \"Une maison à deux étages\",\n  houseThreeStage: \"Une maison à trois étages\",\n  houseFourStage: \"Une maison à quatre étages ou plus\"\n}"
+      },
+      {
+        "name": "ownership",
+        "value": "{\n  owner: \"Propriétaire\",\n  furnished: \"En location meublé\",\n  notFurnished: \"En location non meublé\"\n}"
+      },
+      {
+        "name": "residenceTypeOptions",
+        "value": "Object.entries(Housing.residenceTypes).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "housingTypeOptions",
+        "value": "Object.entries(Housing.housingTypes).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "ownershipOptions",
+        "value": "Object.entries(Housing.ownership).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "housingSelector",
+        "value": "getUserAllHousingsByStaff.data ? getUserAllHousingsByStaff.data.data.getUserAllHousingsByStaff.housings.map(h => {\n  return {\n    label: h.address.name,\n    value: h.id\n  };\n}) : []"
+      }
+    ]
+  }
+}

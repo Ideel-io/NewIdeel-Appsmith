@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "buttonColor": "#86efac",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ !(user_new_tarif.isValid && user_new_partner.isValid && nameOfferChoice.isValid)\n}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0ihum4rjbt",
+  "leftColumn": 38,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{Quote.createManualQuote();}}",
+  "originalBottomRow": 54,
+  "originalTopRow": 50,
+  "parentId": "ubkmiemf3h",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 61,
+  "text": "Partagez cette offre",
+  "topRow": 20,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u6si8sabj6",
+  "widgetName": "Button16"
+}

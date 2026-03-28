@@ -1,0 +1,13 @@
+mutation updateFamilyMemberByStaff (
+	$userId: String!, 
+	$input: FamilyMemberUpdateInput!, 
+){
+	updateFamilyMemberByStaff(
+		userId : $userId, 
+		input : $input,
+	) {
+		familyMember {
+			id
+		}
+	}
+}

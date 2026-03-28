@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_d1ec8742-e139-4448-b4fb-7db06784eea6",
+  "id": "Subscription Loan_GoToPage",
+  "unpublishedCollection": {
+    "name": "GoToPage",
+    "pageId": "Subscription Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

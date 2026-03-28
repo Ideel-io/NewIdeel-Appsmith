@@ -1,0 +1,55 @@
+query getLastHousingRunData($procedureId: String! ){
+	getLastHousingRunData (procedureId : $procedureId ) {
+		userPersonalInfo {
+			procedureId
+			recurrentSubscriptionId
+			userId
+			dateBirth
+			lastName
+			email
+			firstName
+			phoneNumber
+			occupation
+			maritalStatus
+			country
+			route
+			streetNumber
+			postalCode
+			locality
+			residenceType
+			housingType
+			furnished
+		}
+		userHousingInfo {
+  number_of_rooms
+  number_of_large_rooms
+  house_outbuilding
+  housing_equipment
+  housing_number_adults
+  housing_number_children
+  housing_number_sinister
+
+  housing_type_sinister
+  housing_type_second_sinister
+  housing_type_third_sinister
+
+  previous_cancelation_home_insurance
+  previous_cancelation_reasons_home_insurance
+  improvement_needs_home_insurance
+
+  housing_area_size
+  value_furnitures
+  value_luxury_goods
+  housing_cave
+  housing_cave_size
+  housing_features_multi
+  familyMembers {
+    firstname
+    lastname
+    birthdate
+    familyTiesWithUser
+    occupation
+	}
+		}
+	}
+}

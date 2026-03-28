@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastHousingRunData.data?.data?.getLastHousingRunData?.userHousingInfo?.housing_number_sinister || \"zero\"))(select_sinister.options, select_sinister.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Combien de sinistres avez-vous déclaré dans les 3 dernières années ?",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 54,
+  "originalTopRow": 47,
+  "parentColumnSpace": 6.9375,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{Mapping_questions.numberOfDisastersOptions}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 47,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ozjann1axn",
+  "widgetName": "select_sinister"
+}

@@ -1,0 +1,34 @@
+query GetDocuments(
+  $userId: String!,
+  $profileId: String!,
+	$recurrentSubscriptionId: String!,
+) {
+	identityRecto: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $profileId,
+    label: "IDENTITY_RECTO"
+  ) {
+    fileName,
+    downloadUrl,
+    uploadDate
+  }
+  identityVerso: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $profileId,
+    label: "IDENTITY_VERSO"
+  ) {
+    fileName,
+    downloadUrl,
+    uploadDate
+  }
+	previousContract: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $recurrentSubscriptionId,
+    label: "PREVIOUS_CONTRACT"
+	) {
+    fileName,
+    downloadUrl,
+    uploadDate,
+		documentKey
+  }
+}

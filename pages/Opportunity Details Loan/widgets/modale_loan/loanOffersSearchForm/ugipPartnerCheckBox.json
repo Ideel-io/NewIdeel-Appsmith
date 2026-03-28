@@ -1,0 +1,56 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "RIGHT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 227,
+  "defaultCheckedState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": "{{!utwinPartnerCheckBox.isChecked}}",
+  "isVisible": true,
+  "key": "acwx6q9cxx",
+  "label": "Ugip",
+  "labelPosition": "Left",
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 150,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 6.999999999999999,
+  "mobileTopRow": 146,
+  "needsErrorInfo": false,
+  "originalBottomRow": 227,
+  "originalTopRow": 223,
+  "parentColumnSpace": 12.532812499999999,
+  "parentId": "2t6nx68nd9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 13,
+  "shouldScrollContents": true,
+  "topRow": 223,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "rznl1aye5a",
+  "widgetName": "ugipPartnerCheckBox"
+}

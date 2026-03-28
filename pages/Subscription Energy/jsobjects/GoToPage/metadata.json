@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_cc9a0e0c-68f3-4b7c-9d37-ae08c978973f",
+  "id": "Subscription Energy_GoToPage",
+  "unpublishedCollection": {
+    "name": "GoToPage",
+    "pageId": "Subscription Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

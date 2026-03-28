@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_e23bdc83-6ba7-4023-aae0-3ebaf2342566",
+  "id": "Opportunity Details_TimelineSteps1",
+  "moduleUUID": "06381f0c-04ae-4da8-9739-087fd854a52d",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "endState": "CA",
+      "stepId": "4"
+    },
+    "moduleInputs": {
+      "amsnpamjsb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "CA",
+        "id": "amsnpamjsb",
+        "label": "endState",
+        "propertyName": "inputs.endState"
+      },
+      "ptqqddxwpo": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "ptqqddxwpo",
+        "label": "stepId",
+        "propertyName": "inputs.stepId"
+      }
+    },
+    "name": "TimelineSteps1",
+    "pageId": "Opportunity Details",
+    "widgetId": "4o3rsbdrmd"
+  }
+}

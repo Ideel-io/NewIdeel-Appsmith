@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_cd169ecc-139a-4866-91e2-3576f6e1bacc",
+  "id": "Opportunity Details Housing_retryScraperRequestData",
+  "unpublishedCollection": {
+    "name": "retryScraperRequestData",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

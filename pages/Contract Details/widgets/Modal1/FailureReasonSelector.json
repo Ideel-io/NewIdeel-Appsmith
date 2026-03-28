@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "z2zy9wffxi",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Choisir la raison de l'échec",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "26",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 6.9375,
+  "parentId": "zuqvfvsmqp",
+  "parentRowSpace": 10,
+  "placeholderText": "Séléctionner une option",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Sous-engagement\",\n    \"value\": \"UNDER_COMMITMENT\"\n  },\n  {\n    \"label\": \"Pas d'abonnement\",\n    \"value\": \"NO_SUBSCRIPTION\"\n  },\n  {\n    \"label\": \"Double authentification\",\n    \"value\": \"DOUBLE_AUTHENTICATION\"\n  },\n\t{\n    \"label\": \"Identifiants de connexion incorrects\",\n    \"value\": \"INCORRECT_CREDENTIALS\"\n  }, {\n    \"label\": \"Souscription via apple store ou google playstore\",\n    \"value\": \"SUBSCRIPTION_VIA_APPLE_PLAYSTORE\"\n  }\n] ",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "hdb4686yig",
+  "widgetName": "FailureReasonSelector"
+}

@@ -1,0 +1,32 @@
+query getAllUsersBySalesOwner($salesOwnerEmail: String!, $first: Float, $before: String, $after: String, $last: Float) {
+	getAllUsersBySalesOwner(salesOwnerEmail: $salesOwnerEmail first: $first, before: $before, after: $after, last: $last)  {
+		pageInfo {
+			hasNextPage
+			hasPreviousPage
+			startCursor
+			endCursor
+		}
+		edges {
+			node {
+				createdAt
+				id
+				email
+				firstName
+				lastName
+				phoneNumber
+				dateBirth
+				deleted
+				clientStatus
+				accountStatus
+				dateOfLastContact
+				procedureCounts {
+			    totalProcedures
+			    opportunityCount
+			    procedureCount
+			    contractCount
+					optimizationCount
+		    }
+			}
+		}
+	}
+}

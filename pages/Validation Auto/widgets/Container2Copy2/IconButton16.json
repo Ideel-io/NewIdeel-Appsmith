@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "backlink",
+  "isDisabled": "{{ !getProcedureById.data.data.getProcedureById.newContract.previousContractToCancel.letterLink || !letter_link.text }}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "i5g4s7sw8z",
+  "leftColumn": 60,
+  "minWidth": 50,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 60,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo(letter_link.text, {}, 'NEW_WINDOW');}}",
+  "parentColumnSpace": 10.9130859375,
+  "parentId": "qwzaul96kv",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "topRow": 20,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5p2ea8fztt",
+  "widgetName": "IconButton16"
+}

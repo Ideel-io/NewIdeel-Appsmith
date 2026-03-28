@@ -1,0 +1,80 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "defaultCheckedState": "{{JSObject1.requiredDocs.contrat_signé}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onCheckChange"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7b004ee098ca948e952234e7baec6d11.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{JSObject1.validation}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "vqqbvqegrp",
+  "label": "Est-ce que le contrat est signé ?",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 6,
+  "onCheckChange": "{{JSObject1.requiredDocs[\"contrat_signé\"] ? JSObject1.requiredDocs[\"contrat_signé\"] = false : null}}",
+  "originalBottomRow": 9,
+  "originalTopRow": 5,
+  "parentColumnSpace": 5.31468403339386,
+  "parentId": "047v0spcef",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 5,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "ybewfn890f",
+  "widgetName": "Signe_Checkbox1"
+}

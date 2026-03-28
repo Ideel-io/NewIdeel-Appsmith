@@ -1,0 +1,23 @@
+query getUserAllHousingsByStaff($userId: String!, $subcategory: String) {
+    getUserAllHousingsByStaff(userId: $userId, subcategory: $subcategory) {
+      housings {
+        residenceType
+    		address {
+      		name
+      		placeId
+      		gMapsUrl
+      		fullAddress
+      		streetNumber
+      		route
+      		locality
+      		administrativeAreaLevel1
+      		administrativeAreaLevel2
+      		country
+      		postalCode
+    		}
+    		housingType
+    		furnished
+    		id
+      }
+    }
+  }

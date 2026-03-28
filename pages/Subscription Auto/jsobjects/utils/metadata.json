@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_906064e8-1098-477c-bf7f-71686cc4823a",
+  "id": "Subscription Auto_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Subscription Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "bankAccountLoaded",
+        "value": "false"
+      }
+    ]
+  }
+}

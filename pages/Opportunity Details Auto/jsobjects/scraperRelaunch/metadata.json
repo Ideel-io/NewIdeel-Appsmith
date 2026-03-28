@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_413f064e-abb8-4557-930e-e95262299b7e",
+  "id": "Opportunity Details Auto_scraperRelaunch",
+  "unpublishedCollection": {
+    "name": "scraperRelaunch",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "scraper",
+        "value": "{\n  axa: false || checkbox_axa.isChecked,\n  ami_trois_f: false || checkbox_ami_trois_f.isChecked,\n  flitter: false || checkbox_flitter.isChecked,\n  novelia: false || checkbox_novelia.isChecked\n}"
+      }
+    ]
+  }
+}

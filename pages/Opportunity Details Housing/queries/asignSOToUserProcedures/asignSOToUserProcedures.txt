@@ -1,0 +1,3 @@
+mutation assignSalesOwnerToUserAndAllProcedures($userId: String!, $salesOwnerEmail: String!) {
+	assignSalesOwnerToUserAndAllProcedures(userId: $userId, salesOwnerEmail: $salesOwnerEmail)
+}

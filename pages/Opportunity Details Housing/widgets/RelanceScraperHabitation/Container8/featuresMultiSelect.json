@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.housing_features_multi || \"\" ))(featuresMultiSelect.options, featuresMultiSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "t3m5f5ygh6",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Votre logement dispose-t-il d'un ou plusieurs de ces éléments ?",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 4.999999999999998,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "optionLabel": "value",
+  "optionValue": "label",
+  "originalBottomRow": 31,
+  "originalTopRow": 24,
+  "parentColumnSpace": 11.506249999999998,
+  "parentId": "2n1feokq8x",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"cheminee\", \"value\": \"Cheminée\" },\n  { \"label\": \"garage\", \"value\": \"Garage\" },\n  { \"label\": \"jardin\", \"value\": \"Jardin\" },\n  { \"label\": \"piscine\", \"value\": \"Piscine\" },\n  { \"label\": \"panneaux_photovoltaiques\", \"value\": \"Panneaux photovoltaïques\" },\n  { \"label\": \"pompe_a_chaleur\", \"value\": \"Pompe à chaleur\" }\n]",
+  "topRow": 24,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "w14u7obpx7",
+  "widgetName": "featuresMultiSelect"
+}

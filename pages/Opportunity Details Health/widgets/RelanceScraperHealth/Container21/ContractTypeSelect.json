@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHealthRunData.data.data.getLastHealthRunData.userHealthInfo?.contract_type_selection || \"\"))(ContractTypeSelect.options, ContractTypeSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "tp7mdiqck0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "De quel type de contrat s'agit-il ?",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "optionLabel": "value",
+  "optionValue": "label",
+  "parentColumnSpace": 11.75,
+  "parentId": "hf44v367uv",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 33,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \n\t\"label\": \"mutuelle_sante\",\n\t\"value\": \"Mutuelle santé\" \n\t},\n\t{\n    \"label\":\n\t\t\"garantie_accident_de_la_vie\",\n    \"value\": \"Garantie accident de la vie\"\n  },\n  { \n\t\"label\": \"deces\", \"value\": \"Décès\" \n\t},\n  { \n\t\"label\": \"obseques\", \n\t\"value\": \"Obsèques\" \n\t},\n\t  { \n\t\t\"label\": \"autre\", \n\t\t\"value\": \"Autre\" \n\t\t}\n\n]",
+  "topRow": 26,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "lc88fawork",
+  "widgetName": "ContractTypeSelect"
+}

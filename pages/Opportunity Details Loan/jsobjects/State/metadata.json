@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_10a3def4-c55e-4d76-87e9-bf6e41a401c2",
+  "id": "Opportunity Details Loan_State",
+  "unpublishedCollection": {
+    "name": "State",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "familyMembersLoaded",
+        "value": "false"
+      },
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      },
+      {
+        "name": "secondProfileSelector",
+        "value": "SelectProfile.options.filter(o => o.value !== SelectProfile.selectedOptionValue)"
+      }
+    ]
+  }
+}

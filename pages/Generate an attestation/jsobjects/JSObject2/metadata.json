@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_6634fafaa6769c39716c051a",
+  "id": "Generate an attestation_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Generate an attestation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

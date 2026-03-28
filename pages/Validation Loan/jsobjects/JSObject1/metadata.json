@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_6630a6ada6769c39716c0148",
+  "id": "Validation Loan_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Validation Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "complet",
+        "value": "\"Incompleted\""
+      },
+      {
+        "name": "validation",
+        "value": "false"
+      },
+      {
+        "name": "subscriptionId",
+        "value": "getProcedureById.data.data.getProcedureById.recurrentSubscriptionId"
+      },
+      {
+        "name": "userId",
+        "value": "findUserByEmail.data.data.findUserByEmail.id"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  \"WEEKLY\": 4,\n  \"EVERY_2_WEEKS\": 2,\n  \"MONTHLY\": 1,\n  \"EVERY_2_MONTHS\": 1 / 2,\n  \"EVERY_3_MONTHS\": 1 / 3,\n  \"EVERY_6_MONTHS\": 1 / 6,\n  \"EVERY_7_MONTHS\": 1 / 7,\n  \"EVERY_9_MONTHS\": 1 / 9,\n  \"YEARLY\": 1 / 12,\n  \"EVERY_2_YEARS\": 1 / 24\n}"
+      },
+      {
+        "name": "requiredDocs",
+        "value": "{\n  contrat_signé: false || !GetUser.data[\"0\"][\"Pièce manquantes\"].includes(\"contrat_signé\"),\n  identité: false || !GetUser.data[\"0\"][\"Pièce manquantes\"].includes(\"identité\"),\n  tableau_offre: false || !GetUser.data[\"0\"][\"Pièce manquantes\"].includes(\"tableau_offre\"),\n  new_contract: false || !GetUser.data[\"0\"][\"Pièce manquantes\"].includes(\"new_contract\")\n}"
+      },
+      {
+        "name": "RequiredDocumentsStatus",
+        "value": "{\n  Completed: 'Completed',\n  Incompleted: 'Incompleted',\n  Uncertainty: 'Uncertainty'\n}"
+      }
+    ]
+  }
+}

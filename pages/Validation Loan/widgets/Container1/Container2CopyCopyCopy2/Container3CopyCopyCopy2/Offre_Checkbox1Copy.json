@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "defaultCheckedState": "{{JSObject1.requiredDocs.tableau_offre}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onCheckChange"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7b004ee098ca948e952234e7baec6d11.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{JSObject1.validation}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "vqqbvqegrp",
+  "label": "Est-ce que le contrat est valide (sans pièces téléchargées) ?",
+  "labelPosition": "Left",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 6,
+  "onCheckChange": "{{JSObject1.requiredDocs.tableau_offre ? JSObject1.requiredDocs.tableau_offre = false : null}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 20,
+  "parentColumnSpace": 5.31468403339386,
+  "parentId": "e7shvv8bhj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 20,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "hyqk8d0zwz",
+  "widgetName": "Offre_Checkbox1Copy"
+}

@@ -1,0 +1,61 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#f6c136",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{getProcedureById.isLoading}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9m2x52itx3",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(NoteUserModal.name);}}",
+  "originalBottomRow": 88,
+  "originalTopRow": 83,
+  "parentColumnSpace": 3.689992904663086,
+  "parentId": "esp9flo1ji",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "{{utils.formatNotesButtonLabel()}}",
+  "tooltip": "Partager des notes sur le prospect",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "30r77gwxft",
+  "widgetName": "UserNotesButton"
+}

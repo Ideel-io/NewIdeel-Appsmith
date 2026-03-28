@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_661f9b39a6769c39716bf43a",
+  "id": "Validation Management_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Validation Management",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "annuler",
+        "value": "\"\""
+      }
+    ]
+  }
+}

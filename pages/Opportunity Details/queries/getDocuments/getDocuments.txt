@@ -1,0 +1,15 @@
+query GetDocuments(
+  $userId: String!,
+  $recurrentSubscriptionId: String!
+) {
+	previousContract: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $recurrentSubscriptionId,
+    label: "PREVIOUS_CONTRACT"
+	) {
+		fileName,
+		downloadUrl,
+		uploadDate
+	}
+	
+}

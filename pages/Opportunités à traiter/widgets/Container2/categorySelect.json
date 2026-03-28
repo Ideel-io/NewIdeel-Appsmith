@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "jy9ijxta3d",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Type de démarche",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 18.2451171875,
+  "parentId": "e2gxc5t3c2",
+  "parentRowSpace": 10,
+  "placeholderText": "Sélectionner une option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 16,
+  "serverSideFiltering": false,
+  "sourceData": "[\n\t\t{\n\t\t\t\"code\": \"assurance_credit\",\n\t\t\t\"name\":  \"Assurance de Prêt\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_sante_et_prevoyance\",\n\t\t\t\"name\": \"Assurance Santé\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_auto\",\n\t\t\t\"name\": \"Assurance Auto\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_deux_roues\",\n\t\t\t\"name\": \"Assurance Deux Roues\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_habitation\",\n\t\t\t\"name\": \"Assurance Habitation\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"telephone\",\n\t\t\t\"name\": \"Forfait mobile\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"internet\",\n\t\t\t\"name\": \"Forfait internet\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"telephone_et_internet\",\n\t\t\t\"name\": \"Forfait mobile et internet\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"gaz\",\n\t\t\t\"name\": \"Contrat Gaz\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"electricite\",\n\t\t\t\"name\": \"Contrat Electricité\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"electricite_et_gaz\",\n\t\t\t\"name\": \"Electricité et gaz\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_rc_professionelle\",\n\t\t\t\"name\": \"Assurance RC Professionelle\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_mutuelle_entreprise\",\n\t\t\t\"name\": \"Assurance Mutuelle d'Entreprise\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_prevoyance_collective\",\n\t\t\t\"name\": \"Assurance Prévoyance Collective\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_decennale_do\",\n\t\t\t\"name\": \"Assurance Décennale / DO\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_cybersecurite\",\n\t\t\t\"name\": \"Assurance Cybersécurité\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_vehicules_flotte_auto\",\n\t\t\t\"name\": \"Assurance Véhicules & Flotte Auto\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_multirisque_locaux\",\n\t\t\t\"name\": \"Assurance Multirisque Locaux\"\n\t\t},\n\t\t{\n\t\t\"code\":\"assurance_prevoyance_individuelle\",\n\t\t\"name\": \"Assurance Prévoyance Individuelle\"\n\t\t},\n\t\t{\n\t\t\t\"code\": \"assurance_autres_risques\",\n\t\t\t\"name\": \"Assurance Autres Risques\"\n\t\t}\n\t]",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "phz84e6p9u",
+  "widgetName": "categorySelect"
+}

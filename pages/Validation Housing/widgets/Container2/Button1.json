@@ -1,0 +1,70 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "buttonColor": "#d8b4fe",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": "{{ JSObject1.isResiliationDone || (user_resiliation_a_faire.selectedOptionLabel === \"Oui\" ?\n!(user_ancien_contrat.isValid && user_compagnie_a_resilier.isValid && user_property.isValid) : false)}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kou945yt6t",
+  "leftColumn": 19,
+  "minWidth": 120,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 23,
+  "onClick": "{{JSObject1.isResiliationDone = true}}",
+  "originalBottomRow": 32,
+  "originalTopRow": 26,
+  "parentColumnSpace": 5.31468403339386,
+  "parentId": "fw1ek8tdc0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 46,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "📬 Module résiliation OK",
+  "topRow": 26,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "nlf21yo51g",
+  "widgetName": "Button1"
+}

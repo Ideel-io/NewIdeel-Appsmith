@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_890507e2-2ef7-4ab1-854f-6f71a72a20b2",
+  "id": "User details_Form",
+  "unpublishedCollection": {
+    "name": "Form",
+    "pageId": "User details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "nameRegex",
+        "value": "new RegExp(\"^\\s*[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[-' ][A-Za-zÀ-ÖØ-öø-ÿ]+)*\\s*$\")"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "67fd434227f13a6633b21fa8_b0c786d5-e308-4ce6-983a-0ba60334f2b6",
+  "id": "Opportunity Details Health_FamilyMember",
+  "unpublishedCollection": {
+    "name": "FamilyMember",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      },
+      {
+        "name": "maritalStatus",
+        "value": "{\n  single: \"Célibataire\",\n  married: \"Marié(e)\",\n  pacs: \"Pacsé(e)\",\n  divorced: \"Divorcé(e)\",\n  couple: \"Concubin(e)\",\n  widow: \"Veuf/ve\"\n}"
+      },
+      {
+        "name": "occupation",
+        "value": "{\n  employee: \"Salarié(e)\",\n  executive: \"Salarié(e) Cadre\",\n  farmer: \"Salarié(e) / exploitant(e) agricole\",\n  entrepreneur: \"Chef d'entreprise\",\n  selfEmployed: \"Travailleur / Travailleuse non salarié(e)\",\n  unemployed: \"Sans profession\",\n  functionary: \"Fonctionnaire\",\n  student: \"Étudiant(e)\",\n  retired: \"Retraité(e)\",\n  other: \"Autre\"\n}"
+      },
+      {
+        "name": "familyTies",
+        "value": "{\n  conjoint: \"Conjoint / Conjointe\",\n  child: \"Enfant\",\n  parent: \"Parent\",\n  spouse: \"Époux / Épouse\",\n  other: \"Autre\",\n  myself: \"Moi-même\"\n}"
+      },
+      {
+        "name": "maritalStatusOptions",
+        "value": "Object.entries(FamilyMember.maritalStatus).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "occupationOptions",
+        "value": "Object.entries(FamilyMember.occupation).map(([value, name]) => ({\n  name,\n  value\n}))"
+      },
+      {
+        "name": "familyTiesOptions",
+        "value": "Object.entries(FamilyMember.familyTies).filter(([key]) => key !== \"myself\").map(([value, name]) => ({\n  name,\n  value\n}))"
+      }
+    ]
+  }
+}

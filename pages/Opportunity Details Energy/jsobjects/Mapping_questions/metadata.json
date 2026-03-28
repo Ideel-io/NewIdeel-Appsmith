@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_a6d8f6da-8393-4834-baff-ffd6c3cd6d84",
+  "id": "Opportunity Details Energy_Mapping_questions",
+  "unpublishedCollection": {
+    "name": "Mapping_questions",
+    "pageId": "Opportunity Details Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "state_map",
+        "value": "{\n  \"groundAppartement\": \"Un appartement au rez-de-chaussée\",\n  \"intermediateAppartement\": \"Un appartement à un étage intermédiaire\",\n  \"lastAppartement\": \"Un appartement au dernier étage\",\n  \"houseOneStage\": \"Une maison à un étage\",\n  \"houseTwoStage\": \"Une maison à deux étages\",\n  \"houseThreeStage\": \"Une maison à trois étages\",\n  \"houseFourStage\": \"Une maison à quatre étages ou plus\"\n}"
+      }
+    ]
+  }
+}

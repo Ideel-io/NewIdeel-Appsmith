@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_9b0e4b3a-2ec8-4589-8433-432d94c9249b",
+  "id": "Opportunity Details Loan_Family",
+  "unpublishedCollection": {
+    "name": "Family",
+    "pageId": "Opportunity Details Loan",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

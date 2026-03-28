@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#f9a8d4",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "v24948jchu",
+  "leftColumn": 47,
+  "minWidth": 120,
+  "mobileBottomRow": 12,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('https://www.loom.com/share/172de82011ab4bb99d5096233a4f749f?sid=90d7d4fe-d462-4436-b55a-48d7d087099f', {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
+  "parentColumnSpace": 8.414163589477539,
+  "parentId": "p2m3rxfkoi",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Voir la vidéo tuto",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "v53e1w436z",
+  "widgetName": "Button1"
+}

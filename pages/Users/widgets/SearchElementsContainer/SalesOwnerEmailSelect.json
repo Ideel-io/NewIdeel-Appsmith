@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": "{{appsmith.store.ctx.role !== \"staff\" || Search.searchIsLoading }}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{appsmith.store.ctx.role === \"staff\"}}",
+  "key": "atb0z3olwy",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Sales Owner",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "6",
+  "leftColumn": 17,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{resetWidget(\"userByEmailInput\", true);}}",
+  "optionLabel": "Nom",
+  "optionValue": "Emails",
+  "parentColumnSpace": 5.384556293487549,
+  "parentId": "7t908q0fhv",
+  "parentRowSpace": 10,
+  "placeholderText": "Sélectionnez une option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "serverSideFiltering": false,
+  "sourceData": "{{ Sales_List.data }}",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "3fxpbu5kfe",
+  "widgetName": "SalesOwnerEmailSelect"
+}

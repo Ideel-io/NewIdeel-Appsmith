@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_f35f2b42-723e-480c-ac26-8f0d950caee7",
+  "id": "Opportunity Details Health_scraperRelaunch",
+  "unpublishedCollection": {
+    "name": "scraperRelaunch",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "EstimationPartner",
+        "value": "{\n  ACHEEL: 'acheel',\n  AMI3F: 'ami_trois_f',\n  APRIL: 'april',\n  AXA: 'axa',\n  MALJ: 'malj',\n  NOVELIA: 'novelia',\n  HENNER: 'henner',\n  SWISSLIFE: 'swisslife',\n  NÉOLIANE: 'neoliane',\n  REPAM: 'repam_assurances',\n  APICIL: 'apicil'\n}"
+      },
+      {
+        "name": "scraper",
+        "value": "{\n  [scraperRelaunch.EstimationPartner.ACHEEL]: false || checkbox_acheel.isChecked,\n  [scraperRelaunch.EstimationPartner.AXA]: false || checkbox_axa.isChecked,\n  [scraperRelaunch.EstimationPartner.AMI3F]: false || checkbox_ami3f.isChecked,\n  [scraperRelaunch.EstimationPartner.APRIL]: false || checkbox_april.isChecked,\n  [scraperRelaunch.EstimationPartner.MALJ]: false || checkbox_majl.isChecked,\n  [scraperRelaunch.EstimationPartner.NOVELIA]: false || checkbox_novelia.isChecked,\n  [scraperRelaunch.EstimationPartner.HENNER]: false || checkbox_henner.isChecked,\n  [scraperRelaunch.EstimationPartner.SWISSLIFE]: false || checkbox_swisslife.isChecked,\n  [scraperRelaunch.EstimationPartner.NÉOLIANE]: false || checkbox_neoliane.isChecked,\n  [scraperRelaunch.EstimationPartner.REPAM]: false || checkbox_repam.isChecked,\n  [scraperRelaunch.EstimationPartner.APICIL]: false || checkbox_apicil.isChecked\n}"
+      }
+    ]
+  }
+}

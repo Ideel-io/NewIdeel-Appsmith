@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "khorvqzek0",
+  "label": "Date d'effet",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "20",
+  "leftColumn": 4,
+  "maxDate": "2121-12-31T00:00:00.000+01:00",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{\n  user_resiliation_a_faire.selectedOptionLabel === \"Oui\" \n    ? moment().add(2, 'months').startOf('month').format(\"YYYY-MM-DD\") \n    : \"\"\n}}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 35,
+  "originalTopRow": 30,
+  "parentColumnSpace": 11.5,
+  "parentId": "v2ln1ck920",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 32,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "uqkblahfd1",
+  "widgetName": "user_date_effet2"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_68e3f4e8-c97a-4b8c-9d12-f3a4f61fc6b9",
+  "id": "Opportunity Details Energy_run_queries",
+  "unpublishedCollection": {
+    "name": "run_queries",
+    "pageId": "Opportunity Details Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_e8990fa3-1fcc-49f8-becd-be19a2641f85",
+  "id": "Opportunity Details Auto_Quote",
+  "unpublishedCollection": {
+    "name": "Quote",
+    "pageId": "Opportunity Details Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sharedStates",
+        "value": "[\"CHOSEN\", \"SHARED\"]"
+      },
+      {
+        "name": "areQueriesLoading",
+        "value": "getProcedureById.isLoading || getPotentialOffersOfLastRun.isLoading"
+      },
+      {
+        "name": "offerChoiceStep",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId == 2"
+      },
+      {
+        "name": "offerToAdd",
+        "value": "{}"
+      }
+    ]
+  }
+}

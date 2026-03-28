@@ -1,0 +1,3 @@
+mutation updateOpportunityDataSF ($procedureId: ID!,  $opportunityInfoInput: OpportunityInfoInput!, $stepId: Float) {
+	updateOpportunityDataSF(procedureId: $procedureId, opportunityInfoInput: $opportunityInfoInput, stepId: $stepId)
+}

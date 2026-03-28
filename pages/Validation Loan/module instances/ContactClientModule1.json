@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "67daf58d0ca7fb78d41c818a_6c8e0a87-641a-4a04-9c7f-4aaa4fed1d9c",
+  "id": "Validation Loan_ContactClientModule1",
+  "moduleUUID": "9b7afb2b-6bcb-4c3e-8fc6-8c5aa4e39516",
+  "packageUUID": "6be69ef9-1909-45ad-b8c8-3990e984030e",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "email": "",
+      "phoneNumber": ""
+    },
+    "moduleInputs": {
+      "etqaabubdg": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "etqaabubdg",
+        "label": "email",
+        "propertyName": "inputs.email"
+      },
+      "sgpadqqvun": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "sgpadqqvun",
+        "label": "phoneNumber",
+        "propertyName": "inputs.phoneNumber"
+      }
+    },
+    "name": "ContactClientModule1",
+    "pageId": "Validation Loan",
+    "widgetId": "8ll7g6ijzj"
+  }
+}

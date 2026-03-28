@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHealthRunData.data.data.getLastHealthRunData.userHealthInfo.who_is_covered_by_health_insurance ))(CoveredPersonSelect.options, CoveredPersonSelect.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "zu500au99f",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Qui est couvert par cette assurance ?",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{scraperRelaunch.handleCoverdPersonSelection();}}",
+  "optionLabel": "value",
+  "optionValue": "label",
+  "parentColumnSpace": 12.087499999999999,
+  "parentId": "p7im12mppk",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "serverSideFiltering": false,
+  "sourceData": "[\n { \"label\": \"non\", \"value\": \"Non\" },\n  { \"label\": \"conjoint\", \"value\": \"Le/ la conjoint(e)\" },\n  { \"label\": \"enfants\", \"value\": \"Le/ les enfant(s)\" },\n  {\n    \"label\": \"conjoint_et_enfants\",\n    \"value\": \"Le/ la conjoint(e) et le/ les enfant(s)\"\n  }\n]\n",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "00e4b6cjr9",
+  "widgetName": "CoveredPersonSelect"
+}

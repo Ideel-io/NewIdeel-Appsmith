@@ -1,0 +1,5 @@
+mutation validateContract( $validationContractInput : ValidationContractInput!, $userId : String!, $opportunityInfoInput: OpportunityInfoInput!, $subscriptionId : String!){
+	validateContract (
+		validationContractInput : $validationContractInput, userId : $userId, opportunityInfoInput: $opportunityInfoInput, subscriptionId : $subscriptionId
+	)
+}

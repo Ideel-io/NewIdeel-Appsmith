@@ -1,0 +1,60 @@
+{
+  "allowedFileTypes": [
+    "*",
+    "image/*",
+    "text/*",
+    "image/jpeg",
+    ".png",
+    ".doc"
+  ],
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 10,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#f6c136",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "di0lyqsihe",
+  "label": "📤",
+  "leftColumn": 0,
+  "maxFileSize": 5,
+  "maxNumFiles": "5",
+  "minWidth": 120,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{uploadDocument.uploadPreviousContracts();}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
+  "parentColumnSpace": 3.9568443298339844,
+  "parentId": "v75y41fyjl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 5,
+  "selectedFiles": [],
+  "topRow": 5,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "19d84ubqqe",
+  "widgetName": "Previous_Contract_File_Picker"
+}

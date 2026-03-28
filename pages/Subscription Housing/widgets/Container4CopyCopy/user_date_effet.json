@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "khorvqzek0",
+  "label": "Date d'effet",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "20",
+  "leftColumn": 22,
+  "maxDate": "2121-12-31T00:00:00.000+01:00",
+  "maxDynamicHeight": 9000,
+  "minDate": "{{ moment() }}",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 21,
+  "originalTopRow": 16,
+  "parentColumnSpace": 11.5,
+  "parentId": "a13fng12ar",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 35,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 9,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "saryptprm9",
+  "widgetName": "user_date_effet"
+}

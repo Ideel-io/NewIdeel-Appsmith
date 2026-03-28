@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( GetUser.data[\"0\"]?.[\"commission %\"] || \"\"))(Commission_pourcentage.options, Commission_pourcentage.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "oe85had3ke",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Commission",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 19,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 5.6129209995269775,
+  "parentId": "l5ekg3gu52",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 31,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"name\": \"0%\", \"code\": 0 },\n  { \"name\": \"1%\", \"code\": 1 },\n  { \"name\": \"2%\", \"code\": 2 },\n  { \"name\": \"3%\", \"code\": 3 },\n  { \"name\": \"4%\", \"code\": 4 },\n  { \"name\": \"5%\", \"code\": 5 },\n  { \"name\": \"6%\", \"code\": 6 },\n  { \"name\": \"7%\", \"code\": 7 },\n  { \"name\": \"8%\", \"code\": 8 },\n  { \"name\": \"9%\", \"code\": 9 },\n  { \"name\": \"10%\", \"code\": 10 },\n  { \"name\": \"11%\", \"code\": 11 },\n  { \"name\": \"12%\", \"code\": 12 },\n  { \"name\": \"13%\", \"code\": 13 },\n  { \"name\": \"14%\", \"code\": 14 },\n  { \"name\": \"15%\", \"code\": 15 },\n  { \"name\": \"16%\", \"code\": 16 },\n  { \"name\": \"17%\", \"code\": 17 },\n  { \"name\": \"18%\", \"code\": 18 },\n  { \"name\": \"19%\", \"code\": 19 },\n  { \"name\": \"20%\", \"code\": 20 },\n  { \"name\": \"21%\", \"code\": 21 },\n  { \"name\": \"22%\", \"code\": 22 },\n  { \"name\": \"23%\", \"code\": 23 },\n  { \"name\": \"24%\", \"code\": 24 },\n  { \"name\": \"25%\", \"code\": 25 },\n  { \"name\": \"26%\", \"code\": 26 },\n  { \"name\": \"27%\", \"code\": 27 },\n  { \"name\": \"28%\", \"code\": 28 },\n  { \"name\": \"29%\", \"code\": 29 },\n  { \"name\": \"30%\", \"code\": 30 },\n\t  { \"name\": \"31%\", \"code\": 31 },\n  { \"name\": \"32%\", \"code\": 32 },\n  { \"name\": \"33%\", \"code\": 33 },\n  { \"name\": \"34%\", \"code\": 34 },\n  { \"name\": \"35%\", \"code\": 35 },\n  { \"name\": \"36%\", \"code\": 36 },\n  { \"name\": \"37%\", \"code\": 37 },\n  { \"name\": \"38%\", \"code\": 38 },\n  { \"name\": \"39%\", \"code\": 39 },\n  { \"name\": \"40%\", \"code\": 40 },\n  { \"name\": \"41%\", \"code\": 41 },\n  { \"name\": \"42%\", \"code\": 42 },\n  { \"name\": \"43%\", \"code\": 43 },\n  { \"name\": \"44%\", \"code\": 44 },\n  { \"name\": \"45%\", \"code\": 45 },\n  { \"name\": \"46%\", \"code\": 46 },\n  { \"name\": \"47%\", \"code\": 47 },\n  { \"name\": \"48%\", \"code\": 48 },\n  { \"name\": \"49%\", \"code\": 49 },\n  { \"name\": \"50%\", \"code\": 50 },\n\t{ \"name\": \"51%\", \"code\": 51 },\n  { \"name\": \"52%\", \"code\": 52 },\n  { \"name\": \"53%\", \"code\": 53 },\n  { \"name\": \"54%\", \"code\": 54 },\n  { \"name\": \"55%\", \"code\": 55 },\n  { \"name\": \"56%\", \"code\": 56 },\n  { \"name\": \"57%\", \"code\": 57 },\n  { \"name\": \"58%\", \"code\": 58 },\n  { \"name\": \"59%\", \"code\": 59 },\n  { \"name\": \"60%\", \"code\": 60 }\n]\n",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "qvjxvjglzw",
+  "widgetName": "Commission_pourcentage"
+}

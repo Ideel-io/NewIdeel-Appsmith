@@ -1,0 +1,3 @@
+mutation attachDocumentsToSubscription($documentKeys: [String!]!, $recurrentSubscriptionId: String!, $userId: String!) {
+  attachDocumentsToSubscription(documentKeys: $documentKeys, recurrentSubscriptionId : $recurrentSubscriptionId,userId : $userId)
+}

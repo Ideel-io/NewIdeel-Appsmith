@@ -1,0 +1,18 @@
+mutation startStandaloneProcedureByStaff (
+	$userId: String!
+	$subCategoryId: Float!
+){
+	startStandaloneProcedureByStaff (
+		userId : $userId
+		subCategoryId: $subCategoryId
+	) {
+		id
+		recurrentSubscription {
+			id
+			subCategory {
+				name
+				label
+			}
+		}
+	}
+}

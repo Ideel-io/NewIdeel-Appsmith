@@ -1,0 +1,13 @@
+query getAllFamilyMembersByStaff($userId: String!, $subcategory: String) {
+	getAllFamilyMembersByStaff(userId: $userId, subcategory: $subcategory) {
+		familyMembers {
+			id
+			firstname
+			lastname
+			familyTiesWithUser
+			birthdate
+			occupation
+			maritalStatus
+		}
+	}
+}

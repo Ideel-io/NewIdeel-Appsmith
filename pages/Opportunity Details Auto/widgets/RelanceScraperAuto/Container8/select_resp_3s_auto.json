@@ -1,0 +1,95 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 63,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo.responsibility_level_third_claim))(select_resp_3s_auto.options, select_resp_3s_auto.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": "{{select_nb_sinisters_auto.selectedOptionValue == \"trois\" || select_nb_sinisters_auto.selectedOptionValue == \"quatre_ou_plus\" }}",
+  "isVisible": "{{select_nb_sinisters_auto.selectedOptionValue == \"trois\" || select_nb_sinisters_auto.selectedOptionValue == \"quatre_ou_plus\" }}",
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Quelle est la responsabilité du troisième sinistre ?",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": "30",
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "{{JSObject1.valid()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 63,
+  "originalTopRow": 59,
+  "parentColumnSpace": 6.9375,
+  "parentId": "5t6s22ppsj",
+  "parentRowSpace": 10,
+  "placeholderText": "None",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"0%\",\n    \"code\": \"zero_pourcent\"\n  },\n  {\n    \"name\": \"50%\",\n    \"code\": \"cinquante_pourcent\"\n  },\n  {\n    \"name\": \"100%\",\n    \"code\": \"cent_pourcent\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 59,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "imf0jkyhks",
+  "widgetName": "select_resp_3s_auto"
+}

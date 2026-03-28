@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_19552fe9-d65a-403e-bcc1-3d6735b571ef",
+  "id": "Opportunity Details Health_run_queries",
+  "unpublishedCollection": {
+    "name": "run_queries",
+    "pageId": "Opportunity Details Health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

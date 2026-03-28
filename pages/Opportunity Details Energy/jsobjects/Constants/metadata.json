@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_90c32bc3-e800-4042-9a49-c2e6c02ce616",
+  "id": "Opportunity Details Energy_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Opportunity Details Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "energyPartnersSelection",
+        "value": "[{\n  label: \"EDF\",\n  value: \"edf\"\n}, {\n  label: \"Vattenfall\",\n  value: \"vattenfall\"\n}, {\n  label: \"Total Energies\",\n  value: \"direct_energie\"\n}, {\n  label: \"OHM\",\n  value: \"ohm_energie\"\n}, {\n  label: \"Alpiq\",\n  value: \"alpiq_energie\"\n}, {\n  label: \"EkWateur\",\n  value: \"ekwateur\"\n}, {\n  label: \"Mint\",\n  value: \"mint_energie\"\n}, {\n  label: \"Engie\",\n  value: \"engie\"\n}, {\n  label: \"Elmy\",\n  value: \"elmy_energie\"\n}, {\n  label: \"ENI\",\n  value: \"eni\"\n}]"
+      },
+      {
+        "name": "energyTarificationSelection",
+        "value": "[{\n  label: \"Base\",\n  value: \"base\"\n}, {\n  label: \"HP / HC\",\n  value: \"hp_hc\"\n}]"
+      },
+      {
+        "name": "energyPowerSelection",
+        "value": "[{\n  label: \"3 kva\",\n  value: \"3\"\n}, {\n  label: \"6 kva\",\n  value: \"6\"\n}, {\n  label: \"9 kva\",\n  value: \"9\"\n}, {\n  label: \"12 kva\",\n  value: \"12\"\n}]"
+      },
+      {
+        "name": "gazOptionSelection",
+        "value": "[{\n  label: \"B0\",\n  value: \"B0\"\n}, {\n  label: \"B1\",\n  value: \"B1\"\n}]"
+      }
+    ]
+  }
+}

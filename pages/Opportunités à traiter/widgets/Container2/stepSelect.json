@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "jy9ijxta3d",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Étape de la démarche",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 17,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 18.2451171875,
+  "parentId": "e2gxc5t3c2",
+  "parentRowSpace": 10,
+  "placeholderText": "Sélectionner une option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 30,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"A - Opportunité Identifiée\",\n    \"code\": 0\n  },\n  {\n    \"name\": \"B - Infos Collectées\",\n    \"code\": 1\n  },\n\t{\n    \"name\": \"C - Devis générées\",\n    \"code\": 2\n  },\n  {\n    \"name\": \"D - Devis Validé\",\n    \"code\": 3\n  }\n]",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ht71v5dh6a",
+  "widgetName": "stepSelect"
+}

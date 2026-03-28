@@ -1,0 +1,20 @@
+query getUserByPhoneNumber($userPhoneNumber: String!) {
+	getUserByPhoneNumber(userPhoneNumber: $userPhoneNumber) {
+		id
+		email
+		firstName
+		lastName
+		clientStatus
+		createdAt
+		accountStatus
+		phoneNumber
+		dateOfLastContact
+		procedureCounts {
+			  totalProcedures
+			  opportunityCount
+			  procedureCount
+			  contractCount
+				optimizationCount
+		 }
+	}
+}

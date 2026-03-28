@@ -1,0 +1,44 @@
+{
+  "gitSyncId": "67ad0c9604b1af47acc37b59_1e30756b-e06c-42af-8934-e9cb9589f05d",
+  "id": "Users_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Users",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "UserType",
+        "value": "{\n  User: 'user',\n  Staff: 'staff',\n  CoCourtage: 'coCourtage'\n}"
+      },
+      {
+        "name": "UserOccupation",
+        "value": "{\n  employee: \"Salarié(e)\",\n  executive: \"Salarié(e) Cadre\",\n  farmer: \"Salarié(e) / exploitant(e) agricole\",\n  entrepreneur: \"Chef d'entreprise\",\n  selfEmployed: \"Travailleur / Travailleuse non salarié(e)\",\n  unemployed: \"Sans profession\",\n  functionary: \"Fonctionnaire\",\n  student: \"Étudiant(e)\",\n  retired: \"Retraité(e)\",\n  other: \"Autre\"\n}"
+      },
+      {
+        "name": "UtmSource",
+        "value": "{\n  B2B: 'B2B',\n  SEO: 'SEO',\n  App: 'Direct',\n  Referral: 'Referral',\n  Ambassador: 'Ambassador',\n  Partenariat: 'Partenariat',\n  \"Bouche à oreille\": \"Word of mouth\"\n}"
+      },
+      {
+        "name": "UtmMedium",
+        "value": "{\n  \"web\": \"web\",\n  \"ios\": \"ios\",\n  \"android\": \"android\",\n  \"appsmith\": \"appsmith\"\n}"
+      },
+      {
+        "name": "AccountStatus",
+        "value": "{\n  ACTIVE: 'ACTIVE',\n  INACTIVE: 'INACTIVE'\n}"
+      },
+      {
+        "name": "ClientStatus",
+        "value": "{\n  LEAD: 'LEAD',\n  ACCOUNT: 'ACCOUNT',\n  CLIENT: 'CLIENT'\n}"
+      },
+      {
+        "name": "AccountStatusMap",
+        "value": "{\n  [utils.AccountStatus.ACTIVE]: 'Actif',\n  [utils.AccountStatus.INACTIVE]: 'Inactif'\n}"
+      },
+      {
+        "name": "ClientStatusMap",
+        "value": "{\n  [utils.ClientStatus.LEAD]: 'Lead',\n  [utils.ClientStatus.ACCOUNT]: 'Compte',\n  [utils.ClientStatus.CLIENT]: 'Client'\n}"
+      }
+    ]
+  }
+}

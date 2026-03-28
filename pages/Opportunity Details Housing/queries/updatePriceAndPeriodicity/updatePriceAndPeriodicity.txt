@@ -1,0 +1,18 @@
+mutation updateSubscriptionPartnerPriceAndPeriodicityByStaff(
+	$userId: String!,
+	$recurrentSubscriptionId: String!,
+	$price: Float!,
+	$periodicity: String!,
+  $partnerId: Float,
+
+) {
+	updateSubscriptionPartnerPriceAndPeriodicityByStaff (
+		userId: $userId, 
+		recurrentSubscriptionId: $recurrentSubscriptionId, 
+		price: $price, 
+		periodicity: $periodicity,
+		partnerId: $partnerId,
+	) {
+		id
+	}
+}

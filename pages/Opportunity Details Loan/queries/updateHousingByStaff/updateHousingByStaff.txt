@@ -1,0 +1,11 @@
+mutation updateHousingByStaff (
+	$userId: String!, 
+	$input: HousingUpdateInput!, 
+){
+	updateHousingByStaff(
+		userId : $userId, 
+		data : $input,
+	) {
+			id	
+		}
+}

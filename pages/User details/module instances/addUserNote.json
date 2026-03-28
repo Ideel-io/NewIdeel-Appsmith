@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "68e5397b43db3c4a6ee11f42_cb903ba3-5d43-4894-8c39-f7faaf91e69a",
+  "id": "User details_addUserNote",
+  "moduleUUID": "b9c24db9-8a25-41ef-b1a2-3b5cb5d05a58",
+  "packageUUID": "3559b860-61d1-4a1f-89d2-a621b4736cd9",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "userId"
+      },
+      {
+        "key": "content"
+      }
+    ],
+    "inputs": {
+      "content": "{{noteContent.text}}",
+      "userId": "{{findUserByEmail.data.data.findUserByEmail.id}}"
+    },
+    "moduleInputs": {
+      "jlqmpkdogg": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jlqmpkdogg",
+        "label": "userId",
+        "propertyName": "inputs.userId"
+      },
+      "zykkcgzssf": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "zykkcgzssf",
+        "label": "content",
+        "propertyName": "inputs.content"
+      }
+    },
+    "name": "addUserNote",
+    "pageId": "User details"
+  }
+}

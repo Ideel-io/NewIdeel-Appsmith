@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_6edf5d3f-071c-4bf3-8552-23343290b058",
+  "id": "Login_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "stages",
+        "value": "{\n  staging: {\n    name: \"staging\",\n    url: \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/\"\n  },\n  production: {\n    name: \"production\",\n    url: \"https://gget4w2hb3.execute-api.eu-west-1.amazonaws.com/production/\"\n  },\n  ghassen: {\n    name: \"ghassen\",\n    url: \"https://1bmkcgc4t2.execute-api.eu-west-1.amazonaws.com/ghassen/\"\n  }\n}"
+      }
+    ]
+  }
+}

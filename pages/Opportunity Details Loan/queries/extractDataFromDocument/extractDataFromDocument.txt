@@ -1,0 +1,6 @@
+query extractDataFromDocument($extraction_keys: String!, $filesKeys: [String!]!) {
+	extractDataFromS3Files(extraction_keys: $extraction_keys, filesKeys: $filesKeys) {
+		isError
+		data
+	}
+}

@@ -1,0 +1,85 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 147,
+  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='NOVELIA'}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='NOVELIA'}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='NOVELIA'}}",
+  "key": "vszbgbq6jf",
+  "label": "Novelia",
+  "labelPosition": "Left",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 99,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 95,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 147,
+  "originalTopRow": 143,
+  "parentColumnSpace": 15.28125,
+  "parentId": "v8077e4gcb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
+  "topRow": 143,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "sdm34t1wv8",
+  "widgetName": "checkbox_novelia"
+}

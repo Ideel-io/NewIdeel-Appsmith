@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "639b408e7eca0572cd5edff1_649bfc856a1cd14ef2a10eaf",
+  "id": "User details_Mapping_states",
+  "unpublishedCollection": {
+    "name": "Mapping_states",
+    "pageId": "User details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "frenchTransactionType",
+        "value": "{\n  DEFAULT: 'Prime parrainage classique',\n  GIFT: 'Cadeau de bienvenue',\n  DONATION: 'Don du staff',\n  PURCHASE: 'Achat',\n  ADJUSTMENT: 'Ajustement (système)',\n  PRIZE: 'Cadeau de parrainage ou de démarche finie'\n}"
+      },
+      {
+        "name": "state_map_opti",
+        "value": "{\n  \"0\": \"A) Opportunité Identifiée\",\n  \"1\": \"B) Infos Collectées\",\n  \"2\": \"C) Devis générées\",\n  \"3\": \"D) Devis validé\",\n  \"4\": \"E) Souscription Finalisée\",\n  \"5\": \"F) Contrat Validé\"\n}"
+      },
+      {
+        "name": "state_map_rési",
+        "value": "{\n  \"0\": \"A) Questionnaire De Résiliation Rempli\",\n  \"1\": \"B) Lettre À Payer\",\n  \"2\": \"C) Envoi À Confirmer\",\n  \"3\": \"D) Envoi Confirmé\",\n  \"4\": \"E) Lettre Envoyée\",\n  \"5\": \"F) Lettre Distribuée\"\n}"
+      },
+      {
+        "name": "state_map_rési_digi",
+        "value": "{\n  \"0\": \"A) Démarche Commencée\",\n  \"1\": \"B) Questionnaire De Résiliation Rempli\",\n  \"2\": \"C) Succès De La Résiliation Digitale\"\n}"
+      },
+      {
+        "name": "state_clientStatus",
+        "value": "{\n  null: 0,\n  \"LEAD\": 1,\n  \"ACCOUNT\": 2,\n  \"CLIENT\": 3\n}"
+      },
+      {
+        "name": "map_failure_reason",
+        "value": "{\n  \"UNDER_COMMITMENT\": \"Vous êtes encore engagé avec votre opérateur\",\n  \"NO_SUBSCRIPTION\": \"Aucun abonnement trouvé\",\n  \"DOUBLE_AUTHENTICATION\": \"Échec de la double authentification\",\n  \"INCORRECT_CREDENTIALS\": \"Identifiants incorrects\",\n  \"SUBSCRIPTION_VIA_APPLE_PLAYSTORE\": \"Abonnement via Apple Store ou Play Store\",\n  \"Pas_de_reponse\": \"Pas de réponse\",\n  \"Pas_de_numero\": \"Numéro de téléphone non fourni\",\n  \"OTHERS\": \"Autre raison\"\n}"
+      },
+      {
+        "name": "map_cancel_reason",
+        "value": "{\n  \"DONT_HAVE_ANY_NEEDS\": \"Je n'ai pas de besoin particulier\",\n  \"DONT_NEED_TO_DO_THIS_OVER_PHONE\": \"Je ne souhaite pas faire cette procédure par téléphone\",\n  \"ABANDON_IN_APP\": \"Abandon dans l'application\"\n}"
+      },
+      {
+        "name": "userGoals",
+        "value": "{\n  \"TERMINATE_A_SUBSCRIPTION\": 'Résilier un abonnement',\n  \"SAVE_MONEY\": 'Faire des économies',\n  \"MONITOR_EXPENSES\": 'Suivre mes dépenses',\n  \"WORRY_LESS\": 'Déléguer mon administratif',\n  \"WIN_REFERRAL_MONEY\": 'Générer des gains via le parrainage',\n  \"INVEST_MY_SAVINGS\": 'Investir mon argent épargné'\n}"
+      },
+      {
+        "name": "userSituations",
+        "value": "{\n  \"I_HAVE_A_VEHICLE\": 'Je possède un véhicule',\n  \"I_HAVE_A_HOUSE\": 'Je suis propriétaire',\n  \"I_HAVE_MULTIPLE_HOUSES\": \"J'ai plusieurs biens immobiliers\",\n  \"I_AM_INDEPENDENT\": 'Je suis TNS ou auto-entrepreneur',\n  \"I_AM_RETIRED\": 'Je suis à la retraite',\n  \"I_HAVE_A_COMPANY\": \"J'ai une entreprise avec des salariés\",\n  \"I_HAVE_KIDS\": \"J'ai un ou des enfants\",\n  \"I_HAVE_NOTHING\": 'Rien de tout cela',\n  \"I_AM_A_GOVERNMENT_EMPLOYEE\": 'Je suis fonctionnaire'\n}"
+      }
+    ]
+  }
+}

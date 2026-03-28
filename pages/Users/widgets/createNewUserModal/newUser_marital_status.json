@@ -1,0 +1,81 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Situation conjugale",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": "19",
+  "leftColumn": 35,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 49,
+  "originalTopRow": 45,
+  "parentColumnSpace": 6.9375,
+  "parentId": "9ksguu3ym3",
+  "parentRowSpace": 10,
+  "placeholderText": "Définir",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 53,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "[\n  {\n    \"name\": \"Célibataire\",\n    \"code\": \"single\"\n  },\n  {\n    \"name\": \"Marié(e)\",\n    \"code\": \"married\"\n  },\n  {\n    \"name\": \"Pacsé(e)\",\n    \"code\": \"pacs\"\n  },\n  {\n    \"name\": \"Divorcé(e)\",\n    \"code\": \"divorced\"\n  },\n  {\n    \"name\": \"Concubin(e)\",\n    \"code\": \"couple\"\n  },\n\t{\n    \"name\": \"Veuf/ve\",\n    \"code\": \"widow\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 26,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5agueqzmen",
+  "widgetName": "newUser_marital_status"
+}

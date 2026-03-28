@@ -1,0 +1,3 @@
+mutation VerifyPhoneNumber($phoneNumber: String!, $code: String!) {
+  verifyPhoneNumber(phoneNumber: $phoneNumber, code: $code)
+}

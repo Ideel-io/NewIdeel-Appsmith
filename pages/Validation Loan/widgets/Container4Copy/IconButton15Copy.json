@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "document",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iffup55j83",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 44,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 40,
+  "needsErrorInfo": false,
+  "onClick": "{{copyToClipboard(bic_text.text).then(() => showAlert('Text copied to clipboard!', 'success')).catch((err) => showAlert('Failed to copy text.', 'error'));}}",
+  "originalBottomRow": 47,
+  "originalTopRow": 43,
+  "parentColumnSpace": 7.87725567817688,
+  "parentId": "y2qs1qkdao",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "topRow": 43,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "b79nscy63m",
+  "widgetName": "IconButton15Copy"
+}

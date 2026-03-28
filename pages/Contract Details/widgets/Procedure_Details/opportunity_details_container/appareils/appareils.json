@@ -1,0 +1,84 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#3f3f46",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 384,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 700,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "nx03mpz4pk",
+      "leftColumn": 0,
+      "minHeight": 700,
+      "parentColumnSpace": 1,
+      "parentId": "c0l8ukvop0",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 294,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "8ofim1yej8",
+      "widgetName": "Canvas7CopyCopy2CopyCopyCopyCopy"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.subCategory.label === \"assurance_appareils_et_biens\" && getProcedureById.data.data.getProcedureById.type != 'TERMINATION' ? true : false}}",
+  "key": "lbsu0qixaq",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "originalBottomRow": 384,
+  "originalTopRow": 314,
+  "parentColumnSpace": 12.25,
+  "parentId": "atdffbj7br",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 314,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "c0l8ukvop0",
+  "widgetName": "appareils"
+}

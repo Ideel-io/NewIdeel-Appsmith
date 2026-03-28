@@ -1,0 +1,23 @@
+query GetDocuments(
+  $userId: String!,
+  $profileId: String!,
+) {
+	identityRecto: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $profileId,
+    label: "IDENTITY_RECTO"
+  ) {
+    fileName,
+    downloadUrl,
+    uploadDate
+  }
+  identityVerso: getDocumentsByLabel(
+    userId: $userId,
+    folderId: $profileId,
+    label: "IDENTITY_VERSO"
+  ) {
+    fileName,
+    downloadUrl,
+    uploadDate
+  }
+}

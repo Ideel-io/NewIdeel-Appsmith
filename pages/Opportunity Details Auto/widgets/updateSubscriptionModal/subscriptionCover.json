@@ -1,0 +1,68 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( \nutils.getAnswer(getProcedureDetails.data.data.getProcedureDetails, \"coverage_level_car_insurance\")\n))(subscriptionCover.options, subscriptionCover.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": "{{getProcedureById.isLoading || updatePriceAndPeriodicity.isLoading}}",
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "4gre5kezfd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Garanties",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 6.9375,
+  "parentId": "qjj40rjn57",
+  "parentRowSpace": 10,
+  "placeholderText": "choisir l'option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 26,
+  "serverSideFiltering": false,
+  "sourceData": "[\n    {\n    \"name\": \"Tiers\",\n    \"code\": \"tiers\"\n  },\n  {\n    \"name\": \"Tiers étendu\",\n    \"code\": \"tiers_etendu\"\n  },\n  {\n    \"name\": \"Tous risques\",\n    \"code\": \"tous_risques\"\n  }\n]",
+  "topRow": 13,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "gfv9lf00oo",
+  "widgetName": "subscriptionCover"
+}

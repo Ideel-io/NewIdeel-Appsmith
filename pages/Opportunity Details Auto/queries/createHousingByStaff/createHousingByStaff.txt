@@ -1,0 +1,11 @@
+mutation createHousingByStaff (
+	$userId: String!, 
+	$input: HousingInput!, 
+){
+	createHousingByStaff(
+		userId : $userId, 
+		data : $input,
+	) {
+			id
+		}
+}

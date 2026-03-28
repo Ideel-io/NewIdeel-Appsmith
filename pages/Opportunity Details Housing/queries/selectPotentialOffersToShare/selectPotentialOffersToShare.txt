@@ -1,0 +1,9 @@
+mutation selectPotentialOffersToShare(
+	$procedureId: String!
+	$selectedOffersIds: [String!]!
+) {
+	selectPotentialOffersToShare (
+		procedureId: $procedureId,
+		selectedOffersIds: $selectedOffersIds,
+	)
+}

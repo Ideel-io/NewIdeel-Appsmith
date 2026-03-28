@@ -1,0 +1,12 @@
+mutation cancelProcedureByStaff (
+	$recurrentSubscriptionId: String!, 
+	$procedureId: ID!, 
+	$reason: ProcedureCancelReason!){
+		cancelProcedureByStaff(
+			recurrentSubscriptionId : $recurrentSubscriptionId, 
+			procedureId : $procedureId, 
+			reason: $reason 
+		) {
+			id
+		}
+	}

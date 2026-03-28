@@ -1,0 +1,35 @@
+query GetDocuments(
+  $userId: String!,
+  $procedureId: String!
+) {
+  drivingLicense: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "DRIVING_LICENSE"
+  )
+  grayCard: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "GRAY_CARD"
+  )
+  informationStatement: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "INFORMATION_STATEMENT"
+  )
+	previousContract: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "PREVIOUS_CONTRACT"
+  )
+	thirdPartyCertification: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "THIRD_PARTY_CERTIFICATE"
+  )
+	thirdPartyCertification2: generateDownloadUrlDocumentByLabel(
+    userId: $userId,
+    procedureId: $procedureId,
+    label: "THIRD_PARTY_CERTIFICATE_2"
+  )
+}

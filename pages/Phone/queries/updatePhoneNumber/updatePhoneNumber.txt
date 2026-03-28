@@ -1,0 +1,9 @@
+mutation UpdatePhoneNumber($phoneNumber: String!) {
+  updatePhoneNumber(phoneNumber: $phoneNumber) {
+    codeDeliveryDetails {
+      destination
+      deliveryMedium
+      attributeName
+    }
+  }
+}

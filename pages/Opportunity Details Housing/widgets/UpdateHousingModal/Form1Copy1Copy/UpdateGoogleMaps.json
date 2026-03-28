@@ -1,0 +1,81 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 28,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "{{{\n\tdata: {\n\t\tname: \"\",\n    placeId: \"\",\n    gMapsUrl: \"\",\n    fullAddress: \"\",\n    streetNumber: \"\",\n    route: \"\",\n    locality: \"\",\n    administrativeAreaLevel1: \"\",\n    administrativeAreaLevel2: \"\",\n    \tcountry: \"\",\n    \tpostalCode: \"\",\n\t},\n\thasValue: false,\n}}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "defaultModel"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "submitted"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "submitted"
+    }
+  ],
+  "events": [
+    "submitted"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": "{{ Housing.placeSelectorShown }}",
+  "key": "k85hjfeodk",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 28,
+  "originalTopRow": 4,
+  "parentColumnSpace": 6.9375,
+  "parentId": "tf028ibyt4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "html,\nbody {\n  font-family: arial;\n  height: 224px;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: start;\n  align-items: center;\n  background-color: white;\n}\n\n.autocomplete-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#autocomplete {\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  box-sizing: border-box;\n}\n\n.suggestions-list {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  flex-grow: 1; /* Expands with content */\n  overflow-y: auto; /* Scroll when too many items */\n  border: 1px solid #ddd;\n  background-color: white;\n}\n\n.suggestions-list li {\n  padding: 10px;\n  cursor: pointer;\n}\n\n.suggestions-list li:hover {\n  background-color: #f0f0f0;\n}\n\n.close {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n  background-color: transparent;\n  border: 0;\n  font-size: 18px;\n  color: #ca3a2a;\n  cursor: pointer;\n}\n\n.d-none {\n  display: none;\n}",
+    "html": "<div class=\"autocomplete-container\">\n  <input type=\"text\" id=\"autocomplete\" placeholder=\"Adresse\">\n  <button class=\"close d-none\" id=\"close-button\">&#10006;</button>\n  <ul id=\"suggestions\" class=\"suggestions-list\"></ul>\n</div>",
+    "js": "function initApp() {\n  const input = document.getElementById(\"autocomplete\");\n  const suggestionsList = document.getElementById(\"suggestions\");\n  const detailsDiv = document.getElementById(\"details\");\n  const closeButton = document.getElementById(\"close-button\");\n  let debounceTimeout;\n  const debounceDelay = 300;\n  const predictionAPI = \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/maps/api/place/autocomplete/json\";\n  const detailsAPI = \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/maps/api/place/details/json\";\n  function fetchPredictions(query) {\n    if (query.length === 0) {\n      suggestionsList.innerHTML = \"\";\n      closeButton.classList.add(\"d-none\");\n      return;\n    }\n    closeButton.classList.remove(\"d-none\");\n    fetch(`${predictionAPI}?input=${query}&components=country%3Afr&language=fr`).then(response => response.json()).then(data => {\n      displaySuggestions(data.predictions);\n    }).catch(err => console.error(\"Error fetching predictions:\", err));\n  }\n  function displaySuggestions(predictions) {\n    suggestionsList.innerHTML = \"\";\n    predictions.forEach(prediction => {\n      const li = document.createElement(\"li\");\n      li.textContent = prediction.description;\n      li.addEventListener(\"click\", () => {\n        fetchDetails(prediction.place_id, prediction.description);\n      });\n      suggestionsList.appendChild(li);\n    });\n  }\n  function parseAddress(details) {\n    if (!details) return \"\";\n    console.log(details);\n    const addressComponents = {};\n    details.address_components.forEach(item => {\n      addressComponents[item.types[0]] = item.long_name;\n    });\n    const result = {\n      name: details.name,\n      placeId: details.place_id,\n      gMapsUrl: details.url,\n      fullAddress: details.formatted_address,\n      streetNumber: addressComponents.street_number || \"\",\n      route: addressComponents.route || \"\",\n      locality: addressComponents.locality,\n      administrativeAreaLevel1: addressComponents.administrative_area_level_1 || \"\",\n      administrativeAreaLevel2: addressComponents.administrative_area_level_2 || \"\",\n      country: addressComponents.country,\n      postalCode: addressComponents.postal_code || \"\"\n    };\n    return result;\n  }\n  function fetchDetails(id, text) {\n    suggestionsList.innerHTML = \"\";\n    input.value = text;\n    fetch(`${detailsAPI}?placeid=${id}&components=country%3Afr&language=fr`).then(response => response.json()).then(details => {\n      appsmith.updateModel({\n        data: parseAddress(details.result),\n        hasValue: true\n      });\n      appsmith.triggerEvent(\"submitted\");\n    }).catch(err => console.error(\"Error fetching details:\", err));\n  }\n  function debounce(func, delay) {\n    return function () {\n      const args = arguments;\n      clearTimeout(debounceTimeout);\n      debounceTimeout = setTimeout(() => func.apply(this, args), delay);\n    };\n  }\n  closeButton.addEventListener(\"click\", function () {\n    input.value = \"\";\n    suggestionsList.innerHTML = \"\";\n    closeButton.classList.add(\"d-none\");\n  });\n  input.addEventListener(\"input\", debounce(function () {\n    const query = this.value;\n    fetchPredictions(query);\n  }, debounceDelay));\n}\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  initApp();\n});"
+  },
+  "submitted": "{{ Housing.hidePlaceSelector() }}",
+  "theme": "{{appsmith.theme}}",
+  "topRow": 4,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "html,\nbody {\n  font-family: arial;\n  height: 224px;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: start;\n  align-items: center;\n  background-color: white;\n}\n\n.autocomplete-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n#autocomplete {\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  box-sizing: border-box;\n}\n\n.suggestions-list {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  flex-grow: 1; /* Expands with content */\n  overflow-y: auto; /* Scroll when too many items */\n  border: 1px solid #ddd;\n  background-color: white;\n}\n\n.suggestions-list li {\n  padding: 10px;\n  cursor: pointer;\n}\n\n.suggestions-list li:hover {\n  background-color: #f0f0f0;\n}\n\n.close {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n  background-color: transparent;\n  border: 0;\n  font-size: 18px;\n  color: #ca3a2a;\n  cursor: pointer;\n}\n\n.d-none {\n  display: none;\n}\n",
+    "html": "<div class=\"autocomplete-container\">\n  <input type=\"text\" id=\"autocomplete\" placeholder=\"Adresse\">\n  <button class=\"close d-none\" id=\"close-button\">&#10006;</button>\n  <ul id=\"suggestions\" class=\"suggestions-list\"></ul>\n</div>",
+    "js": "function initApp() {\n  const input = document.getElementById(\"autocomplete\");\n  const suggestionsList = document.getElementById(\"suggestions\");\n  const detailsDiv = document.getElementById(\"details\");\n  const closeButton = document.getElementById(\"close-button\");\n\n  let debounceTimeout;\n  const debounceDelay = 300;\n\n  const predictionAPI =\n    \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/maps/api/place/autocomplete/json\";\n  const detailsAPI =\n    \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/maps/api/place/details/json\";\n\n  function fetchPredictions(query) {\n    if (query.length === 0) {\n      suggestionsList.innerHTML = \"\";\n      closeButton.classList.add(\"d-none\");\n      return;\n    }\n\n    closeButton.classList.remove(\"d-none\");\n\n    fetch(`${predictionAPI}?input=${query}&components=country%3Afr&language=fr`)\n      .then((response) => response.json())\n      .then((data) => {\n        displaySuggestions(data.predictions);\n      })\n      .catch((err) => console.error(\"Error fetching predictions:\", err));\n  }\n\n  function displaySuggestions(predictions) {\n    suggestionsList.innerHTML = \"\";\n\n    predictions.forEach((prediction) => {\n      const li = document.createElement(\"li\");\n      li.textContent = prediction.description;\n      li.addEventListener(\"click\", () => {\n        fetchDetails(prediction.place_id, prediction.description);\n      });\n      suggestionsList.appendChild(li);\n    });\n  }\n\n  function parseAddress(details) {\n    if (!details) return \"\";\n\n\t\tconsole.log(details);\n    const addressComponents = {};\n\n    details.address_components.forEach((item) => {\n      addressComponents[item.types[0]] = item.long_name;\n    });\n\n    const result = {\n\t\t\tname: details.name,\n    \tplaceId: details.place_id,\n    \tgMapsUrl: details.url,\n    \tfullAddress: details.formatted_address,\n    \tstreetNumber: addressComponents.street_number || \"\",\n    \troute: addressComponents.route || \"\",\n    \tlocality: addressComponents.locality,\n    \tadministrativeAreaLevel1: addressComponents.administrative_area_level_1 || \"\",\n    \tadministrativeAreaLevel2: addressComponents.administrative_area_level_2 || \"\",\n    \tcountry: addressComponents.country,\n    \tpostalCode: addressComponents.postal_code || \"\",\n    };\n\n    return result;\n  }\n\n  function fetchDetails(id, text) {\n    suggestionsList.innerHTML = \"\";\n    input.value = text;\n\n    fetch(`${detailsAPI}?placeid=${id}&components=country%3Afr&language=fr`)\n      .then((response) => response.json())\n      .then((details) => {\n        appsmith.updateModel({ data: parseAddress(details.result), hasValue: true });\n\t\t\t\tappsmith.triggerEvent(\"submitted\");\n      })\n      .catch((err) => console.error(\"Error fetching details:\", err));\n  }\n\n  function debounce(func, delay) {\n    return function () {\n      const args = arguments;\n      clearTimeout(debounceTimeout);\n      debounceTimeout = setTimeout(() => func.apply(this, args), delay);\n    };\n  }\n\n  closeButton.addEventListener(\"click\", function () {\n    input.value = \"\";\n    suggestionsList.innerHTML = \"\";\n    closeButton.classList.add(\"d-none\");\n  });\n\n  input.addEventListener(\n    \"input\",\n    debounce(function () {\n      const query = this.value;\n      fetchPredictions(query);\n    }, debounceDelay),\n  );\n}\n\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  initApp();\n});\n"
+  },
+  "version": 1,
+  "widgetId": "hvpcv71yhu",
+  "widgetName": "UpdateGoogleMaps"
+}

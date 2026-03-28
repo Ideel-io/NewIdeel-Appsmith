@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#596d7b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "tooltip"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "iconName"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "{{utils.showSubscriptions ? \"chevron-up\" : \"chevron-down\"}}",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "oyfkl36pi0",
+  "leftColumn": 60,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{utils.showSubscriptions = !utils.showSubscriptions}}",
+  "parentColumnSpace": 13.431640625,
+  "parentId": "kmwf8xhjg0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "tooltip": "{{ utils.showSubscriptions ? \"Cacher Abonnements\" : \"Afficher Abonnements\"}}",
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u6sqlk8vcx",
+  "widgetName": "ToggleShowSubscriptions"
+}

@@ -1,0 +1,10 @@
+query SearchProcedures($input: SearchInput!) {
+  searchProcedures(input: $input) {
+    total
+    items {
+      id
+      score
+      source # This will contain the Contract data
+    }
+  }
+}

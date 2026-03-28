@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_0f9d2063-8f1b-4014-a4db-a23c70176660",
+  "id": "Opportunity Details Housing_State",
+  "unpublishedCollection": {
+    "name": "State",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profileSelector",
+        "value": "getAllFamilyMembersByStaff.data ? getAllFamilyMembersByStaff.data.data.getAllFamilyMembersByStaff.familyMembers.map(f => {\n  return {\n    label: `${f.firstname} ${f.lastname}`,\n    value: f.id\n  };\n}) : []"
+      },
+      {
+        "name": "currentSelectedFamilyMember",
+        "value": "{}"
+      }
+    ]
+  }
+}

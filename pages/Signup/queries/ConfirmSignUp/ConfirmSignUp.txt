@@ -1,0 +1,3 @@
+mutation confirmSignUp($code: String!, $email: String!) {
+	confirmSignUp(code: $code, email: $email)
+}

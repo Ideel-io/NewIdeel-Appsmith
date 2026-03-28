@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{ Family.findFamilyMember(SelectProfile.selectedOptionValue).birthdate ? new Date(Family.findFamilyMember(SelectProfile.selectedOptionValue).birthdate) : GetUser.data[\"0\"]?.[\"Date de naissance du souscripteur\"] || \"\" }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "khorvqzek0",
+  "label": "Date de naissance",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "30",
+  "leftColumn": 0,
+  "maxDate": "2121-12-31",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
+  "parentColumnSpace": 4.7573463916778564,
+  "parentId": "huz0yzyre2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 23,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "uhkzgibe2i",
+  "widgetName": "user_birthdate"
+}

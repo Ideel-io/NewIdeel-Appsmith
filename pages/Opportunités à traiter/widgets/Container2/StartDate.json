@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "maxDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "maxDate"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "isDisabled": "{{ !DateTimeFiltersSwitch.isSwitchedOn }}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{ appsmith.store.ctx.role === \"staff\" && DateTimeFiltersSwitch.isSwitchedOn }}",
+  "key": "lngbu54irn",
+  "label": "De",
+  "labelAlignment": "left",
+  "labelPosition": "Auto",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "0",
+  "leftColumn": 22,
+  "maxDate": "{{ dayjs() }}",
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 11.64361572265625,
+  "parentId": "e2gxc5t3c2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 8,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "2fgaxlvjev",
+  "widgetName": "StartDate"
+}

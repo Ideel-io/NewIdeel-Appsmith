@@ -1,0 +1,66 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "#e6e9f2",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{\n!getDocuments.data.data.identityVerso.length \n}}",
+  "isLoading": false,
+  "isVisible": "{{\n!!getDocuments.data.data.identityVerso.length \n}}",
+  "key": "zvt0qy7uzv",
+  "leftColumn": 32,
+  "minWidth": 120,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo(getDocuments.data.data.identityVerso.slice(-1)[0][\"downloadUrl\"] , {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
+  "parentColumnSpace": 2.658397674560547,
+  "parentId": "bvo6pk27qg",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Voir Verso📄",
+  "topRow": 17,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8loq9ybiqe",
+  "widgetName": "Button25Copy4"
+}

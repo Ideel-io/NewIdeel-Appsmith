@@ -1,0 +1,44 @@
+query findUserByEmail($userEmail: String!) {
+  findUserByEmail(userEmail: $userEmail) {
+    id
+    createdAt
+    updatedAt
+    email
+    firstName
+    lastName
+    createdSubscriptionsCount
+    unseenNotificationCount
+    phoneNumber
+    dateBirth
+    age
+    deleted
+    deletionReason
+    occupation
+    maritalStatus
+    stripeCustomerId
+    sbMutedCount
+    sbPotentialSavingSum
+    sbMissingInfoCount
+    sbOptimazableCount
+    isEmailVerified
+    isPhoneNumberVerified
+		membership
+		userCurrentState
+		userSituations
+		userGoals 
+		transactionReports
+		coins {
+			total
+			unblocked
+			blocked
+		}
+		referralPrices {
+			label
+			firstLevelPotentialGains
+      secondLevelPotentialGains
+      thirdLevelPotentialGains
+		}
+		welcomeGiftAmount
+		referralCode
+  }
+}

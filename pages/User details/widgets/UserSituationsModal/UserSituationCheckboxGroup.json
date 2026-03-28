@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36,
+  "defaultSelectedValues": "{{\n  Mapping_states.getKeyByValue(\n    Mapping_states.userSituations,\n    findUserByEmail.data.data.findUserByEmail.userSituations\n  )\n}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultSelectedValues"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isSelectAll": false,
+  "isVisible": true,
+  "key": "ti14ud0x2l",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "optionAlignment": "unset",
+  "options": "{{Mapping_states.getUserGoalsOrSituations(Mapping_states.userSituations)}}",
+  "originalBottomRow": 36,
+  "originalTopRow": 5,
+  "parentColumnSpace": 6.9375,
+  "parentId": "x75qn0g42q",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "topRow": 5,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "sajr4xezb5",
+  "widgetName": "UserSituationCheckboxGroup"
+}

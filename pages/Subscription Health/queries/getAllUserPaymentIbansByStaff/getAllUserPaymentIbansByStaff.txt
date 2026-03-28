@@ -1,0 +1,9 @@
+query getAllUserPaymentIbansByStaff ($userId: String!) {
+    getAllUserPaymentIbansByStaff (userId : $userId) {
+      id
+      iban
+      ibanLabel
+      isDefault
+      bic
+    }
+  }

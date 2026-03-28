@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_099372a9-3645-432b-a89e-6c74a0dc819c",
+  "id": "Mes contrats finalisés_Actions",
+  "unpublishedCollection": {
+    "name": "Actions",
+    "pageId": "Mes contrats finalisés",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ContractTableData",
+        "value": "(() => {\n  try {\n    if (Table1.searchText) return searchContracts.data.data.searchContracts.items.map(item => {\n      const s = JSON.parse(item.source);\n      return {\n        node: s\n      };\n    });\n  } catch (error) {}\n  try {\n    return getAllContracts.data.data.getAllContracts.edges;\n  } catch (error) {}\n  return [];\n})()"
+      }
+    ]
+  }
+}

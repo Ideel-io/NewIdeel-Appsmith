@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67ad0c9604b1af47acc37b59_4db6fdd4-54a2-423d-b1dd-b5c6eaaf3ee7",
+  "id": "Users_Form",
+  "unpublishedCollection": {
+    "name": "Form",
+    "pageId": "Users",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "nameRegex",
+        "value": "new RegExp(\"^\\s*[A-Za-zÀ-ÖØ-öø-ÿ]+(?:[-' ][A-Za-zÀ-ÖØ-öø-ÿ]+)*\\s*$\")"
+      },
+      {
+        "name": "phoneRegex",
+        "value": "new RegExp(\"^(?:(?:\\\\+|00)33|0)[67]\\\\d{8}$\")"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_e62b0577-751b-40c3-bed1-59be419349ed",
+  "id": "Subscription Auto_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Subscription Auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sendingLetter",
+        "value": "false"
+      }
+    ]
+  }
+}

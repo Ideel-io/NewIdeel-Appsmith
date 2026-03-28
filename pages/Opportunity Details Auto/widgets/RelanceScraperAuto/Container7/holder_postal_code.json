@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "defaultText": "{{ Housing.findHousing(SelectHousing.selectedOptionValue).address?.postalCode || getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.postalCode }}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "iaq56n2imh",
+  "label": "Code postal",
+  "labelAlignment": "right",
+  "labelPosition": "Auto",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "8",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{JSObject1.valid()}}",
+  "originalBottomRow": 34,
+  "originalTopRow": 30,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "703cor5yzr",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "regex": "^\\d{5}$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 20,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 30,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "35kd2ag10p",
+  "widgetName": "holder_postal_code"
+}

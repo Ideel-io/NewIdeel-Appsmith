@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_7d0b4fc7-cfb0-4747-b97e-951d4b2c9657",
+  "id": "Contract Details_Mapping_states",
+  "unpublishedCollection": {
+    "name": "Mapping_states",
+    "pageId": "Contract Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "state",
+        "value": "getProcedureById?.data?.data.getProcedureById.currentStepId"
+      },
+      {
+        "name": "state_map_opti",
+        "value": "{\n  \"0\": \"A) Demande Identifiée\",\n  \"1\": \"B) Besoins & Infos Collectées\",\n  \"2\": \"En Stand-By\",\n  \"3\": \"C) Devis Partagé\",\n  \"4\": \"D) Souscription Finalisée\",\n  \"5\": \"E) Contrat Validé\"\n}"
+      },
+      {
+        "name": "state_map_rési",
+        "value": "{\n  \"0\": \"A) Questionnaire De Résiliation Rempli\",\n  \"1\": \"B) Lettre À Payer\",\n  \"2\": \"C) Envoi À Confirmer\",\n  \"3\": \"D) Envoi Confirmé\",\n  \"4\": \"E) Lettre Envoyée\",\n  \"5\": \"F) Lettre Distribuée\"\n}"
+      },
+      {
+        "name": "state_map_rési_digi",
+        "value": "{\n  \"0\": \"A) Démarche Commencée\",\n  \"1\": \"B) Questionnaire De Résiliation Rempli\",\n  \"2\": \"C) Succès De La Résiliation Digitale\"\n}"
+      },
+      {
+        "name": "periodicities",
+        "value": "[{\n  label: \"Par mois\",\n  value: \"MONTHLY\"\n}, {\n  label: \"Par an\",\n  value: \"YEARLY\"\n}, {\n  label: \"Par trois mois\",\n  value: \"EVERY_3_MONTHS\"\n}, {\n  label: \"Par six mois\",\n  value: \"EVERY_6_MONTHS\"\n}]"
+      }
+    ]
+  }
+}

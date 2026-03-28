@@ -1,0 +1,3 @@
+mutation requestUploadDocuments($documentsInput: [RequestUploadDocumentInput!]!) {
+  requestUploadDocuments(documentsInput: $documentsInput)
+}

@@ -1,0 +1,49 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "cf51045qj4",
+  "label": "Actualiser automatiquement",
+  "labelPosition": "Right",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 8,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onChange": "{{scraperRelaunch.autoRefreshScraperResults();}}",
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
+  "parentColumnSpace": 27.609222412109375,
+  "parentId": "6t42tbp60c",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 33,
+  "topRow": 0,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "wql1bjio5j",
+  "widgetName": "AutoRefreshScraperResultSwitch"
+}

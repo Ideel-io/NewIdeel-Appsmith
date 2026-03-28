@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 52,
+  "boxShadow": "none",
+  "buttonColor": "#86efac",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0ihum4rjbt",
+  "leftColumn": 40,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{\n(GetUser.data[\"0\"] \n    ? Update_user_infos.run() \n    : Create_user_infos.run().then(() => GetUser.run())\n  ).then(() => {\n\tMapping_states.state = 3;\ngoToStep.run(() => getProcedureById.run(), () => {})\n})\n.then(() => {\n\t\tcloseModal(ModalNewContract.name)\n\tshowAlert('Fait !', 'success');\n\n})\n}}",
+  "originalBottomRow": 54,
+  "originalTopRow": 50,
+  "parentId": "x8oqmqbcg5",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Le devis est partagé",
+  "topRow": 48,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "7lsj8e9a1y",
+  "widgetName": "Button16"
+}

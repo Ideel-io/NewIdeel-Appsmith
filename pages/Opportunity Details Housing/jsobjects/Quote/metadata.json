@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "65a6ac3f671c3345d0868803_6f6fe34e-7edd-4a5b-9819-3735cf9bb56d",
+  "id": "Opportunity Details Housing_Quote",
+  "unpublishedCollection": {
+    "name": "Quote",
+    "pageId": "Opportunity Details Housing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "sharedStates",
+        "value": "[\"CHOSEN\", \"SHARED\"]"
+      },
+      {
+        "name": "areQueriesLoading",
+        "value": "getProcedureById.isLoading || getPotentialOffersOfLastRun.isLoading"
+      },
+      {
+        "name": "procedureMovedPastOfferChoice",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId > 2"
+      },
+      {
+        "name": "offerChoiceStep",
+        "value": "getProcedureById.data.data?.getProcedureById.currentStepId == 2"
+      },
+      {
+        "name": "canResetOffersShared",
+        "value": "Quote.offersAlreadyShared() && !Quote.procedureMovedPastOfferChoice"
+      },
+      {
+        "name": "canShareQuote",
+        "value": "!Quote.offersAlreadyShared() && Quote.offerChoiceStep"
+      },
+      {
+        "name": "offerToAdd",
+        "value": "{}"
+      }
+    ]
+  }
+}
