@@ -17,6 +17,7 @@ query getAllContracts($first: Float, $before: String, $after: String, $last: Flo
 					email
         }
         recurrentSubscription {
+				 id
          subCategory {
 						name
 					}

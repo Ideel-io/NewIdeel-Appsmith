@@ -25,8 +25,8 @@
   "isLoading": false,
   "isVisible": true,
   "key": "ch8uub8lea",
-  "leftColumn": 12,
-  "onClick": "{{navigateTo('User details', {\n  email: getProcedureById.data.data.getProcedureById.user.email\n}, 'SAME_WINDOW');}}",
+  "leftColumn": 11,
+  "onClick": "{{navigateTo('User details', {\n  email: getContract.data.data.getContract.user.email\n}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 13.166015625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -34,7 +34,7 @@
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
-  "rightColumn": 16,
+  "rightColumn": 15,
   "searchTags": [
     "click",
     "submit"

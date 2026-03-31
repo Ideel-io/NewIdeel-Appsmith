@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 42,
+  "bottomRow": 43,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 40,
-  "originalTopRow": 36,
+  "originalBottomRow": 42,
+  "originalTopRow": 38,
   "overflow": "NONE",
   "parentColumnSpace": 9.82733154296875,
   "parentId": "m41w9fnx3l",
@@ -43,7 +43,7 @@
   "text": "Code postal",
   "textAlign": "LEFT",
   "textColor": "#71717a",
-  "topRow": 38,
+  "topRow": 39,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

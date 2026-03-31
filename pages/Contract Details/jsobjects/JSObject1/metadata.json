@@ -6,11 +6,6 @@
     "pageId": "Contract Details",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": [
-      {
-        "name": "contrat",
-        "value": "GetUser.data[\"0\"][\"# de contrat à résilier\"]"
-      }
-    ]
+    "variables": []
   }
 }

@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "shouldTruncate": false,
-  "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+  "text": "{{ moment( getContract.data.data.getContract.birthDate ).format(\"DD/MM/YYYY\") || \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 30,

@@ -19,12 +19,12 @@ export default {
 	},
 	
 	getLastNoteContent: () => {
-		const userLastNote = getProcedureById.data.data?.getProcedureById.user.notes?.[0];
+		const userLastNote = getContract.data.data?.getContract.user.notes?.[0];
 		if (!userLastNote) return "";
 		return userLastNote.content;
 	},
 	formatLastNoteDate: () => {
-		const userLastNote = getProcedureById.data.data?.getProcedureById.user.notes?.[0];
+		const userLastNote = getContract.data.data?.getContract.user.notes?.[0];
 		if (!userLastNote) return "";
 
 		const lastUpdateDate = this.formatDate(userLastNote.date);
@@ -32,7 +32,7 @@ export default {
 	},
 	formatNotesButtonLabel: () => {
 		const basicLabel = "🖋️ Notes"
-		const userLastNote = getProcedureById.data.data?.getProcedureById.user.notes?.[0];
+		const userLastNote = getContract.data.data?.getContract.user.notes?.[0];
 
 		if (!userLastNote) return basicLabel;
 

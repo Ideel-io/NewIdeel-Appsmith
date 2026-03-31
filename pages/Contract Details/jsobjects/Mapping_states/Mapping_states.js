@@ -1,5 +1,4 @@
 export default {
-	state : getProcedureById?.data?.data.getProcedureById.currentStepId,
 	state_map_opti: {
 		"0" : "A) Demande Identifiée",
 		"1" : "B) Besoins & Infos Collectées",
@@ -20,6 +19,20 @@ export default {
 		"0" : "A) Démarche Commencée",
 		"1" : "B) Questionnaire De Résiliation Rempli",
 		"2" : "C) Succès De La Résiliation Digitale",
+	},
+	state_map_contract: {
+  DRAFT: "Brouillon",
+  NO_EFFECT_REPLACED: "Sans effet (remplacé)",
+  NO_EFFECT_NOT_REPLACED: "Sans effet (non remplacé)",
+  FUTURE_EFFECT: "Effet futur",
+  IN_EFFECT: "Actif",
+  TERMINATED_REPLACED: "Résilié (remplacé)",
+  TERMINATED_CHURN: "Résilié (résiliation)",
+  TERMINATED_SALE: "Résilié (vente)"
+},
+	state_boolean: {
+		"true": "Oui",
+		"false": "Non"
 	},
 	periodicities: [
   	{ label: "Par mois", value: "MONTHLY" },

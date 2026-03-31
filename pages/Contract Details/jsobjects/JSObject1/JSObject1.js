@@ -1,17 +1,4 @@
 export default {
-		contrat : GetUser.data["0"]["# de contrat à résilier"],
-	
-	
-	async runQueries() {
-		await GetUser.run();
-		await getAllFamilyMembersByStaff.run();
-		await getProcedureDetails.run();
-		await getProfileDocuments.run();
-		await getDocuments.run();
-		await getProcedureById.run();
-	},
-
-	
 	goToValidation: () => {
 		const goToPage = {
 			"assurance_auto": "Validation Auto",

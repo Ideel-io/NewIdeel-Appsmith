@@ -26,6 +26,10 @@
       {
         "name": "state_map_rési_digi",
         "value": "{\n  \"0\": \"A) Démarche Commencée\",\n  \"1\": \"B) Questionnaire De Résiliation Rempli\",\n  \"2\": \"C) Succès De La Résiliation Digitale\"\n}"
+      },
+      {
+        "name": "state_map_contract",
+        "value": "{\n  DRAFT: \"Brouillon\",\n  NO_EFFECT_REPLACED: \"Sans effet (remplacé)\",\n  NO_EFFECT_NOT_REPLACED: \"Sans effet (non remplacé)\",\n  FUTURE_EFFECT: \"Effet futur\",\n  IN_EFFECT: \"Actif\",\n  TERMINATED_REPLACED: \"Résilié (remplacé)\",\n  TERMINATED_CHURN: \"Résilié (résiliation)\",\n  TERMINATED_SALE: \"Résilié (vente)\"\n}"
       }
     ]
   }

@@ -9,11 +9,26 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "tooltip"
+    },
+    {
+      "key": "isDisabled"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{!getContract.data.data.getContract.previousContractToCancel.letterLink}}",
   "isLoading": false,
   "isVisible": true,
   "key": "kkvmq2leh6",
@@ -24,6 +39,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 29,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo(getContract.data.data.getContract.previousContractToCancel.letterLink, {}, 'NEW_WINDOW');}}",
   "originalBottomRow": 33,
   "originalTopRow": 29,
   "parentColumnSpace": 9.82733154296875,
@@ -36,6 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 24,
   "text": " Voir le Courier",
+  "tooltip": "{{getContract.data.data.getContract.previousContractToCancel.letterLink}}",
   "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,

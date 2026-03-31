@@ -6,9 +6,17 @@
   "type": "UI_MODULE",
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
+    "dynamicBindingPathList": [
+      {
+        "key": "phoneNumber"
+      },
+      {
+        "key": "email"
+      }
+    ],
     "inputs": {
-      "email": "",
-      "phoneNumber": ""
+      "email": "{{getContract.data.data.getContract.user.email}}",
+      "phoneNumber": "{{getContract.data.data.getContract.user.phoneNumber}}"
     },
     "moduleInputs": {
       "etqaabubdg": {

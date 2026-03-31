@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "query getContract($contractId: String, $recurrentSubscriptionId: String){\n\tgetContract(contractId: $contractId, recurrentSubscriptionId: $recurrentSubscriptionId) {\n\t\t\t\tid\n        contractNumber\n        effectiveDate\n        newRate\n        currentState\n\t\t\t\tpreviousContractToCancel {\n\t\t\t\t\tpropertyInsured\n\t\t\t\t}\n        user {\n          id\n          firstName\n          lastName\n\t\t\t\t\temail\n\t\t\t\t\tphoneNumber\n        }\n        recurrentSubscription {\n         subCategory {\n\t\t\t\t\t\tname\n\t\t\t\t\t}\n        }\n        partner {\n          name\n        }\n\t\t    contractHolder {\n\t\t\t\t\tfirstname\n\t\t\t\t\tlastname\n\t\t\t\t\tcivilTitle\n\t\t\t\t\tfamilyTiesWithUser\n\t\t\t\t\t\n\t\t\t\t}\n\t}\n}\n",
+      "body": "query getContract($contractId: String!, $recurrentSubscriptionId: String!){\n\tgetContract(contractId: $contractId, recurrentSubscriptionId: $recurrentSubscriptionId) {\n\t\t\t\tid\n        contractNumber\n        effectiveDate\n        newRate\n        currentState\n\t\t    birthDate\n\t\t\t\tpreviousContractToCancel {\n\t\t\t\t\tpropertyInsured\n\t\t\t\t\tletterLink\n\t\t\t\t\tpreviousInsurerName\n\t\t\t\t\tresiliationPreviousContract\n\t\t\t\t}\n        user {\n          id\n          firstName\n          lastName\n\t\t\t\t\temail\n\t\t\t\t\tphoneNumber\n\t\t\t\t\tnotes {\n\t\t\t\t\t\tauthor\n\t\t\t\t\t\tcontent\n\t\t\t\t\t\tdate\n\t\t\t\t\t}\n        }\n        recurrentSubscription {\n\t\t\t\t\tsubscriptionAttributes\n         subCategory {\n\t\t\t\t\t\tname\n\t\t\t\t\t}\n        }\n        partner {\n          name\n        }\n\t\t    contractHolder {\n\t\t\t\t\tfirstname\n\t\t\t\t\tlastname\n\t\t\t\t\tcivilTitle\n\t\t\t\t\tfamilyTiesWithUser\n\t\t\t\t\tbirthdate\n\t\t\t\t}\n\t}\n}\n",
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
@@ -32,7 +32,7 @@
           "value": true
         },
         {
-          "value": ""
+          "value": "{\n\t\"contractId\": {{appsmith.URL.queryParams.contractId}},\n\t\"recurrentSubscriptionId\" : {{appsmith.URL.queryParams.recurrentSubscriptionId}}\n}"
         },
         {
           "value": {
@@ -98,11 +98,14 @@
       },
       {
         "key": "pluginSpecifiedTemplates[2].value.cursorBased.next.cursor.value"
+      },
+      {
+        "key": "pluginSpecifiedTemplates[1].value"
       }
     ],
     "name": "getContract",
     "pageId": "Contract Details",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 24,
+  "bottomRow": 19,
   "boxShadow": "none",
   "defaultText": "{{utils.getLastNoteContent()}}",
   "dynamicBindingPathList": [
@@ -30,7 +30,7 @@
   "labelPosition": "Top",
   "labelText": "{{utils.formatLastNoteDate()}}",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -40,14 +40,14 @@
   "mobileTopRow": 6,
   "needsErrorInfo": false,
   "parentColumnSpace": 6.9375,
-  "parentId": "5frdbyzzee",
+  "parentId": "hhespe7x29",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 52,
-  "topRow": 4,
+  "rightColumn": 53,
+  "topRow": 5,
   "type": "RICH_TEXT_EDITOR_WIDGET",
   "version": 1,
-  "widgetId": "l6hbmwzi7l",
-  "widgetName": "noteContentCopy"
+  "widgetId": "tmtyl5z6xd",
+  "widgetName": "noteContentCopyCopy"
 }

@@ -5,7 +5,7 @@
   "pluginType": "API",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "query getAllContracts($first: Float, $before: String, $after: String, $last: Float){\n\tgetAllContracts(first: $first, before: $before, after: $after, last: $last) {\n\t\tedges {\n      node {\n\t\t\t\tid\n        contractNumber\n        effectiveDate\n        newRate\n        currentState\n\t\t\t\tpreviousContractToCancel {\n\t\t\t\t\tpropertyInsured\n\t\t\t\t}\n        user {\n          id\n          firstName\n          lastName\n\t\t\t\t\temail\n        }\n        recurrentSubscription {\n         subCategory {\n\t\t\t\t\t\tname\n\t\t\t\t\t}\n        }\n        partner {\n          name\n        }\n      }\n    }\n    pageInfo {\n\t\t\thasNextPage\n\t\t\thasPreviousPage\n\t\t\tstartCursor\n\t\t\tendCursor\n\t\t}\n\t}\n}\n",
+      "body": "query getAllContracts($first: Float, $before: String, $after: String, $last: Float){\n\tgetAllContracts(first: $first, before: $before, after: $after, last: $last) {\n\t\tedges {\n      node {\n\t\t\t\tid\n        contractNumber\n        effectiveDate\n        newRate\n        currentState\n\t\t\t\tpreviousContractToCancel {\n\t\t\t\t\tpropertyInsured\n\t\t\t\t}\n        user {\n          id\n          firstName\n          lastName\n\t\t\t\t\temail\n        }\n        recurrentSubscription {\n\t\t\t\t id\n         subCategory {\n\t\t\t\t\t\tname\n\t\t\t\t\t}\n        }\n        partner {\n          name\n        }\n      }\n    }\n    pageInfo {\n\t\t\thasNextPage\n\t\t\thasPreviousPage\n\t\t\tstartCursor\n\t\t\tendCursor\n\t\t}\n\t}\n}\n",
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"

@@ -186,7 +186,7 @@
       "allowSameOptionsInNewRow": true,
       "buttonStyle": "rgb(3, 179, 101)",
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow.node.currentState)) : currentRow.node.currentState })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (Mapping_states. state_map_contract[currentRow.node.currentState])) : Mapping_states. state_map_contract[currentRow.node.currentState] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

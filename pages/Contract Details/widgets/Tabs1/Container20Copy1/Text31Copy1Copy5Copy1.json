@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 26,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
-  "originalTopRow": 27,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "overflow": "NONE",
   "parentColumnSpace": 9.82733154296875,
   "parentId": "m41w9fnx3l",
@@ -43,7 +43,7 @@
   "text": "Adresse ",
   "textAlign": "LEFT",
   "textColor": "#71717a",
-  "topRow": 21,
+  "topRow": 22,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

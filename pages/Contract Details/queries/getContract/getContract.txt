@@ -1,12 +1,16 @@
-query getContract($contractId: String, $recurrentSubscriptionId: String){
+query getContract($contractId: String!, $recurrentSubscriptionId: String!){
 	getContract(contractId: $contractId, recurrentSubscriptionId: $recurrentSubscriptionId) {
 				id
         contractNumber
         effectiveDate
         newRate
         currentState
+		    birthDate
 				previousContractToCancel {
 					propertyInsured
+					letterLink
+					previousInsurerName
+					resiliationPreviousContract
 				}
         user {
           id
@@ -14,8 +18,14 @@ query getContract($contractId: String, $recurrentSubscriptionId: String){
           lastName
 					email
 					phoneNumber
+					notes {
+						author
+						content
+						date
+					}
         }
         recurrentSubscription {
+					subscriptionAttributes
          subCategory {
 						name
 					}
@@ -28,7 +38,7 @@ query getContract($contractId: String, $recurrentSubscriptionId: String){
 					lastname
 					civilTitle
 					familyTiesWithUser
-					
+					birthdate
 				}
 	}
 }

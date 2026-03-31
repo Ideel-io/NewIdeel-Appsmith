@@ -8,10 +8,6 @@
     "pluginType": "JS",
     "variables": [
       {
-        "name": "state",
-        "value": "getProcedureById?.data?.data.getProcedureById.currentStepId"
-      },
-      {
         "name": "state_map_opti",
         "value": "{\n  \"0\": \"A) Demande Identifiée\",\n  \"1\": \"B) Besoins & Infos Collectées\",\n  \"2\": \"En Stand-By\",\n  \"3\": \"C) Devis Partagé\",\n  \"4\": \"D) Souscription Finalisée\",\n  \"5\": \"E) Contrat Validé\"\n}"
       },
@@ -22,6 +18,14 @@
       {
         "name": "state_map_rési_digi",
         "value": "{\n  \"0\": \"A) Démarche Commencée\",\n  \"1\": \"B) Questionnaire De Résiliation Rempli\",\n  \"2\": \"C) Succès De La Résiliation Digitale\"\n}"
+      },
+      {
+        "name": "state_map_contract",
+        "value": "{\n  DRAFT: \"Brouillon\",\n  NO_EFFECT_REPLACED: \"Sans effet (remplacé)\",\n  NO_EFFECT_NOT_REPLACED: \"Sans effet (non remplacé)\",\n  FUTURE_EFFECT: \"Effet futur\",\n  IN_EFFECT: \"Actif\",\n  TERMINATED_REPLACED: \"Résilié (remplacé)\",\n  TERMINATED_CHURN: \"Résilié (résiliation)\",\n  TERMINATED_SALE: \"Résilié (vente)\"\n}"
+      },
+      {
+        "name": "state_boolean",
+        "value": "{\n  \"true\": \"Oui\",\n  \"false\": \"Non\"\n}"
       },
       {
         "name": "periodicities",
