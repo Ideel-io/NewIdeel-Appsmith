@@ -15,8 +15,8 @@
       }
     ],
     "inputs": {
-      "email": "{{getProcedureById.data.data.getProcedureById.user.email }}",
-      "phoneNumber": "{{getProcedureById.data.data.getProcedureById.user.phoneNumber }}"
+      "email": "{{getProcedureById2.data.data.getProcedureById.user.email }}",
+      "phoneNumber": "{{getProcedureById2.data.data.getProcedureById.user.phoneNumber }}"
     },
     "moduleInputs": {
       "etqaabubdg": {

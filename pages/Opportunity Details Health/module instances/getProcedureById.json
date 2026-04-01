@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "68e5397b43db3c4a6ee11f42_120e1380-1db4-4b23-8fe5-d84d231c07ca",
+  "gitSyncId": "69c585f2bc614d160753a915_8381d3b0-6b63-4039-a488-86879b3395ba",
   "id": "Opportunity Details Health_getProcedureById",
   "moduleUUID": "ab5e1738-0a80-4986-acc8-52279497b5df",
   "packageUUID": "3559b860-61d1-4a1f-89d2-a621b4736cd9",
@@ -30,12 +30,12 @@
       }
     ],
     "inputs": {
-      "procedureId": "{{ appsmith.URL.queryParams.procedureId }}",
+      "procedureId": "{{appsmith.URL.queryParams.procedureId}}",
       "withCommissions": "{{ false }}",
       "withCurrentStep": "{{ true }}",
-      "withNotes": "{{ false }}",
-      "withProcedureSteps": "{{ true }}",
-      "withSubDetails": "{{ true }}",
+      "withNotes": "{{ true }}",
+      "withProcedureSteps": "{{ false }}",
+      "withSubDetails": "{{ false }}",
       "withUserProfile": "{{ true }}"
     },
     "moduleInputs": {

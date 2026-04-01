@@ -29,7 +29,7 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "isDisabled": "{{getProcedureById.isLoading || updatePriceAndPeriodicity.isLoading}}",
+  "isDisabled": "{{getProcedureById2.isLoading || updatePriceAndPeriodicity.isLoading}}",
   "isFilterable": false,
   "isLoading": false,
   "isRequired": true,

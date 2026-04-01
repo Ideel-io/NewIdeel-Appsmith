@@ -32,7 +32,7 @@
           "value": true
         },
         {
-          "value": "{\n\t\"potentialOfferInput\": {\n\t\t\"userId\": {{appsmith.URL.queryParams.userId}},\n\t\t\"procedureId\": {{appsmith.URL.queryParams.procedureId}},\n\t\t\"recurrentSubscriptionId\": {{ appsmith.URL.queryParams.recurrentSubscriptionId}},\n\t\t\"name\": {{nameOfferChoice.selectedOptionLabel}},\n\t\t\"price\": {{Number(user_new_tarif.text) * 100}},\n\t\t\"runId\": {{getPotentialOffersOfLastRun.data.data.getPotentialOffersOfLastRun[0].runId }},\n\t\t\"partner\": {{user_new_partner.selectedOptionValue}},\n\t\t\"state\": \"SHARED\",\n\t},\n\t\"category\": {{getProcedureById.data.data.getProcedureById.category}}\n \n}"
+          "value": "{\n\t\"potentialOfferInput\": {\n\t\t\"userId\": {{appsmith.URL.queryParams.userId}},\n\t\t\"procedureId\": {{appsmith.URL.queryParams.procedureId}},\n\t\t\"recurrentSubscriptionId\": {{ appsmith.URL.queryParams.recurrentSubscriptionId}},\n\t\t\"name\": {{nameOfferChoice.selectedOptionLabel}},\n\t\t\"price\": {{Number(user_new_tarif.text) * 100}},\n\t\t\"runId\": {{getPotentialOffersOfLastRun.data.data.getPotentialOffersOfLastRun[0].runId }},\n\t\t\"partner\": {{user_new_partner.selectedOptionValue}},\n\t\t\"state\": \"SHARED\",\n\t},\n\t\"category\": {{getProcedureById2.data.data.getProcedureById.category}}\n \n}"
         },
         {
           "value": {}

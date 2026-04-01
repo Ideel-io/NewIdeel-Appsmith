@@ -60,14 +60,14 @@ export default {
 		'widow': 'veuf(ve)',
 		'pacs': 'pacsé(e)',
 	},
-	isProcedureCompleted: Object.keys(this.ProcedureEndState).includes(getProcedureById.data.data?.getProcedureById.endState),
+	isProcedureCompleted: Object.keys(this.ProcedureEndState).includes(getProcedureById2.data.data?.getProcedureById.endState),
 	userAnsweredOptiPost: !!getProcedureDetails.data.data?.getProcedureDetails.questionList,
- 	canPutProcedureInStandBy: !this.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId < 2,	
+ 	canPutProcedureInStandBy: !this.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId < 2,	
 	showOpportunityDetailsModal: false, //appsmith.store.ctx.role === "staff",
-	canMoveProcedureToSharedQuote: !this.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId < 3,
-  canSendQuoteToSubscription: !this.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId === 3,
-	canCreateQuote: !this.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId === 0,
-	 showCompartifTable: !this.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId > 0,
+	canMoveProcedureToSharedQuote: !this.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId < 3,
+  canSendQuoteToSubscription: !this.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId === 3,
+	canCreateQuote: !this.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId === 0,
+	 showCompartifTable: !this.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId > 0,
 
 
 
@@ -75,8 +75,8 @@ export default {
 		return str[0].toUpperCase() + str.slice(1).toLowerCase();
 	},
 	canCancelProcedure: () => {
-		if (!getProcedureById.data.data) return false;
-		const procedure = getProcedureById.data.data.getProcedureById
+		if (!getProcedureById2.data.data) return false;
+		const procedure = getProcedureById2.data.data.getProcedureById
 		const isAlreadyCompleted = [this.ProcedureEndState.FAILURE, this.ProcedureEndState.CANCELLATION].includes(procedure.endState)
 
 		return !(procedure.currentStepId === 5 || isAlreadyCompleted)
@@ -84,19 +84,19 @@ export default {
 	cancelProcedure: async () => {
 		await cancelProcedureByStaff.run();
 		closeModal(CancelProcedureModal.name);
-		await getProcedureById.run();
+		await getProcedureById2.run();
 	}, 
 	
 	moveProcedureToStep: async (step) => {
 		await goToStep.run({ 
 			stepId: step,
 			notifyUser : false,
-			procedureId: getProcedureById.data.data?.getProcedureById.id,
+			procedureId: getProcedureById2.data.data?.getProcedureById.id,
 		});
-		await getProcedureById.run();
+		await getProcedureById2.run();
 	},
 	moveProcedureToSecondStep: async () => {
-		if (getProcedureById.data.data?.getProcedureById.currentStepId !== 0) return;
+		if (getProcedureById2.data.data?.getProcedureById.currentStepId !== 0) return;
 		await this.moveProcedureToStep(1);
 	},
 	moveProcedureToThirdStep: async () => {

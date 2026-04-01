@@ -33,7 +33,7 @@
       },
       {
         "name": "isProcedureCompleted",
-        "value": "Object.keys(utils.ProcedureEndState).includes(getProcedureById.data.data?.getProcedureById.endState)"
+        "value": "Object.keys(utils.ProcedureEndState).includes(getProcedureById2.data.data?.getProcedureById.endState)"
       },
       {
         "name": "userAnsweredOptiPost",
@@ -41,7 +41,7 @@
       },
       {
         "name": "canPutProcedureInStandBy",
-        "value": "!utils.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId < 2"
+        "value": "!utils.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId < 2"
       },
       {
         "name": "showOpportunityDetailsModal",
@@ -49,19 +49,19 @@
       },
       {
         "name": "canMoveProcedureToSharedQuote",
-        "value": "!utils.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId < 3"
+        "value": "!utils.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId < 3"
       },
       {
         "name": "canSendQuoteToSubscription",
-        "value": "!utils.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId === 3"
+        "value": "!utils.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId === 3"
       },
       {
         "name": "canCreateQuote",
-        "value": "!utils.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId === 0"
+        "value": "!utils.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId === 0"
       },
       {
         "name": "showCompartifTable",
-        "value": "!utils.isProcedureCompleted && getProcedureById.data.data?.getProcedureById.currentStepId > 0"
+        "value": "!utils.isProcedureCompleted && getProcedureById2.data.data?.getProcedureById.currentStepId > 0"
       }
     ]
   }

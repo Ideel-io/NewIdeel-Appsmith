@@ -15,8 +15,8 @@
       }
     ],
     "inputs": {
-      "endState": "{{getProcedureById.data.data.getProcedureById.endState}}",
-      "stepId": "{{getProcedureById.data.data.getProcedureById.currentStepId + 1}}"
+      "endState": "{{getProcedureById2.data.data.getProcedureById.endState}}",
+      "stepId": "{{getProcedureById2.data.data.getProcedureById.currentStepId + 1}}"
     },
     "moduleInputs": {
       "amsnpamjsb": {

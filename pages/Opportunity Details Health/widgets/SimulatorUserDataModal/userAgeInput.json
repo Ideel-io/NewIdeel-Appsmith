@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 13,
   "boxShadow": "none",
-  "defaultText": "{{getProcedureById.data.data?.getProcedureById.user.age}}",
+  "defaultText": "{{getProcedureById2.data.data?.getProcedureById.user.age}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

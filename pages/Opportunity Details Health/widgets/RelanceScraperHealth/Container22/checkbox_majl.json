@@ -4,7 +4,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 5,
-  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
+  "defaultCheckedState": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -39,10 +39,10 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='MALJ'}}",
+  "isDisabled": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name=='MALJ'}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
+  "isVisible": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
   "key": "vszbgbq6jf",
   "label": "Malj",
   "labelPosition": "Left",

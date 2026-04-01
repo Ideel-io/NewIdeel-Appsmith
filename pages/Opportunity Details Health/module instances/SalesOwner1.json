@@ -12,7 +12,7 @@
       }
     ],
     "inputs": {
-      "salesOwner": "{{getProcedureById.data.data.getProcedureById.salesOwnerEmail}}"
+      "salesOwner": "{{getProcedureById2.data.data.getProcedureById.salesOwnerEmail}}"
     },
     "moduleInputs": {
       "jwpitllfor": {

@@ -1,6 +1,6 @@
 {
   "gitSyncId": "65a6ac3f671c3345d0868803_65f81106a6769c39716bd1c6",
-  "id": "Opportunity Details Health_getProcedureStep_",
+  "id": "Opportunity Details Health_getProcedureStep",
   "pluginId": "graphql-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -61,7 +61,7 @@
         "key": "path"
       }
     ],
-    "name": "getProcedureStep_",
+    "name": "getProcedureStep",
     "pageId": "Opportunity Details Health",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

@@ -4,7 +4,7 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 5,
-  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
+  "defaultCheckedState": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -39,10 +39,10 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='AXA'}}",
+  "isDisabled": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name=='AXA'}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
+  "isVisible": "{{getProcedureById2.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
   "key": "vszbgbq6jf",
   "label": "Axa",
   "labelPosition": "Left",

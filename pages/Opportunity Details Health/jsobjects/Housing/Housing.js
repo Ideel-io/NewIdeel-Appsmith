@@ -44,7 +44,7 @@ export default {
 	async addHousing() {
 		try{
 			await createHousingByStaff.run({
-				userId: getProcedureById.data.data.getProcedureById.user.id,
+				userId: getProcedureById2.data.data.getProcedureById.user.id,
 				input: {
 					address: AddGoogleMaps.model.data,
 					...(AddResidenceType.selectedOptionValue ? { residenceType: AddResidenceType.selectedOptionValue } : {}),

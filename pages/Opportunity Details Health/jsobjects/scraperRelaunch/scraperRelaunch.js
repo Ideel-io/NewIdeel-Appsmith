@@ -129,7 +129,7 @@ export default {
 				const chosenOffers = Quote.getChosenOffersRows();
 				
 	      if (chosenOffers.length > 0) {
-			     await getProcedureById.run();
+			     await getProcedureById2.run();
 			     AutoRefreshScraperResultSwitch.setValue(false)
 		     } 
 
