@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 136,
-  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
+  "bottomRow": 8,
+  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.APRIL)}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -14,39 +14,39 @@
       "key": "borderRadius"
     },
     {
-      "key": "isDisabled"
+      "key": "defaultCheckedState"
     },
     {
       "key": "isVisible"
     },
     {
-      "key": "defaultCheckedState"
+      "key": "isDisabled"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
+      "key": "defaultCheckedState"
+    },
+    {
       "key": "isDisabled"
     },
     {
       "key": "isVisible"
-    },
-    {
-      "key": "defaultCheckedState"
     }
   ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
+  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.AMI3F)}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
+  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.APRIL)}}",
   "key": "vszbgbq6jf",
-  "label": "Acheel",
+  "label": "April",
   "labelPosition": "Left",
-  "leftColumn": 1,
+  "leftColumn": 21.853658536585368,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -64,12 +64,12 @@
   },
   "originalBottomRow": 136,
   "originalTopRow": 132,
-  "parentColumnSpace": 15.28125,
-  "parentId": "6gq3wwnl3c",
+  "parentColumnSpace": 10.918660163879395,
+  "parentId": "7wxlv8jb4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 14,
+  "rightColumn": 42.146341463414636,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 132,
+  "topRow": 4,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "w1yu7wd6m9",
-  "widgetName": "checkbox_acheel"
+  "widgetId": "9hw6f67s7t",
+  "widgetName": "checkbox_april"
 }

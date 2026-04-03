@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 132,
-  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
+  "bottomRow": 8,
+  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -39,14 +39,14 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='MALJ'}}",
+  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
+  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.ACHEEL)}}",
   "key": "vszbgbq6jf",
-  "label": "Malj",
+  "label": "Acheel",
   "labelPosition": "Left",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -62,14 +62,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 132,
-  "originalTopRow": 128,
-  "parentColumnSpace": 15.28125,
-  "parentId": "6gq3wwnl3c",
+  "originalBottomRow": 136,
+  "originalTopRow": 132,
+  "parentColumnSpace": 10.918660163879395,
+  "parentId": "7wxlv8jb4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 14,
+  "rightColumn": 20.29268292682927,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 128,
+  "topRow": 4,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "hnsukf91hp",
-  "widgetName": "checkbox_majl"
+  "widgetId": "34o6nminwd",
+  "widgetName": "checkbox_acheel"
 }

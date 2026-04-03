@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 136,
-  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.APRIL)}}",
+  "bottomRow": 4,
+  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -29,24 +29,24 @@
       "key": "defaultCheckedState"
     },
     {
-      "key": "isDisabled"
+      "key": "isVisible"
     },
     {
-      "key": "isVisible"
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.AMI3F)}}",
+  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.APRIL)}}",
+  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
   "key": "vszbgbq6jf",
-  "label": "April",
+  "label": "Générali",
   "labelPosition": "Left",
-  "leftColumn": 15,
+  "leftColumn": 43.707317073170735,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -62,14 +62,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 136,
-  "originalTopRow": 132,
-  "parentColumnSpace": 15.28125,
-  "parentId": "6gq3wwnl3c",
+  "originalBottomRow": 132,
+  "originalTopRow": 128,
+  "parentColumnSpace": 10.918660163879395,
+  "parentId": "7wxlv8jb4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
+  "rightColumn": 64,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 132,
+  "topRow": 0,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "qoosvwywpq",
-  "widgetName": "checkbox_april"
+  "widgetId": "ldq9dv8sc6",
+  "widgetName": "checkbox_generali"
 }

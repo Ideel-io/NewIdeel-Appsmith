@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 132,
-  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
+  "bottomRow": 4,
+  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -14,39 +14,39 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultCheckedState"
+      "key": "isDisabled"
     },
     {
       "key": "isVisible"
     },
     {
-      "key": "isDisabled"
+      "key": "defaultCheckedState"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
-      "key": "defaultCheckedState"
-    },
-    {
       "key": "isDisabled"
     },
     {
       "key": "isVisible"
+    },
+    {
+      "key": "defaultCheckedState"
     }
   ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='AXA'}}",
+  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='MALJ'}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='MALJ'}}",
   "key": "vszbgbq6jf",
-  "label": "Axa",
+  "label": "Malj",
   "labelPosition": "Left",
-  "leftColumn": 15,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -64,12 +64,12 @@
   },
   "originalBottomRow": 132,
   "originalTopRow": 128,
-  "parentColumnSpace": 15.28125,
-  "parentId": "6gq3wwnl3c",
+  "parentColumnSpace": 10.918660163879395,
+  "parentId": "7wxlv8jb4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
+  "rightColumn": 20.29268292682927,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 128,
+  "topRow": 0,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "vybcgvbrlk",
-  "widgetName": "checkbox_axa"
+  "widgetId": "vsuccx0d1h",
+  "widgetName": "checkbox_majl"
 }

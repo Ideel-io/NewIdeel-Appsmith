@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 37,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.value_luxury_goods || \"\" ))(valueLuxuryGoodsSelect.options, valueLuxuryGoodsSelect.serverSideFiltering) }}",
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "rightColumn": 60,
   "serverSideFiltering": false,
   "sourceData": "{{Mapping_questions.valueLuxuryGoodsOptions}}",
-  "topRow": 31,
+  "topRow": 30,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "99pum3y50a",

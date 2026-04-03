@@ -8,8 +8,16 @@
     "pluginType": "JS",
     "variables": [
       {
+        "name": "canRelaunch",
+        "value": "!JSObject1.valid()"
+      },
+      {
         "name": "EstimationPartner",
-        "value": "{\n  ACHEEL: 'acheel',\n  AMI3F: 'ami_trois_f',\n  APRIL: 'april',\n  AXA: 'axa',\n  GENERALI: 'generali',\n  MALJ: 'malj',\n  NOVELIA: 'novelia'\n}"
+        "value": "{\n  ACHEEL: 'acheel',\n  AMI3F: 'ami_trois_f',\n  APRIL: 'april',\n  AXA: 'axa',\n  DIRECT_ASSURANCE: 'direct_assurance',\n  GENERALI: 'generali',\n  MALJ: 'malj',\n  NOVELIA: 'novelia'\n}"
+      },
+      {
+        "name": "allScrapers",
+        "value": "Object.values(scraperRelaunch.EstimationPartner)"
       },
       {
         "name": "scraper",

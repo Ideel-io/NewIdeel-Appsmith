@@ -1,13 +1,17 @@
 export default {
+	//canRelaunch : scraperRelaunch.noPartnerSelected || !JSObject1.valid()
+	canRelaunch : !JSObject1.valid(),
 	EstimationPartner: {
 		ACHEEL: 'acheel',
 		AMI3F: 'ami_trois_f',
 		APRIL: 'april',
 		AXA: 'axa',
+		DIRECT_ASSURANCE: 'direct_assurance',
 		GENERALI: 'generali',
 		MALJ: 'malj',
 		NOVELIA: 'novelia',
 	},
+	allScrapers: Object.values(this.EstimationPartner),
 	scraper: {
 		[this.EstimationPartner.ACHEEL]: false || checkbox_acheel.isChecked,
 		[this.EstimationPartner.AXA]: false || checkbox_axa.isChecked,
@@ -22,7 +26,7 @@ export default {
 		const currentInsurer = getProcedureById.data.data?.getProcedureById.recurrentSubscription.partner.label;
 		return currentInsurer === estimationPartner;
 	},
- autoRefreshScraperResults () {
+	autoRefreshScraperResults () {
 		const intervalId = "scraperResultRefreshId";
 		const refreshRate = 60 * 1000; //in milliseconds
 
@@ -30,18 +34,18 @@ export default {
 			return clearInterval(intervalId);
 
 		if (AutoRefreshScraperResultSwitch.isSwitchedOn) 
-			 return setInterval(async () => {
+			return setInterval(async () => {
 				showAlert("Résultats actualisés");
 				await getPotentialOffersOfLastRun.run();
 				const chosenOffers = this.getChosenOffersRows(); 
 				if (chosenOffers.length > 0) {
-			     await getProcedureById.run();
-			     AutoRefreshScraperResultSwitch.setValue(false)
-		     }  
+					await getProcedureById.run();
+					AutoRefreshScraperResultSwitch.setValue(false)
+				}  
 				await this.getScraperResultsGuarantees();
 			}, refreshRate ,intervalId);
-		
-		
+
+
 	},
 	getRunningScraper (scraper) {
 		const runningScraperList = Object.entries(scraper).filter(([, v]) => v === true)
@@ -66,7 +70,7 @@ export default {
 		});
 		return chosenOffersRows;
 	},
-	
+
 	launch: async () => {
 		try{
 			await retryScraper.run()

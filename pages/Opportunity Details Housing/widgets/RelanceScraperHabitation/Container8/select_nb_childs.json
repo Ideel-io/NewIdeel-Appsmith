@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
+  "bottomRow": 45,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  getLastHousingRunData.data.data.getLastHousingRunData.userHousingInfo?.housing_number_children || \"\" ))(select_nb_childs.options, select_nb_childs.serverSideFiltering) }}",
   "displayName": "Select",
@@ -78,7 +78,7 @@
     "Suggested",
     "Select"
   ],
-  "topRow": 39,
+  "topRow": 38,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "ql399x71su",

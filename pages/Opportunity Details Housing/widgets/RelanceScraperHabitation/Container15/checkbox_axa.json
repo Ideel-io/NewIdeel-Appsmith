@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 132,
-  "defaultCheckedState": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
+  "bottomRow": 4,
+  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -29,24 +29,24 @@
       "key": "defaultCheckedState"
     },
     {
-      "key": "isVisible"
+      "key": "isDisabled"
     },
     {
-      "key": "isDisabled"
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
+  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='AXA'}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{!scraperRelaunch.isCurrentInsurer(scraperRelaunch.EstimationPartner.GENERALI)}}",
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
   "key": "vszbgbq6jf",
-  "label": "Générali",
+  "label": "Axa",
   "labelPosition": "Left",
-  "leftColumn": 29,
+  "leftColumn": 21.853658536585368,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -64,12 +64,12 @@
   },
   "originalBottomRow": 132,
   "originalTopRow": 128,
-  "parentColumnSpace": 15.28125,
-  "parentId": "6gq3wwnl3c",
+  "parentColumnSpace": 10.918660163879395,
+  "parentId": "7wxlv8jb4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
+  "rightColumn": 42.146341463414636,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 128,
+  "topRow": 0,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "cltd4pa88c",
-  "widgetName": "checkbox_generali"
+  "widgetId": "dj3lotl1vu",
+  "widgetName": "checkbox_axa"
 }
