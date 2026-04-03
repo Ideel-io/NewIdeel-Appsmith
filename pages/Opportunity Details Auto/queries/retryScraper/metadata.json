@@ -34,7 +34,7 @@
           "value": true
         },
         {
-          "value": "{\"targetPartnerLabels\": {{scraperRelaunch.getRunningScraper(scraperRelaunch.scraper)}},\n \"currentPartnerLabel\": {{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.label}},\n \"subcategoryLabel\": {{getProcedureById.data.data.getProcedureById.recurrentSubscription.subCategory.label}},\n \"requestData\": {{retryScraperRequestData.retryScraperRequestData()}},\n}"
+          "value": "{\n\t\"targetPartnerLabels\": {{scraperRelaunch.allScrapers}},\n\t\"currentPartnerLabel\": {{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.label}},\n\t\"subcategoryLabel\": {{getProcedureById.data.data.getProcedureById.recurrentSubscription.subCategory.label}},\n\t\"requestData\": {{retryScraperRequestData.retryScraperRequestData()}},\n}"
         },
         {
           "value": {}

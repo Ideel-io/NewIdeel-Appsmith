@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 26,
+  "bottomRow": 25,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Housing.getDefaultHousingSelectionValue() ))(SelectHousing.options, SelectHousing.serverSideFiltering) }}",
   "dynamicBindingPathList": [
@@ -59,7 +59,7 @@
   "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "{{ Housing.housingSelector }}",
-  "topRow": 22,
+  "topRow": 21,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "79oix5nsq6",

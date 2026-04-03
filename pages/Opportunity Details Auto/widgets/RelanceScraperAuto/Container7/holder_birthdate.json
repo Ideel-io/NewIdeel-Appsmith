@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
   "defaultText": "{{ Actions.findFamilyMember(SelectProfile.selectedOptionValue).birthdate ? dayjs(Actions.findFamilyMember(SelectProfile.selectedOptionValue).birthdate).format(\"DD/MM/YYYY\") : getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.dateBirth }}",
   "displayName": "Input",
@@ -72,7 +72,7 @@
     "textarea"
   ],
   "tooltip": "",
-  "topRow": 9,
+  "topRow": 8,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "mdszm6opne",

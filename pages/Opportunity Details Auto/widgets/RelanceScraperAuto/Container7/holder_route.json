@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 30,
+  "bottomRow": 29,
   "boxShadow": "none",
   "defaultText": "{{ Housing.findHousing(SelectHousing.selectedOptionValue).address?.route || getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.route }}",
   "displayName": "Input",
@@ -64,7 +64,7 @@
     "number",
     "textarea"
   ],
-  "topRow": 26,
+  "topRow": 25,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "rvv4rdpbhe",

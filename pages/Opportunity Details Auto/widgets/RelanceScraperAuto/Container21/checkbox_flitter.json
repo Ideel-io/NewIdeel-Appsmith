@@ -3,8 +3,8 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 151,
-  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AMI3F'}}",
+  "bottomRow": 8,
+  "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='FLITTER'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
     {
@@ -39,14 +39,14 @@
   "hideCard": false,
   "iconSVG": "/static/media/icon.3bebd01b788335d2558d7c32bf949729.svg",
   "isDeprecated": false,
-  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='AMI3F'}}",
+  "isDisabled": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name=='FLITTER'}}",
   "isLoading": false,
   "isRequired": false,
-  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AMI3F'}}",
+  "isVisible": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='FLITTER'}}",
   "key": "vszbgbq6jf",
-  "label": "Ami3f",
+  "label": "Flitter",
   "labelPosition": "Left",
-  "leftColumn": 2,
+  "leftColumn": 32.54237288135593,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -64,12 +64,12 @@
   },
   "originalBottomRow": 151,
   "originalTopRow": 147,
-  "parentColumnSpace": 15.28125,
-  "parentId": "v8077e4gcb",
+  "parentColumnSpace": 15.712218284606934,
+  "parentId": "g1ah5vehew",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 64,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 147,
+  "topRow": 4,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "5soypw4elb",
-  "widgetName": "checkbox_ami_trois_f"
+  "widgetId": "4xrmx6sumc",
+  "widgetName": "checkbox_flitter"
 }

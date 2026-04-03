@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 16,
   "boxShadow": "none",
   "defaultText": "{{getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.email}}",
   "displayName": "Input",
@@ -71,7 +71,7 @@
     "textarea"
   ],
   "shouldScrollContents": true,
-  "topRow": 13,
+  "topRow": 12,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "qvosr1zd3e",

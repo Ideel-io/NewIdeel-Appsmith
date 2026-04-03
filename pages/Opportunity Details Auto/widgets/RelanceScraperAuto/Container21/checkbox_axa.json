@@ -3,7 +3,7 @@
   "alignWidget": "LEFT",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 147,
+  "bottomRow": 4,
   "defaultCheckedState": "{{getProcedureById.data.data.getProcedureById.recurrentSubscription.partner.name!=='AXA'}}",
   "displayName": "Checkbox",
   "dynamicBindingPathList": [
@@ -46,7 +46,7 @@
   "key": "vszbgbq6jf",
   "label": "Axa",
   "labelPosition": "Left",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -64,12 +64,12 @@
   },
   "originalBottomRow": 147,
   "originalTopRow": 143,
-  "parentColumnSpace": 15.28125,
-  "parentId": "v8077e4gcb",
+  "parentColumnSpace": 15.712218284606934,
+  "parentId": "g1ah5vehew",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 31.45762711864407,
   "searchTags": [
     "boolean"
   ],
@@ -77,9 +77,9 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.aa4d27836e27bb6c4c45db14dee8f2b2.svg",
-  "topRow": 143,
+  "topRow": 0,
   "type": "CHECKBOX_WIDGET",
   "version": 1,
-  "widgetId": "dz5gi0kmum",
+  "widgetId": "rplldac0hj",
   "widgetName": "checkbox_axa"
 }

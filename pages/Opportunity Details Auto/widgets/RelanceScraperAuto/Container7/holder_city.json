@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 34,
+  "bottomRow": 33,
   "boxShadow": "none",
   "defaultText": "{{ Housing.findHousing(SelectHousing.selectedOptionValue).address?.locality || getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.locality }}",
   "displayName": "Input",
@@ -65,7 +65,7 @@
     "textarea"
   ],
   "tooltip": "",
-  "topRow": 30,
+  "topRow": 29,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "zw9eam6778",

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
   "defaultText": "{{getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.license_plate_car_insurance || \"\"}}",
   "displayName": "Input",
@@ -75,7 +75,7 @@
     "Suggested",
     "Inputs"
   ],
-  "topRow": 6,
+  "topRow": 5,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "1vvpl70w9f",

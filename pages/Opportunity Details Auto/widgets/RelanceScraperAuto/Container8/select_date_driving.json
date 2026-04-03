@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 47,
+  "bottomRow": 45,
   "boxShadow": "none",
   "defaultText": "{{getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.driving_license_date_auto_insurance || \"\"}}",
   "displayName": "Input",
@@ -76,7 +76,7 @@
     "Suggested",
     "Inputs"
   ],
-  "topRow": 40,
+  "topRow": 38,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "n0re4ck8s4",

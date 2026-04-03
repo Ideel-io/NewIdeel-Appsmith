@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 155,
+  "bottomRow": 154,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY",
@@ -41,8 +41,8 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 18,
   "onClick": "{{closeModal(RelanceScraperAuto.name)}}",
-  "originalBottomRow": 155,
-  "originalTopRow": 151,
+  "originalBottomRow": 154,
+  "originalTopRow": 150,
   "parentId": "v8077e4gcb",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -58,7 +58,7 @@
     "Buttons"
   ],
   "text": "Close",
-  "topRow": 151,
+  "topRow": 150,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "goegi1ug68",

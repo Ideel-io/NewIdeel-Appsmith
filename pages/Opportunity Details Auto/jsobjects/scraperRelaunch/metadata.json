@@ -8,8 +8,16 @@
     "pluginType": "JS",
     "variables": [
       {
+        "name": "canRelaunch",
+        "value": "JSObject1.valid()"
+      },
+      {
         "name": "scraper",
-        "value": "{\n  axa: false || checkbox_axa.isChecked,\n  ami_trois_f: false || checkbox_ami_trois_f.isChecked,\n  flitter: false || checkbox_flitter.isChecked,\n  novelia: false || checkbox_novelia.isChecked\n}"
+        "value": "{}"
+      },
+      {
+        "name": "allScrapers",
+        "value": "[\"axa\", \"ami_trois_f\", \"flitter\", \"novelia\", \"april\", \"direct_assurance\", \"assurea\"]"
       }
     ]
   }

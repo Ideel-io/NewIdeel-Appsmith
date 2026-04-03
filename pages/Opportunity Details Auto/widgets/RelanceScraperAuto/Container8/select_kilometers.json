@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "bottomRow": 27,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.yearly_kilometers_car_insurance || \"\"))(select_kilometers.options, select_kilometers.serverSideFiltering) }}",
   "displayName": "Select",
@@ -74,7 +74,7 @@
     "Suggested",
     "Select"
   ],
-  "topRow": 21,
+  "topRow": 20,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "hhn421yiao",

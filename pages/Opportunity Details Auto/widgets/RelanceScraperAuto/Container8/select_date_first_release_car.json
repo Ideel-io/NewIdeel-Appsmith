@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 20,
   "boxShadow": "none",
   "defaultText": "{{getLastAutoRunData.data.data.getLastAutoRunData.userAutoInfo?.date_first_release_car || \"\"}}",
   "displayName": "Input",
@@ -88,7 +88,7 @@
     "Suggested",
     "Inputs"
   ],
-  "topRow": 14,
+  "topRow": 13,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "69u6g8q2rm",

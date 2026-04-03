@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
   "defaultText": "{{ Actions.findFamilyMember(SelectProfile.selectedOptionValue).lastname || getLastAutoRunData.data.data.getLastAutoRunData.userPersonalInfo.lastName }}",
   "displayName": "Input",
@@ -71,7 +71,7 @@
     "textarea"
   ],
   "tooltip": "",
-  "topRow": 9,
+  "topRow": 8,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "fphkcl1sy7",

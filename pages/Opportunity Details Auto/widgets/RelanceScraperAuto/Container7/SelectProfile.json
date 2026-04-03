@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  Actions.getDefaultProfileSelectionValue() ))(SelectProfile.options, SelectProfile.serverSideFiltering) }}",
   "dynamicBindingPathList": [
@@ -59,7 +59,7 @@
   "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "{{ State.profileSelector }}",
-  "topRow": 5,
+  "topRow": 4,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "dalqguq9x2",
