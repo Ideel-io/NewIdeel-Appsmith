@@ -1,0 +1,42 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultSwitchState": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yakkvdamca",
+  "label": "Ajouter un second prêt",
+  "labelPosition": "Left",
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 15,
+  "needsErrorInfo": false,
+  "originalBottomRow": 14,
+  "originalTopRow": 9,
+  "parentColumnSpace": 11.893749999999999,
+  "parentId": "mfwko6jgco",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 46,
+  "topRow": 9,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "5ethzketpb",
+  "widgetName": "second_loan"
+}

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_e011ca78-44b5-42ec-983f-54406adf2202",
+  "id": "Opportunity Details Loan Copy_Mapping_questions",
+  "unpublishedCollection": {
+    "name": "Mapping_questions",
+    "pageId": "Opportunity Details Loan Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "state_map",
+        "value": "{\n  \"groundAppartement\": \"Un appartement au rez-de-chaussée\",\n  \"intermediateAppartement\": \"Un appartement à un étage intermédiaire\",\n  \"lastAppartement\": \"Un appartement au dernier étage\",\n  \"houseOneStage\": \"Une maison à un étage\",\n  \"houseTwoStage\": \"Une maison à deux étages\",\n  \"houseThreeStage\": \"Une maison à trois étages\",\n  \"houseFourStage\": \"Une maison à quatre étages ou plus\"\n}"
+      }
+    ]
+  }
+}

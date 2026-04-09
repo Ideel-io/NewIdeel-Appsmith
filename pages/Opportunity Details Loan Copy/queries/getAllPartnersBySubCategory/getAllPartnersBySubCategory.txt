@@ -1,0 +1,7 @@
+query getAllPartnersOrBySubCategory($subCategoryId: Float!){
+	getAllPartnersOrBySubCategory(subCategoryId: $subCategoryId) {
+		label: name
+		value: label
+	}
+}
+	

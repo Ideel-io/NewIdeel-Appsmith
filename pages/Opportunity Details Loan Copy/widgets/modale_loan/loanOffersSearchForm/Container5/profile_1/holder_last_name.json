@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "defaultText": "{{ Actions.findFamilyMember(SelectProfile.selectedOptionValue).lastname || \"\" }}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{JSObject1.expandContainer}}",
+  "key": "iaq56n2imh",
+  "label": "Nom",
+  "labelAlignment": "right",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onTextChanged": "{{JSObject1.valid()}}",
+  "originalBottomRow": 22,
+  "originalTopRow": 15,
+  "parentColumnSpace": 12.6484375,
+  "parentId": "q0v26pf7pu",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 61,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "tooltip": "",
+  "topRow": 10,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "3ns08i5qt0",
+  "widgetName": "holder_last_name"
+}

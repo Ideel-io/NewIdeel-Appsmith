@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#f6c136",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!runAutoCompletion.hasResult}}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "aiu0y964zw",
+  "leftColumn": 52,
+  "minWidth": 120,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 27,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal(IAModificationModal.name);}}",
+  "parentColumnSpace": 12.220312499999999,
+  "parentId": "032mjcgr4b",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Réouvir les résultats",
+  "tooltip": "Autocomplète les champs ci-dessous avec les documents du client",
+  "topRow": 1,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "uiuwxuvjun",
+  "widgetName": "Button17Copy"
+}

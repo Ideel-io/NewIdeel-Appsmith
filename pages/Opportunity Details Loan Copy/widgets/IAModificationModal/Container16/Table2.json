@@ -1,0 +1,142 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "cachedTableData": {},
+  "canFreezeColumn": true,
+  "cellBackground": "#ffffff",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "xn__cl_cja"
+  ],
+  "columnUpdatedAt": 1773139080052,
+  "columnWidthMap": {},
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.xn__cl_cja.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": false,
+  "isVisibleSearch": false,
+  "key": "9cg6nsejn8",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 31,
+  "originalTopRow": 6,
+  "parentColumnSpace": 9.65625,
+  "parentId": "ss1ue84pjg",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "xn__cl_cja": {
+      "alias": "clé",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "#ffffff",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table2.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"clé\"])) :  currentRow[\"clé\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "xn__cl_cja",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "clé",
+      "notation": "standard",
+      "originalId": "clé",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "{{\n[\n\t{\n\t\t\"clé\": \"Montant Emprunté\",\n\t\t\"valeur\": runAutoCompletion.new_datas.initial_amount_borrowed,\n\t\t\"précision\": runAutoCompletion.new_datas.initial_amount_borrowed_accuracy\n\t},\n\t{\n\t\t\"clé\": \"Taux intéret\",\n\t\t\"valeur\": runAutoCompletion.new_datas.interest_rate,\n\t\t\"précision\": runAutoCompletion.new_datas.interest_rate_accuracy\n\t},\n\t{\n\t\t\"clé\": \"Date début\",\n\t\t\"valeur\": runAutoCompletion.new_datas.first_due_date,\n\t\t\"précision\": runAutoCompletion.new_datas.first_due_date_accuracy\n\t},\n\t{\n\t\t\"clé\": \"Durée du prêt\",\n\t\t\"valeur\": runAutoCompletion.new_datas.initial_duration,\n\t\t\"précision\": runAutoCompletion.new_datas.initial_duration_accuracy\n\t},\n\t{\n\t\t\"clé\": \"Payement différé\",\n\t\t\"valeur\": runAutoCompletion.new_datas.deferred_repayment,\n\t\t\"précision\": runAutoCompletion.new_datas.deferred_repayment_accuracy\n\t}\n]\n}}",
+  "textSize": "0.875rem",
+  "topRow": 5,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "variant": "DEFAULT",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "3yh5gqvrlm",
+  "widgetName": "Table2"
+}

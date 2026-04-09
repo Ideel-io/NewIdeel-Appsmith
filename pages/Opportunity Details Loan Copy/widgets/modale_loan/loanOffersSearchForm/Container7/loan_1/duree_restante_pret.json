@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "defaultText": "{{ PotentialOffers.calculerDureeRestante() }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "5p4hd3ujnc",
+  "label": "Durée restante (en mois)",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "ITALIC",
+  "labelTextColor": "#2e6fc1",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "36",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minNum": "1",
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
+  "parentColumnSpace": 5.6343749999999995,
+  "parentId": "gl2872bh9i",
+  "parentRowSpace": 10,
+  "placeholderText": "Vérifiez la durée restante",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 25,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "grzoyd0v2s",
+  "widgetName": "duree_restante_pret"
+}

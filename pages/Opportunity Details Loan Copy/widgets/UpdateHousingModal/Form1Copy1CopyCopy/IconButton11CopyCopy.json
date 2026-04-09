@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#d9ebff",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "geosearch",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1po2rdbnz8",
+  "leftColumn": 16,
+  "minWidth": 50,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{ Housing.showPlaceSelector() }}",
+  "parentColumnSpace": 11.6455078125,
+  "parentId": "19bapmcsvq",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 20,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zlms28poro",
+  "widgetName": "IconButton11CopyCopy"
+}

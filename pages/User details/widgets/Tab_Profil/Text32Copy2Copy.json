@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 15,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 16,
-  "originalTopRow": 11,
+  "originalBottomRow": 14,
+  "originalTopRow": 10,
   "overflow": "NONE",
   "parentColumnSpace": 16.43115234375,
   "parentId": "pld383136j",
@@ -43,7 +43,7 @@
   "text": "Parrainage",
   "textAlign": "LEFT",
   "textColor": "#b9c0d2",
-  "topRow": 10,
+  "topRow": 11,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

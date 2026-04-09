@@ -1,0 +1,52 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 59,
+  "defaultCheckedState": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": "",
+  "isVisible": true,
+  "key": "l4plqi5jin",
+  "label": "Fumeur ?",
+  "labelPosition": "Left",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "originalBottomRow": 60,
+  "originalTopRow": 56,
+  "parentColumnSpace": 5.6067138671875,
+  "parentId": "ytmb8iebvk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "topRow": 55,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "4mc1w0jjhg",
+  "widgetName": "second_holder_is_smoker"
+}

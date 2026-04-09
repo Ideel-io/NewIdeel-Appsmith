@@ -1,0 +1,43 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultSwitchState": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "kzk760nvmf",
+  "label": "Ajouter un 2e assuré",
+  "labelPosition": "Left",
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
+  "parentColumnSpace": 12.024487304687499,
+  "parentId": "rqra7lem2x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "topRow": 0,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "w5bzw2chw3",
+  "widgetName": "deuxieme_assure"
+}

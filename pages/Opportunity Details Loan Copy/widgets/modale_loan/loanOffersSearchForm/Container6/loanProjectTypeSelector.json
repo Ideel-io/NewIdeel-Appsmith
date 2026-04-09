@@ -1,0 +1,79 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "credit_immobilier",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aoodc8p7u0",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Type de bien",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "",
+  "labelWidth": 0,
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 17,
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "value",
+  "parentColumnSpace": 6.9375,
+  "parentId": "n2op1sntxm",
+  "parentRowSpace": 10,
+  "placeholderText": "",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "shouldScrollContents": true,
+  "sourceData": "{{Constants.loanProjectTypeOptions}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 4,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "1qyd3xlfav",
+  "widgetName": "loanProjectTypeSelector"
+}

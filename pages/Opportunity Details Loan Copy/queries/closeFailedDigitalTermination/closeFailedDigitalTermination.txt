@@ -1,0 +1,2 @@
+mutation closeFailedDigitalTermination($failureReason : ProcedureFailureReason!, $procedureId: ID! ){
+	 closeFailedDigitalTermination (failureReason : $failureReason,procedureId : $procedureId ) { id }}

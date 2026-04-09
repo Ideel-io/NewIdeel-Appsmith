@@ -32,7 +32,9 @@
           "data": "Auto"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1ZlXpgUu4uFnddBFHFY2ee6N1lxPQZx0kK6HBg5sewK8/edit"
+          "componentData": "https://docs.google.com/spreadsheets/d/1ZlXpgUu4uFnddBFHFY2ee6N1lxPQZx0kK6HBg5sewK8/edit",
+          "data": "https://docs.google.com/spreadsheets/d/1ZlXpgUu4uFnddBFHFY2ee6N1lxPQZx0kK6HBg5sewK8/edit",
+          "viewType": "json"
         },
         "smartSubstitution": {
           "data": true

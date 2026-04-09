@@ -1,0 +1,67 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{first_due_date_1.selectedDate}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": "0",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": false,
+  "key": "imp1pzfztj",
+  "label": "Signature du prêt",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Date à laquelle vous avez signé votre offre de prêt (identique à la date de première échéance).",
+  "labelWidth": "32",
+  "leftColumn": 0,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "originalBottomRow": 47,
+  "originalTopRow": 43,
+  "parentColumnSpace": 12.220312499999999,
+  "parentId": "gl2872bh9i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 42,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "cq22zlxqbo",
+  "widgetName": "signature_date_1"
+}

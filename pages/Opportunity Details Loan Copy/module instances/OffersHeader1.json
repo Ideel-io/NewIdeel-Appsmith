@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_c45cd6da-3ea2-4950-ade3-c0e8d3d9f29d",
+  "id": "Opportunity Details Loan Copy_OffersHeader1",
+  "moduleUUID": "2f0c3507-5004-4410-831a-75f3c3902f7e",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "procedureId": "{{appsmith.URL.queryParams.procedureId}}"
+    },
+    "moduleInputs": {
+      "mygqhvizrr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "mygqhvizrr",
+        "label": "procedureId",
+        "propertyName": "inputs.procedureId"
+      }
+    },
+    "name": "OffersHeader1",
+    "pageId": "Opportunity Details Loan Copy",
+    "widgetId": "th356uytqm"
+  }
+}

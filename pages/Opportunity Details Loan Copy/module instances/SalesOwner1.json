@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_a5097ba0-ba20-459d-b954-63d54a7fe7c1",
+  "id": "Opportunity Details Loan Copy_SalesOwner1",
+  "moduleUUID": "31db6a10-f0ec-47b7-af66-90ef855a945a",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "salesOwner": "{{getProcedureById.data.data.getProcedureById.salesOwnerEmail}}"
+    },
+    "moduleInputs": {
+      "jwpitllfor": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jwpitllfor",
+        "label": "salesOwner",
+        "propertyName": "inputs.salesOwner"
+      }
+    },
+    "name": "SalesOwner1",
+    "pageId": "Opportunity Details Loan Copy",
+    "widgetId": "qw51zjpfy3"
+  }
+}

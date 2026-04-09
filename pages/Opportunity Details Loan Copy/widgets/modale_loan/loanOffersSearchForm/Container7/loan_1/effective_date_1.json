@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "closeOnSelection": false,
+  "dateFormat": "DD/MM/YYYY",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "{{Constants.getLoanEffectiveDate()}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    },
+    {
+      "key": "minDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": "0",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "imp1pzfztj",
+  "label": "Date d'effet",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Date de reprise du prêt (calculée par défaut).",
+  "labelWidth": "32",
+  "leftColumn": 0,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
+  "parentColumnSpace": 12.220312499999999,
+  "parentId": "gl2872bh9i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 49,
+  "shortcuts": false,
+  "timePrecision": "None",
+  "topRow": 12,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "rgg30l2t3w",
+  "widgetName": "effective_date_1"
+}

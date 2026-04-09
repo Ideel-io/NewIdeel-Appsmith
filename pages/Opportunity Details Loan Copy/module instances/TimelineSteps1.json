@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_30ccdc60-8e5e-4c33-8a87-9fd42147bc2b",
+  "id": "Opportunity Details Loan Copy_TimelineSteps1",
+  "moduleUUID": "06381f0c-04ae-4da8-9739-087fd854a52d",
+  "packageUUID": "ff99cefa-0ad8-41aa-8cee-3b35555214ef",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "endState": "{{getProcedureById.data.data.getProcedureById.endState}}",
+      "stepId": "{{getProcedureById.data.data.getProcedureById.currentStepId + 1}}"
+    },
+    "moduleInputs": {
+      "amsnpamjsb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "CA",
+        "id": "amsnpamjsb",
+        "label": "endState",
+        "propertyName": "inputs.endState"
+      },
+      "ptqqddxwpo": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "ptqqddxwpo",
+        "label": "stepId",
+        "propertyName": "inputs.stepId"
+      }
+    },
+    "name": "TimelineSteps1",
+    "pageId": "Opportunity Details Loan Copy",
+    "widgetId": "fah89lxxnx"
+  }
+}

@@ -1,0 +1,6 @@
+mutation asignSalesOwnerToProcedure($procedureId: String!, $salesOwnerEmail: String!) {
+	asignSalesOwnerToProcedure(procedureId: $procedureId, salesOwnerEmail: $salesOwnerEmail) {
+		id
+		salesOwnerEmail
+	}
+}

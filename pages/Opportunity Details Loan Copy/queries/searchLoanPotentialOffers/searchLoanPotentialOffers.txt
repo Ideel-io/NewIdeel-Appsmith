@@ -1,0 +1,22 @@
+query searchLoanPotentialOffers($requestData: String!) {
+  searchLoanPotentialOffers(requestData: $requestData) {
+    id_produit
+    plateforme
+    porteur_risque
+    type_tarification
+    cout_total_euro
+    cout_8_ans_euro
+    mensualite_moyenne_euro
+    frais_dossier_euro
+    taea_pourcentage
+    garanties {
+      quotite_deces
+      quotite_itt
+      franchise_jours
+    }
+    echeancier {
+      mois
+      montant
+    }
+  }
+}

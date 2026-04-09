@@ -1,0 +1,44 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_dc9c5285-2aee-4bf4-8bac-5455a5c5ec48",
+  "id": "Opportunity Details Loan Copy_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Opportunity Details Loan Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ProcedureEndState",
+        "value": "{\n  SUCCESS: 'SUCCESS',\n  FAILURE: 'FAILURE',\n  CANCELLATION: 'CANCELLATION'\n}"
+      },
+      {
+        "name": "FrenchPeriodicity",
+        "value": "{\n  par_semaine: 'par_semaine',\n  deux_fois_par_mois: 'deux_fois_par_mois',\n  par_mois: 'par_mois',\n  par_deux_mois: 'par_deux_mois',\n  par_trois_mois: 'par_trois_mois',\n  par_six_mois: 'par_six_mois',\n  par_sept_mois: 'par_sept_mois',\n  par_neuf_mois: 'par_neuf_mois',\n  par_an: 'par_an',\n  par_deux_ans: 'par_deux_ans'\n}"
+      },
+      {
+        "name": "TypePeriodicitySubscription",
+        "value": "{\n  WEEKLY: 'WEEKLY',\n  EVERY_2_WEEKS: 'EVERY_2_WEEKS',\n  MONTHLY: 'MONTHLY',\n  EVERY_2_MONTHS: 'EVERY_2_MONTHS',\n  EVERY_3_MONTHS: 'EVERY_3_MONTHS',\n  EVERY_6_MONTHS: 'EVERY_6_MONTHS',\n  EVERY_7_MONTHS: 'EVERY_7_MONTHS',\n  EVERY_9_MONTHS: 'EVERY_9_MONTHS',\n  YEARLY: 'YEARLY',\n  EVERY_2_YEARS: 'EVERY_2_YEARS'\n}"
+      },
+      {
+        "name": "ratio",
+        "value": "{\n  [utils.TypePeriodicitySubscription.WEEKLY]: 4,\n  [utils.TypePeriodicitySubscription.EVERY_2_WEEKS]: 2,\n  [utils.TypePeriodicitySubscription.MONTHLY]: 1,\n  [utils.TypePeriodicitySubscription.EVERY_2_MONTHS]: 1 / 2,\n  [utils.TypePeriodicitySubscription.EVERY_3_MONTHS]: 1 / 3,\n  [utils.TypePeriodicitySubscription.EVERY_6_MONTHS]: 1 / 6,\n  [utils.TypePeriodicitySubscription.EVERY_7_MONTHS]: 1 / 7,\n  [utils.TypePeriodicitySubscription.EVERY_9_MONTHS]: 1 / 9,\n  [utils.TypePeriodicitySubscription.YEARLY]: 1 / 12,\n  [utils.TypePeriodicitySubscription.EVERY_2_YEARS]: 1 / 24\n}"
+      },
+      {
+        "name": "occupationTypeMap",
+        "value": "{\n  'employee': 'Salarié(e)',\n  'executive': 'Salarié(e) cadre',\n  'farmer': 'Salarié(e) exploitant agrricole',\n  'entrepreneur': 'Chef d entreprise',\n  'selfEmployed': 'Travailleur/Travailleuse non salariée',\n  'unemployed': 'sans profession',\n  'functionary': 'fonctionnaire',\n  'student': 'Étudiant(e)',\n  'retired': 'retraité(e)',\n  'other': 'autres'\n}"
+      },
+      {
+        "name": "maritalStatusMap",
+        "value": "{\n  'single': 'célibataire',\n  'married': 'marié(e)',\n  'divorced': 'divorcé(e)',\n  'couple': 'concubin(e)',\n  'widow': 'veuf(ve)',\n  'pacs': 'pacsé(e)'\n}"
+      },
+      {
+        "name": "userAnsweredOptiPost",
+        "value": "false"
+      },
+      {
+        "name": "showOpportunityDetailsModal",
+        "value": "false"
+      }
+    ]
+  }
+}

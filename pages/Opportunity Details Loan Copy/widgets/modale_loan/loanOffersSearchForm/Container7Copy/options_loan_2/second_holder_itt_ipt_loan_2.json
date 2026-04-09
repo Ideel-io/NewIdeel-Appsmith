@@ -1,0 +1,77 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "defaultText": "{{ second_holder_itt_ipt_loan_1.text }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isRequired"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": "{{ second_loan.isSwitchedOn && deuxieme_assure.isSwitchedOn }}",
+  "isVisible": "{{deuxieme_assure.isSwitchedOn}}",
+  "key": "5p4hd3ujnc",
+  "label": "ITT / IPT",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "36",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxNum": "100",
+  "minDynamicHeight": 4,
+  "minNum": "0",
+  "minWidth": 450,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
+  "parentColumnSpace": 5.6343749999999995,
+  "parentId": "ntklinirah",
+  "parentRowSpace": 10,
+  "placeholderText": "0",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 33,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "n50nem7brv",
+  "widgetName": "second_holder_itt_ipt_loan_2"
+}

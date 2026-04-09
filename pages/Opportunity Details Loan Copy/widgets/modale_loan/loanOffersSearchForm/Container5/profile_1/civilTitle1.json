@@ -1,0 +1,65 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "6hcmsa1xpy",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Civilité",
+  "labelTextColor": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "13",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "value",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 5.511861038208007,
+  "parentId": "q0v26pf7pu",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 27,
+  "serverSideFiltering": false,
+  "sourceData": "{{Constants.civilityOptions}}",
+  "topRow": 27,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "oto62s2sch",
+  "widgetName": "civilTitle1"
+}

@@ -149,6 +149,10 @@
     {
       "id": "Modify Password",
       "isDefault": false
+    },
+    {
+      "id": "Opportunity Details Loan Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

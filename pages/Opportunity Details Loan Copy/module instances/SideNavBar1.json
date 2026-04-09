@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "69c585f2bc614d160753a915_06c7c26b-4eab-4f70-a9d9-0a3af0ff449f",
+  "id": "Opportunity Details Loan Copy_SideNavBar1",
+  "moduleUUID": "0aac44c6-34a7-45f1-9894-e4a7b2ecc24f",
+  "packageUUID": "c10feffd-bf4c-4ec0-92f4-660607e16ace",
+  "type": "UI_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "mainPage": ""
+    },
+    "moduleInputs": {
+      "emrosycjyy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "emrosycjyy",
+        "label": "mainPage",
+        "propertyName": "inputs.mainPage"
+      }
+    },
+    "name": "SideNavBar1",
+    "pageId": "Opportunity Details Loan Copy",
+    "widgetId": "5sq9ie5yt5"
+  }
+}
