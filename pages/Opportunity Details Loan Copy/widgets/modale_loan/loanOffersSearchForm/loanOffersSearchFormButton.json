@@ -42,7 +42,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{PotentialOffers.newRun()}}",
+  "onClick": "{{\n(async () => {\n\tawait PotentialOffers.newRun();\n\tawait PotentialOffers.run();\n})() \n}}",
   "originalBottomRow": 227,
   "originalTopRow": 223,
   "parentId": "2t6nx68nd9",

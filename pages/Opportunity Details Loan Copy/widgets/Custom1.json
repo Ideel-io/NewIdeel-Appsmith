@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 303,
+  "bottomRow": 301,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultModel": "{{\n{ offers: searchLoanPotentialOffers.data.data.searchLoanPotentialOffers }\n}}",
   "dynamicBindingPathList": [
